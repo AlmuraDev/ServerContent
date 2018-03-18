@@ -1,0 +1,14 @@
+type: block
+title: Small Potion (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_potion.shape"
+coords:
+  - 0 32 32 32 #0-greenside
+  - 32 32 32 32 #1-greenmiddle
+  - 64 32 32 32 #2-greenneck
+  - 96 32 32 32 #3-greentop

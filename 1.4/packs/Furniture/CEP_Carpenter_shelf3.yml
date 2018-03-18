@@ -1,0 +1,22 @@
+type: block
+title: Shelf with Tea Set
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter_shelf.png"
+shape: "cep_carpenter_shelf.shape"
+coords:
+    - 160 0 32 32 #0-goods
+    - 0 0 32 32 #1-wood
+    - 32 0 32 32 #2-ringinnershelf
+    - 64 0 32 32 #3-frontface
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - planks planks planks
+            - stone lapis_block stone
+            - planks planks planks

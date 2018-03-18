@@ -1,0 +1,224 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 0.8 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 0.8 1"
+    use-vanilla-block-bounds: false    
+    block-bounds: "0 0 0 1 0.8 1"
+shapes:
+ - texture: 0 # body top
+   coords: |
+      0.25 0.75 0.75
+      0.25 0.75 1
+      0.75 0.75 1
+      0.75 0.75 0.75
+ - texture: 2 #body down
+   coords: |
+      0.25 0.5 1
+      0.75 0.5 1
+      0.75 0.75 1
+      0.25 0.75 1
+ - texture: 0 #body right
+   coords: |
+      0.75 0.75 0.75
+      0.75 0.75 1
+      0.75 0.5 1
+      0.75 0.5 0.75
+ - texture: 2 #body up
+   coords: |
+      0.25 0.75 0.7501
+      0.75 0.75 0.7501
+      0.75 0.5 0.7501
+      0.25 0.5 0.7501
+ - texture: 0 #body left
+   coords: |
+      0.25 0.5 0.75
+      0.25 0.5 1
+      0.25 0.75 1
+      0.25 0.75 0.75
+ - texture: 0 #body bottom
+   coords: |
+      0.75 0.501 0.75
+      0.75 0.501 1
+      0.25 0.501 1
+      0.25 0.501 0.75
+ - texture: 2 #right arm down
+   coords: |
+      1 0.6875 1
+      0.8125 0.6875 1
+      0.8125 0.5 1
+      1 0.5 1
+ - texture: 2 #right arm top
+   coords: |
+      0.8125 0.6875 1
+      1 0.6875 1
+      1 0.6875 0.75
+      0.8125 0.6875 0.75
+ - texture: 2 #right arm up
+   coords: |
+      0.8125 0.6875 0.75
+      1 0.6875 0.75
+      1 0.5 0.75
+      0.8125 0.5 0.75
+ - texture: 2 #right arm left
+   coords: |
+      0.8125 0.6875 0.75
+      0.8125 0.5 0.75
+      0.8125 0.5 1
+      0.8125 0.6875 1
+ - texture: 2 #right arm bottom
+   coords: |
+      1 0.501 1
+      0.8125 0.501 1
+      0.8125 0.501 0.75
+      1 0.501 0.75
+ - texture: 2 #right arm right
+   coords: |
+      1 0.6875 1
+      1 0.5 1
+      1 0.5 0.75
+      1 0.6875 0.75
+ - texture: 2 #left arm left
+   coords: |
+      0 0.5 1
+      0 0.6875 1
+      0 0.6875 0.75
+      0 0.5 0.75
+ - texture: 2 #left arm up
+   coords: |
+      0 0.6875 0.75
+      0.1875 0.6875 0.75
+      0.1875 0.5 0.75
+      0 0.5 0.75
+ - texture: 2 #left arm top
+   coords: |
+      0 0.6875 1
+      0.1875 0.6875 1
+      0.1875 0.6875 0.75
+      0 0.6875 0.75
+ - texture: 2 #left arm down
+   coords: |
+      0.1875 0.6875 1
+      0 0.6875 1
+      0 0.5 1
+      0.1875 0.5 1
+ - texture: 2 #left arm bottom
+   coords: |
+      0.1875 0.501 1
+      0 0.501 1
+      0 0.501 0.75
+      0.1875 0.501 0.75
+ - texture: 2 #left arm right
+   coords: |
+      0.1875 0.6875 1
+      0.1875 0.5 1
+      0.1875 0.5 0.75
+      0.1875 0.6875 0.75
+ - texture: 1 #left leg left
+   coords: |
+      0.25 0.5 0
+      0.3125 0.5625 0.75
+      0.3125 0.75 0.75
+      0.25 0.6875 0
+ - texture: 1 #left leg top
+   coords: |
+      0.25 0.6875 0
+      0.3125 0.75 0.75
+      0.5 0.75 0.75
+      0.4375 0.6875 0
+ - texture: 1 #left leg bottom
+   coords: |
+      0.4375 0.5 0
+      0.5 0.5625 0.75
+      0.3125 0.5625 0.75
+      0.25 0.5 0
+ - texture: 1 #left leg right
+   coords: |
+      0.4375 0.6875 0
+      0.5 0.75 0.75
+      0.5 0.5625 0.75
+      0.4375 0.5 0
+ - texture: 2 #left leg up
+   coords: |
+      0.25 0.6875 0
+      0.4375 0.6875 0
+      0.4375 0.5 0
+      0.25 0.5 0
+ - texture: 2 #left leg down
+   coords: |
+      0.5 0.75 0.75
+      0.3125 0.75 0.75
+      0.3125 0.5625 0.75
+      0.5 0.5625 0.75
+ - texture: 1 #right leg top
+   coords: |
+      0.5625 0.6875 0
+      0.5 0.75 0.75
+      0.6875 0.75 0.75
+      0.75 0.6875 0
+ - texture: 2 #right leg up
+   coords: |
+      0.5625 0.6875 0
+      0.75 0.6875 0
+      0.75 0.5 0
+      0.5625 0.5 0
+ - texture: 1 #right leg right
+   coords: |
+      0.75 0.6875 0
+      0.6875 0.75 0.75
+      0.6875 0.5625 0.75
+      0.75 0.5 0
+ - texture: 1 #right leg bottom
+   coords: |
+      0.75 0.5 0
+      0.6875 0.5625 0.75
+      0.5 0.5625 0.75
+      0.5625 0.5 0
+ - texture: 1 #right leg left
+   coords: |
+      0.5625 0.5 0
+      0.5 0.5625 0.75
+      0.5 0.75 0.75
+      0.5625 0.6875 0
+ - texture: 2 #right leg down
+   coords: |
+      0.6875 0.75 0.75
+      0.5 0.75 0.75
+      0.5 0.5625 0.75
+      0.6875 0.5625 0.75
+ - texture: 2 #platformtop
+   coords: |
+      1 0.5 1
+      1 0.5 0
+      0 0.5 0
+      0 0.5 1
+ - texture: 3 #platformfront
+   coords: |
+      1 0 1
+      1 0.5 1
+      0 0.5 1
+      0 0 1
+ - texture: 3 #platformback
+   coords: |
+      0 0 0
+      0 0.5 0
+      1 0.5 0
+      1 0 0
+ - texture: 3 #platformright
+   coords: |
+      1 0 0
+      1 0.5 0
+      1 0.5 1
+      1 0 1
+ - texture: 3 #platformleft
+   coords: |
+      0 0 1
+      0 0.5 1
+      0 0.5 0
+      0 0 0
+ - texture: 2 #platformbottom
+   coords: |
+      1 0 0
+      1 0 1
+      0 0 1
+      0 0 0

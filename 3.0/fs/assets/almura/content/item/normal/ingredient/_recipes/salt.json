@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/tool/grinder",
+      "data": 32767,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ore/saltchunk",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_jar",
+      "data": 32767,
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/salt",
+    "data": 0,
+    "count": 16
+  }
+}

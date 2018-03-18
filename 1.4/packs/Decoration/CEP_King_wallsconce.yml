@@ -1,0 +1,16 @@
+type: block
+title: Wall Sconce
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 02-17-2015
+rotate: 
+    enabled: true
+light:
+    emission: 15
+    opacity: 200
+texture: "cep_king.png"
+shape: "cep_king_wallsconce.shape"
+coords:
+  - 0 32 32 32 #0
+  - 32 32 32 32 #1
+  - 64 32 32 32 #2

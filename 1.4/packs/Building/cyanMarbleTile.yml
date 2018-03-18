@@ -1,0 +1,18 @@
+type: block
+title: Cyan Marble Tile
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 128 640 128 128
+hardness: 1.5
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - air air air
+            - air air air
+            - air almura\Building\marbleTile dye_cyan

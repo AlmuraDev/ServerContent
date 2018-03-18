@@ -1,0 +1,14 @@
+type: block
+title: Advanced Supersmooth Stone
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "bricks_supersmooth.png"
+shape: "bricks_cep_cube.shape"
+coords:
+    - 0 0 64 64
+recipes:
+    0:
+        type: smelt
+        input: stone
+        experience: 0

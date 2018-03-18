@@ -1,0 +1,18 @@
+type: item
+title: Staff of Air
+creative-tab-name: components
+show-in-creative-tab: true
+date: 12-29-2014
+damage: 1
+texture: "runes_item_e_air_staff.png"
+coords: 
+    - 0 0 32 32
+durability: 128
+recipes:
+    0:  
+        type: shaped
+        amount: 1
+        ingredients:
+            - almura\Components\runes_item_e_eair_rune almura\Components\runes_item_e_eair_rune almura\Components\runes_item_e_eair_rune
+            - almura\Components\runes_item_e_eair_rune almura\Tools\runes_item_e_staff almura\Components\runes_item_e_eair_rune
+            - almura\Components\runes_item_e_eair_rune almura\Components\runes_item_e_eair_rune almura\Components\runes_item_e_eair_rune

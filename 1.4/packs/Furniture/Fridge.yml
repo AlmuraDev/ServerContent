@@ -1,0 +1,17 @@
+type: block
+title: Fridge
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: seedbarrels.png
+coords:
+    - 64 896 64 64
+    - 64 896 64 64
+    - 128 896 64 64
+    - 64 896 64 64
+    - 64 896 64 64
+    - 64 896 64 64
+shape: kitchenblocks.shape
+hardness: 1.5

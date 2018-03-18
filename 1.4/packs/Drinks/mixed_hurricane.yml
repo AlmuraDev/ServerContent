@@ -1,0 +1,20 @@
+title: "Hurricane \n Food: \u00a7c -2 \u00a7f \n Stamina: \u00a76 +5 \u00a7f \n Health: \u00a76 +1"
+type: food
+texture: "mixed_hurricane.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: ^2
+    saturation-change: 5
+    health-change: 1
+    wolf-favorite: false
+    always-edible: false  
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - almura\Drinks\spirit_rum almura\Drinks\juice_cherry almura\Drinks\juice_lime

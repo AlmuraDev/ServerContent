@@ -1,0 +1,55 @@
+date: 09-26-15
+title: Liku Sapling
+type: sapling
+texture: "cep_forester.png"
+shape: "cep_forester_flower.shape"
+coords:
+    - 96 192 32 32
+creative-tab-name: seeds
+show-in-creative-tab: true
+hardness: 0.5
+resistance: 1
+level-required: 18
+fuel:
+    enabled: true
+    max-burn-time: 100
+light:
+    emission: 0
+    opacity: 0
+    required:
+        enabled: false
+        min: 1
+        max: 3
+fertilizer:
+    enabled: true
+    sources:
+        bonemeal:
+            amount: 5-6
+tree:
+    min-height: 4
+    height-variance: 1-9
+    wood: almura\Building\CEP_Forester_wood26_log
+    leaves: almura\Building\CEP_Forester_wood26_leaf
+    chance: 50
+    generation:
+        enabled: false
+        fruit:
+            almura\Building\CEP_Forester_wood26_leaf:
+                chance: 50
+        hanging-fruit:
+            almura\Building\CEP_Forester_wood26_leaf:
+                chance: 0
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 10-15
+            exhaustion-change: 5-10
+            drops:
+                almura\Building\CEP_Forester_wood26_sapling:
+                    amount: 1
+                    data: 0
+                    bonus:
+                        enabled: false
+                        amount: 1-5
+                        chance: 10-15

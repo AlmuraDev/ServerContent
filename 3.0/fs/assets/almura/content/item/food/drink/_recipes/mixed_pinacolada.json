@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_rum",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/coconutmilk",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_pineapple",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/mixed_pinacolada",
+    "data": 0,
+    "count": 4
+  }
+}

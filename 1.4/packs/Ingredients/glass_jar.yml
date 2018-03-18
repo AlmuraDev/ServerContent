@@ -1,0 +1,14 @@
+title: "Glass Jar \n ingredient"
+type: item
+texture: "jar.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 11-19-2016
+coords:
+  - 0 0 128 128 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients: 
+            - glass iron_ingot

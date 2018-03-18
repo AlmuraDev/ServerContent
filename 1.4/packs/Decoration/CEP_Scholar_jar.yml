@@ -1,0 +1,15 @@
+type: block
+title: Jar of Liquid (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_jar.shape"
+coords:
+  - 0 0 32 32 #0-redbottom
+  - 32 0 32 32 #1-redside
+  - 64 0 32 32 #2-redtop
+  - 96 0 32 32 #3-redcapside
+  - 128 0 32 32 #4-redcaptop

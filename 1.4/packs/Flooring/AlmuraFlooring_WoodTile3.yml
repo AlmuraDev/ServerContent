@@ -1,0 +1,11 @@
+type: block
+title: Wood Tile
+creative-tab-name: flooring
+show-in-creative-tab: true
+date: 12-28-2014
+texture: almuraroofing_shingles.png
+rotation:
+    enabled: true
+coords:
+    - 384 384 128 128
+hardness: 1.0

@@ -1,0 +1,17 @@
+type: block
+title: Safe
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: seedbarrels.png
+coords:
+    - 640 896 64 64
+    - 640 896 64 64
+    - 704 896 64 64
+    - 640 896 64 64
+    - 640 896 64 64
+    - 640 896 64 64
+shape: kitchenblocks.shape
+hardness: 1.5

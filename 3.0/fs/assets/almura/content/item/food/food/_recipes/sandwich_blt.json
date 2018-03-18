@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/sliceofbread",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/sliceofbread",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/bacon",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/lettuce",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/tomato",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sandwich_blt",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+title: "Handfull of Rice \n ingredient"
+type: item
+texture: "rice.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 1-18-2015
+coords:
+  - 0 0 64 64 #0

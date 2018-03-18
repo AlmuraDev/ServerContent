@@ -1,0 +1,22 @@
+type: block
+title: Cabinet with Dishes
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_cabinet.shape"
+coords:
+    - 0 0 32 32 #0-top
+    - 0 0 32 32 #1-bottom
+    - 0 0 32 32 #2-sides/back
+    - 0 64 32 32 #3-front
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - planks planks planks
+            - air stone air
+            - planks planks planks

@@ -1,0 +1,11 @@
+type: block
+title: Embedded Axe
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter_rack.png"
+shape: "cep_carpenter_axe.shape"
+coords:
+  - 224 0 32 32 #0

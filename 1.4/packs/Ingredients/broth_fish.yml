@@ -1,0 +1,20 @@
+title: "Fish Broth \n ingredient"
+type: item
+texture: "broth_fish.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 2
+        ingredients: 
+            - fish water_bucket almura\Food\seaweed almura\Ingredients\glass_cruet
+            - almura\Ingredients\laurel almura\Ingredients\parsley almura\Ingredients\thyme
+    1:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - fish almura\Ingredients\broth_base almura\Food\seaweed

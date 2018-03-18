@@ -1,0 +1,62 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 0 0 0"
+    use-vanilla-wireframe: false
+    wireframe-box: "0.5 0 0.16 0.9 0.07 0.84" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0.5 0 0.16 0.9 0.07 0.84"
+shapes:
+  - coords: | #bottom(facingdown)
+      0.9 0 0.1655
+      0.9 0 0.8375
+      0.5 0 0.8375
+      0.5 0 0.1655
+    texture: 0
+  - coords: | #bottom(facingup)
+      0.9 0.001 0.8375
+      0.9 0.001 0.1655
+      0.5 0.001 0.1655
+      0.5 0.001 0.8375
+    texture: 0
+  - coords: | #top(facingdown)
+      0.9 0.0625 0.1655
+      0.9 0.0625 0.8375
+      0.5 0.0625 0.8375
+      0.5 0.0625 0.1655
+    texture: 0
+  - coords: | #top(facingup)
+      0.9 0.0625 0.8375
+      0.9 0.0625 0.1655
+      0.5 0.0625 0.1655
+      0.5 0.0625 0.8375
+    texture: 0
+  - coords: | #frontfacerightside
+      0.875 0 0.8125
+      0.875 0.0625 0.8125
+      0.5 0.0625 0.8125
+      0.5 0 0.8125
+    texture: 3
+  - coords: | #backfacerightside
+      0.5 0 0.1875
+      0.5 0.0625 0.1875
+      0.875 0.0625 0.1875
+      0.875 0 0.1875
+    texture: 3
+  - coords: | #spine
+      0.5 0.0625 0.8375
+      0.5 0.0625 0.1655
+      0.5 0 0.1655
+      0.5 0 0.8375
+    texture: 1
+  - coords: | #spineinnerside
+      0.5 0 0.8375
+      0.5 0 0.1655
+      0.5 0.0625 0.1655
+      0.5 0.0625 0.8375
+    texture: 1
+  - coords: | #rightside
+      0.875 0 0.1875
+      0.875 0.0625 0.1875
+      0.875 0.0625 0.8125
+      0.875 0 0.8125
+    texture: 2

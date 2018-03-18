@@ -1,0 +1,22 @@
+type: block
+title: Empty Rack
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter_rack.png"
+shape: "cep_carpenter_rack.shape"
+coords:
+    - 0 0 32 32 #0-wood
+    - 32 0 32 32 #1-rackcover
+    - 64 0 32 32 #2-rackedgoodsa
+    - 64 0 32 32 #3-rackedgoodsb
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - air planks air
+            - planks air planks
+            - planks air planks

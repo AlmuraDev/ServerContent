@@ -1,0 +1,15 @@
+title: "Soup Broth Base \n ingredient"
+type: item
+texture: "broth_base.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - water_bucket almura\Ingredients\thyme almura\Ingredients\parsley
+            - almura\Ingredients\laurel almura\Ingredients\glass_cruet

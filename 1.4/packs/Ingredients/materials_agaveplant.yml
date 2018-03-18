@@ -1,0 +1,8 @@
+title: "Agave Plant \n ingredient"
+type: "item"
+texture: "materials_agaveplant.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-27-2014
+coords:
+    - 0 0 32 32 #0

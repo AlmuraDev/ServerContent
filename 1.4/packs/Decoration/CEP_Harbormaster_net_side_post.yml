@@ -1,0 +1,13 @@
+type: block
+title: Ship's Net (side with post)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_net_side.shape"
+coords:
+  - 96 64 32 32 #0
+  - 192 64 32 32 #1
+  - 160 64 32 32 #2

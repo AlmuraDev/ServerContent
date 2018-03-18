@@ -1,0 +1,34 @@
+type: block
+title: Green Marble Half Tile
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 384 512 128 64
+shape: almuracustom1_lower.shape
+hardness: 1.5
+recipes:
+    0:
+        type: shaped
+        amount: 6
+        ingredients:
+            - air air air
+            - air air air
+            - almura\Building\greenMarbleTile almura\Building\greenMarbleTile almura\Building\greenMarbleTile
+    1:
+        type: shaped
+        amount: 6
+        ingredients:
+            - air air air
+            - almura\Building\greenMarbleTile almura\Building\greenMarbleTile almura\Building\greenMarbleTile
+            - air air air
+    2:
+        type: shaped
+        amount: 6
+        ingredients:
+            - almura\Building\greenMarbleTile almura\Building\greenMarbleTile almura\Building\greenMarbleTile
+            - air air air
+            - air air air

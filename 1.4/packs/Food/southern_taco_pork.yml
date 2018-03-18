@@ -1,0 +1,21 @@
+title: "Pork Taco \n Food: \u00a76 +4 \u00a7f \n Stamina: \u00a76 +3 \u00a7f \n Health: \u00a76 +2"
+type: food
+texture: "southern_taco_pork.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 4
+    saturation-change: 3
+    health-change: 2
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 3
+        ingredients:
+            - almura\Ingredients\groundpork almura\Ingredients\bread_corntaco almura\Food\cheese
+            - almura\Food\lettuce almura\Food\southern_salsa almura\Ingredients\spicemix_taco

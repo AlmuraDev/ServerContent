@@ -1,0 +1,8 @@
+type: item
+title: Iron Hammer (prop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+texture: "cep_rpg_blacksmith_ironhammer.png"
+coords: 
+    - 128 96 32 32

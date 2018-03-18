@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/rice",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/farlands_stirfry_base",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/farlands_stirfry_mushroom",
+    "data": 0,
+    "count": 1
+  }
+}

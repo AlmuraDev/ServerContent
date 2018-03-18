@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ABA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:planks",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:iron_ingot",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/building/cep_carpenter_logsaw",
+    "data": 0,
+    "count": 1
+  }
+}

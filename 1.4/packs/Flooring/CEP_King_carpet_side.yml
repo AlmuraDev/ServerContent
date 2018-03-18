@@ -1,0 +1,13 @@
+type: block
+title: King's Carpet (side)
+texture: "cep_king.png"
+shape: "cep_king_carpet.shape"
+creative-tab-name: flooring
+show-in-creative-tab: true
+date: 12-28-2014
+rotation: 
+    enabled: true
+coords:
+    - 0 0 32 32 #0
+    - 128 0 32 32 #1
+    - 64 0 32 32 #2

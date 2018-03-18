@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "model": "almura:crop/common/flat_0.obj"
+            },
+            "1": {
+                "model": "almura:crop/rye/rye_1"
+            },
+            "2": {
+                "model": "almura:crop/rye/rye_2"
+            },
+            "3": {
+                "model": "almura:crop/rye/rye_3"
+            },
+            "4": {
+                "model": "almura:crop/rye/rye_4"
+            }
+        }
+    }
+}

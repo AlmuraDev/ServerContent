@@ -1,0 +1,12 @@
+type: block
+title: Hanging Feathers
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_hanging_bundle.shape"
+coords:
+  - 128 224 32 32 #0-sign
+  - 96 224 32 32 #1-bar

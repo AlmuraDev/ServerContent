@@ -1,0 +1,32 @@
+type: block
+title: Silver Wall Lamp
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-6-2014
+rotate: 
+    enabled: true
+texture: lamp_lamp.png
+coords:
+    - 0 128 128 128
+    - 128 0 128 128
+    - 256 0 128 128
+    - 0 128 14 128
+    - 14 128 14 128
+    - 28 128 14 128
+    - 42 128 44 128
+    - 86 128 14 128
+    - 100 128 14 128
+    - 114 128 14 128
+shape: lamp_walllamp.shape
+hardness: 0.5
+light:
+    emission: 15
+    opacity: 200
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - air wool air
+            - air glowstone_dust air
+            - air iron_ingot air

@@ -1,0 +1,18 @@
+type: block
+title: Marble Block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 640 0 128 128
+hardness: 0.75
+recipes:
+    0:
+        type: smelt
+        input: almura\Ores\marbleRaw
+        experience: 0
+    1:
+        type: smelt
+        input: almura\Ores\marbleOre
+        experience: 0

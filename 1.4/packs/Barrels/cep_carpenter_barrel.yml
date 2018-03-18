@@ -1,0 +1,21 @@
+title: wooden barrel
+type: block
+creative-tab-name: barrels
+show-in-creative-tab: true
+date: 1-1-2015
+rotation: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_barrel.shape"
+coords:
+    - 32 0 32 32 #0-top/bottom
+    - 64 0 32 32 #1-bottomside
+    - 96 0 32 32 #2-middle
+    - 128 0 32 32 #3-topside
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - air planks air
+            - planks air planks
+            - air planks air

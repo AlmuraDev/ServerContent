@@ -1,0 +1,45 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beef",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_cruet",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/thyme",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/laurel",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/parsley",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/broth_beef",
+    "data": 0,
+    "count": 2
+  }
+}

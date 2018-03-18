@@ -1,0 +1,76 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 0.5 2"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 0.5 2"
+    use-vanilla-block-bounds: false    
+    block-bounds: "0 0 0 1 0.5 2"
+shapes:
+#~~emblem
+ - texture: 2
+   coords: |
+      1 0.501 1.2
+      1 0.501 0.2
+      0 0.501 0.2
+      0 0.501 1.2
+#~~external
+ - texture: 0 #topheadarea
+   coords: |
+      1 0.5 0.6
+      0.8 0.5 0
+      0.2 0.5 0
+      0 0.5 0.6
+ - texture: 0 #toplegsarea
+   coords: |
+      0.7 0.5 2
+      1 0.5 0.6
+      0 0.5 0.6
+      0.3 0.5 2
+ - texture: 0 #bottomheadarea
+   coords: |
+      0 0 0.6
+      0.2 0 0
+      0.8 0 0
+      1 0 0.6
+ - texture: 0 #bottomlegsarea
+   coords: |
+      0.3 0 2
+      0 0 0.6
+      1 0 0.6
+      0.7 0 2
+ - texture: 1 #front
+   coords: |
+      0.7 0 2
+      0.7 0.5 2
+      0.3 0.5 2
+      0.3 0 2
+ - texture: 1 #back
+   coords: |
+      0.2 0 0
+      0.2 0.5 0
+      0.8 0.5 0
+      0.8 0 0
+ - texture: 1 #topheadright
+   coords: |
+      0.8 0 0
+      0.8 0.5 0
+      1 0.5 0.6
+      1 0 0.6
+ - texture: 1 #topheadrleft
+   coords: |
+      0 0 0.6
+      0 0.5 0.6
+      0.2 0.5 0
+      0.2 0 0
+ - texture: 1 #bottomlegsright
+   coords: |
+      1 0 0.6
+      1 0.5 0.6
+      0.7 0.5 2
+      0.7 0 2
+ - texture: 1 #bottomlegsrleft
+   coords: |
+      0.3 0 2
+      0.3 0.5 2
+      0 0.5 0.6
+      0 0 0.6

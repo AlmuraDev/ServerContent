@@ -1,0 +1,20 @@
+title: "Orange Soda \n Food: \u00a76 +3 \u00a7f \n Stamina: \u00a76 +7"
+type: food
+texture: "nonalc_soda_orange.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 3
+    saturation-change: 7
+    health-change: 1
+    wolf-favorite: false
+    always-edible: false  
+recipes:
+    0:
+        type: shapeless
+        amount: 2
+        ingredients:
+            - almura\Ingredients\materials_sodawater almura\Drinks\juice_orange sugar

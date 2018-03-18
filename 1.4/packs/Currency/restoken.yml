@@ -1,0 +1,8 @@
+title: "Res Token \n Used to remove a lease"
+type: item
+texture: "almuracustom1_restoken.png"
+creative-tab-name: currency
+show-in-creative-tab: true
+date: 8-29-2015
+coords:
+  - 0 0 128 128 #0

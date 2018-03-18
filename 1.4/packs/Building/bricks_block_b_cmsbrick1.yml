@@ -1,0 +1,16 @@
+type: block
+title: Advanced Cracked Mossy Brick
+texture: "bricks_block_b_cmsbrick1.png"
+coords: 
+    - 0 0 64 64
+shape: "bricks_cep_cube.shape"
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-6-2014
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - cobblestone cobblestone
+            - mossy_cobblestone mossy_cobblestone

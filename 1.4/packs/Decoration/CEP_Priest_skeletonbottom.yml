@@ -1,0 +1,19 @@
+type: block
+title: Skeleton Bottom
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_skeletonbottom.shape"
+coords:
+  - 0 160 32 32 #0
+  - 32 160 32 32 #1
+  - 64 160 32 32 #2
+  - 96 160 32 32 #3
+  - 128 160 32 32 #4
+  - 160 160 32 32 #5
+  - 0 192 32 32 #6
+  - 32 192 32 32 #7
+  - 64 192 32 32 #8

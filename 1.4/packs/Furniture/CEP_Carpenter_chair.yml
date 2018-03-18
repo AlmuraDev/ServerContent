@@ -1,0 +1,21 @@
+type: block
+title: Wooden Highback Chair
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_chair.shape"
+coords:
+    - 160 0 32 32 #0-feet
+    - 192 0 32 32 #1-feetbottom
+    - 224 0 32 32 #2-middle
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - air planks air
+            - stick planks stick
+            - stick air stick

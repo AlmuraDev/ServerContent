@@ -1,0 +1,14 @@
+type: block
+title: Inkwell (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_inkwell.shape"
+coords:
+  - 0 192 32 32 #0-inkwell
+  - 32 192 32 32 #1-feather
+  - 64 192 32 32 #2-featherinverted
+  - 96 192 32 32 #3-noteorpaper

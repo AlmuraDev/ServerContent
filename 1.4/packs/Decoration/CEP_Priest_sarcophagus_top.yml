@@ -1,0 +1,17 @@
+type: block
+title: Stone Sarcophagus Top
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_sarcophagus_top.shape"
+coords:
+  - 0 32 32 32 #0
+  - 32 32 32 32 #1
+  - 64 32 32 32 #2
+  - 96 32 32 32 #3
+  - 128 32 32 32 #4
+  - 160 32 32 32 #5
+  - 224 32 32 32 #6

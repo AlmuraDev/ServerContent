@@ -1,0 +1,13 @@
+type: block
+title: Stone Cross
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_cross.shape"
+coords:
+  - 64 32 32 32 #0
+  - 64 32 32 32 #1
+  - 128 32 32 32 #2

@@ -1,0 +1,21 @@
+title: "Tofu \n Food: \u00a76 +4 \u00a7f \n Stamina: \u00a76 +3"
+type: food
+texture: "tofu.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 4
+    saturation-change: 3
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\soybean almura\Ingredients\salt almura\Tools\grinder
+            - water_bucket

@@ -1,0 +1,14 @@
+title: "Black Pepper \n ingredient"
+type: item
+texture: "pepper.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:    
+    0:
+        type: shapeless
+        amount: 16
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\peppercorn almura\Ingredients\glass_jar:16           

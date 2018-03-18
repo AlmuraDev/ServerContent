@@ -1,0 +1,32 @@
+type: block
+title: Gold Wall Lamp
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: lamp_lamp.png
+coords:
+    - 0 256 128 128
+    - 128 0 128 128
+    - 256 0 128 128
+    - 0 256 14 128
+    - 14 256 14 128
+    - 28 256 14 128
+    - 42 256 44 128
+    - 86 256 14 128
+    - 100 256 14 128
+    - 114 256 14 128
+shape: lamp_walllamp.shape
+hardness: 0.5
+light:
+    emission: 15
+    opacity: 200
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - air wool air
+            - air glowstone_dust air
+            - air gold_ingot air

@@ -1,0 +1,29 @@
+title: Liku Stair
+type: stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "cep_forester.png"
+rotate: 
+    enabled: true
+coords:
+    - 160 192 32 32
+    - 160 208 32 16
+    - 160 192 32 16
+    - 160 192 16 16
+    - 176 192 16 16
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\CEP_Forester_wood26_planks air air
+            - almura\Building\CEP_Forester_wood26_planks almura\Building\CEP_Forester_wood26_planks air
+            - almura\Building\CEP_Forester_wood26_planks almura\Building\CEP_Forester_wood26_planks almura\Building\CEP_Forester_wood26_planks
+    1:
+        type: shaped
+        amount: 4
+        ingredients:
+            - air air almura\Building\CEP_Forester_wood26_planks
+            - air almura\Building\CEP_Forester_wood26_planks almura\Building\CEP_Forester_wood26_planks
+            - almura\Building\CEP_Forester_wood26_planks almura\Building\CEP_Forester_wood26_planks almura\Building\CEP_Forester_wood26_planks

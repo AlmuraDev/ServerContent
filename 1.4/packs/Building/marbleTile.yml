@@ -1,0 +1,15 @@
+type: block
+title: Marble tile
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: true
+texture: almuracustom1_almuracustom3.png
+coords:
+- 0 512 128 128
+hardness: 0.75
+recipes:
+    0:
+        type: smelt
+        input: almura\Building\marbleBlock
+        experience: 0

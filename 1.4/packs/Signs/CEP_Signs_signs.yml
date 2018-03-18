@@ -1,0 +1,12 @@
+type: block
+title: Signs Sign
+creative-tab-name: signs
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "seedbarrels.png"
+shape: "cep_signs_signs.shape"
+coords:
+    - 704 768 64 64 #0-sign
+    - 256 640 64 64 #1-bar

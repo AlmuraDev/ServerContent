@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/yeast",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:fermented_spider_eye",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/other_spiderbite",
+    "data": 0,
+    "count": 1
+  }
+}

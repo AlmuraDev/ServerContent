@@ -1,0 +1,8 @@
+title: "Alfalfa"
+type: "item"
+texture: "alfalfa.png"
+creative-tab-name: crops
+show-in-creative-tab: true
+date: 12-27-2014
+coords:
+    - 0 0 64 64 #0

@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/sliceofbread",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/sausage",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/cheese",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sandwich_cheese_hotdog",
+    "data": 0,
+    "count": 1
+  }
+}

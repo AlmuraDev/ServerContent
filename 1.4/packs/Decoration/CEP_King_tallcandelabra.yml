@@ -1,0 +1,13 @@
+type: block
+title: Tall Candelabra
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 02-17-2015
+light:
+    emission: 15
+    opacity: 200
+texture: "cep_king.png"
+shape: "cep_king_tallcandelabra.shape"
+coords:
+  - 64 192 32 32 #0
+  - 64 224 32 32 #1

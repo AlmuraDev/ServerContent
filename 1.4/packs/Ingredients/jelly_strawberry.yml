@@ -1,0 +1,15 @@
+title: "Strawberry Jelly \n ingredient"
+type: item
+texture: "strawberry.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 2
+        ingredients: 
+            - almura\Food\strawberry almura\Ingredients\gelatin almura\Food\lemon
+            - sugar

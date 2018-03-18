@@ -1,0 +1,15 @@
+title: "Red Pasta Sauce \n ingredient"
+type: item
+texture: "pasta_redsauce.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\garlic almura\Food\tomato almura\Food\onion
+            - almura\Ingredients\oregano almura\Ingredients\glass_cruet

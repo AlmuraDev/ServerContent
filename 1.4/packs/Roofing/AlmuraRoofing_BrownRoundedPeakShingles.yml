@@ -1,0 +1,13 @@
+type: block
+title: Brown Rounded Peak Shingles
+creative-tab-name: roofing
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: almuraroofing_shingles.png
+coords:
+    - 576 256 64 64
+    - 0 320 64 64
+shape: almuraroofing_peakshingles.shape
+hardness: 1.5

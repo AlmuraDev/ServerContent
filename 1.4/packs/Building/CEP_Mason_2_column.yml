@@ -1,0 +1,25 @@
+title: Sandstone column
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_column.shape"
+coords:
+    - 128 32 32 32 #0
+    - 160 32 32 32 #0
+recipes: 
+    0:
+        type: shaped
+        amount: 3
+        ingredients:
+            - almura\Building\CEP_Mason_2_bricks air air
+            - almura\Building\CEP_Mason_2_bricks air air 
+            - almura\Building\CEP_Mason_2_bricks air air
+    1:
+        type: shaped
+        amount: 3
+        ingredients:
+            - air almura\Building\CEP_Mason_2_bricks air
+            - air almura\Building\CEP_Mason_2_bricks air
+            - air almura\Building\CEP_Mason_2_bricks air

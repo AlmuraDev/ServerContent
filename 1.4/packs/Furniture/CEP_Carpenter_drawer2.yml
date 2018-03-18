@@ -1,0 +1,22 @@
+type: block
+title: Drawers (alt)
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_cabinet.shape"
+coords:
+    - 0 96 32 32 #0-top
+    - 0 96 32 32 #1-bottom
+    - 32 96 32 32 #2-sides/back
+    - 96 96 32 32 #3-front
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - air stone_slab air
+            - air planks air
+            - air planks air

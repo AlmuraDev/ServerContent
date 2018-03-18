@@ -1,0 +1,11 @@
+type: block
+title: Number 5 (black)
+texture: letterss.png
+shape: almuracustom1_block.shape
+creative-tab-name: letters
+show-in-creative-tab: true
+date: 10-07-20115
+rotation: 
+    enabled: true
+coords:
+    - 320 0 32 32

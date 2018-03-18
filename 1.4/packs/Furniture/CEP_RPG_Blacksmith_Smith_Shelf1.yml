@@ -1,0 +1,14 @@
+type: block
+title: Shelf with Boxes
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_rpg_blacksmith_shelf.png"
+shape: "cep_rpg_blacksmith_shelf.shape"
+coords:
+    - 96 0 32 32 #0-goods
+    - 0 0 32 32 #1-wood
+    - 32 0 32 32 #2-ringinnershelf
+    - 64 0 32 32 #3-frontface

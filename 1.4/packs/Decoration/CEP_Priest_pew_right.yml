@@ -1,0 +1,12 @@
+type: block
+title: Pew (right side)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_pew_right.shape"
+coords:
+  - 96 96 32 32 #0
+  - 224 0 32 32 #1

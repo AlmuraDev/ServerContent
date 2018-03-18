@@ -1,0 +1,28 @@
+title: "Mushroom Stirfry \n Food: \u00a76 +10 \u00a7f \n Stamina: \u00a76 +8 \u00a7f \n Health: \u00a76 +2"
+type: food
+texture: "farlands_stirfry_mushroom.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 10
+    saturation-change: 8
+    health-change: 2
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\rice brown_mushroom red_mushroom
+            - almura\Ingredients\vinegar almura\Ingredients\soysauce almura\Ingredients\vegetableoil
+            - almura\Ingredients\ginger
+    1:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\rice brown_mushroom red_mushroom
+            - almura\Food\farlands_stirfry_base

@@ -1,0 +1,13 @@
+type: block
+title: Japan Banner (center)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraft_ww2_faction4.png"
+shape: "cep_battlecraft_ww2_faction_banner.shape"
+coords:
+  - 192 64 32 32 #0
+  - 224 32 32 32 #1
+  - 224 32 32 32 #2

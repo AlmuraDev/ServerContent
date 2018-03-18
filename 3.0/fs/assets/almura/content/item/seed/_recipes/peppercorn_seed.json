@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/peppercorn",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:seed/peppercorn_seed",
+    "data": 0,
+    "count": 4
+  }
+}

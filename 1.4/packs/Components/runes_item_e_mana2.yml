@@ -1,0 +1,9 @@
+type: item
+title: Med Mana Potion
+creative-tab-name: components
+show-in-creative-tab: true
+date: 12-29-2014
+damage: 1
+texture: "runes_item_e_mana2.png"
+coords: 
+    - 0 0 16 16

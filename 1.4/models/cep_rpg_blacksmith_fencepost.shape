@@ -1,0 +1,44 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0.37 0 0.37 0.63 1 0.63"
+    use-vanilla-wireframe: false
+    wireframe-box: "0.37 0 0.37 0.63 1 0.63" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0.37 0 0.37 0.63 1 0.63"
+shapes:
+  - coords: |
+      0.375 0 0.625
+      0.625 0 0.625
+      0.625 1 0.625
+      0.375 1 0.625
+    texture: 0
+  - coords: |
+      0.375 0 0.625
+      0.375 1 0.625
+      0.375 1 0.375
+      0.375 0 0.375
+    texture: 0
+  - coords: |
+      0.375 1 0.375
+      0.625 1 0.375
+      0.625 0 0.375
+      0.375 0 0.375
+    texture: 0
+  - coords: |
+      0.625 1 0.625
+      0.625 0 0.625
+      0.625 0 0.375
+      0.625 1 0.375
+    texture: 0
+  - coords: |
+      0.625 0 0.625
+      0.375 0 0.625
+      0.375 0 0.375
+      0.625 0 0.375
+    texture: 0
+  - coords: |
+      0.375 1 0.625
+      0.625 1 0.625
+      0.625 1 0.375
+      0.375 1 0.375
+    texture: 0

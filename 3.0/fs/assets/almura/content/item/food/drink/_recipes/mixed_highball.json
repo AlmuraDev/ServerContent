@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_whiskey",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/nonalc_soda_gingerale",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/mixed_highball",
+    "data": 0,
+    "count": 2
+  }
+}

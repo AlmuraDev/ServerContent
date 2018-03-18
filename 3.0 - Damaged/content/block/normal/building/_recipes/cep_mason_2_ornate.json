@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/building/cep_mason_2_smooth",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/building/cep_mason_2_ornate",
+    "data": 0,
+    "count": 1
+  }
+}

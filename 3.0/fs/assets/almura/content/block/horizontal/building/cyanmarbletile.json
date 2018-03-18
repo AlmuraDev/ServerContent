@@ -1,0 +1,32 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:building",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "hardness": 1.5,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/building/cyanmarbletile",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

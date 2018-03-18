@@ -1,0 +1,8 @@
+title: "Barley \n ingredient"
+type: item
+texture: "barley.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 64 64 #0

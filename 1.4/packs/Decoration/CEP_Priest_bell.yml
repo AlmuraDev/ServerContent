@@ -1,0 +1,14 @@
+type: block
+title: Gold Bell
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_bell.shape"
+coords:
+  - 0 128 32 32 #0
+  - 32 128 32 32 #1
+  - 64 128 32 32 #2
+  - 96 128 32 32 #3

@@ -1,0 +1,11 @@
+type: block
+title: Iron Anvil
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_rpg_blacksmith_smith.png"
+shape: "cep_rpg_blacksmith_smith_anvil.shape"
+coords:
+  - 32 32 32 32 #0iron

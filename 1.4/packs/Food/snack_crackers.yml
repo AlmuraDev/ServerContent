@@ -1,0 +1,20 @@
+title: "Handfull of Salty Crackers \n Food: \u00a76 +1"
+type: food
+texture: "snack_crackers.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 1
+    saturation-change: 0
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - almura\Ingredients\flour almura\Ingredients\salt water_bucket

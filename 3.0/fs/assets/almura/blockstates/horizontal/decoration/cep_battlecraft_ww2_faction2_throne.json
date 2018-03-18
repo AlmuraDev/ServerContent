@@ -1,0 +1,79 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:cep_battlecraft_ww2_faction2_throne.obj",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [ {
+            "transform": {
+                "gui": {
+                    "rotation": [ {
+                        "x": 30.0
+                    }, {
+                        "y": 225.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.4166667
+                },
+                "ground": {
+                    "translation": [ 0.0, 0.05, 0.0 ],
+                    "scale": 0.40000004
+                },
+                "thirdperson_righthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.4166667
+                },
+                "thirdperson_lefthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.4166667
+                },
+                "firstperson_righthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.40000004
+                },
+                "firstperson_lefthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.40000004
+                }
+            }
+        } ],
+        "facing": {
+            "south": {
+                "y": 180.0
+            },
+            "west": {
+                "y": 270.0
+            },
+            "north": { },
+            "east": {
+                "y": 90.0
+            }
+        }
+    }
+}

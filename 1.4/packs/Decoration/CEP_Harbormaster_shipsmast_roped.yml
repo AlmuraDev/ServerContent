@@ -1,0 +1,12 @@
+type: block
+title: Ship's Mast (roped)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_shipsmast.shape"
+coords:
+  - 192 64 32 32 #0
+  - 160 64 32 32 #1

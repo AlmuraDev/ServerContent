@@ -1,0 +1,14 @@
+title: "Greenwood Priory Fine Rose Wine \n Food: \u00A7c -2 \u00A7f \n Stamina: \u00A76 +5 \u00A7f \n Health: \u00A76 +4"
+type: food
+texture: "wine_rose_priory.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: ^2
+    saturation-change: 5
+    health-change: 4
+    wolf-favorite: false
+    always-edible: false  

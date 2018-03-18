@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:planks",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/furniture/cep_carpenter_wardrobe",
+    "data": 0,
+    "count": 1
+  }
+}

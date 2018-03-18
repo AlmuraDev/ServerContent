@@ -1,0 +1,24 @@
+type: block
+title: Statue (dawn goddess)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest_goddess.png"
+shape: "cep_priest_goddess.shape"
+coords:
+  - 0 0 32 32 #0
+  - 32 0 32 32 #1
+  - 64 0 32 32 #2
+  - 96 0 32 32 #3
+  - 128 0 32 32 #4
+  - 160 0 32 32 #5
+  - 192 0 32 32 #6
+  - 224 0 32 32 #7
+  - 0 32 64 64 #8
+  - 64 32 64 64 #9
+  - 128 32 64 64 #10
+  - 192 32 64 64 #11
+  - 0 96 32 32 #12
+  - 32 96 32 32 #13

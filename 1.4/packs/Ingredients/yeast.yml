@@ -1,0 +1,15 @@
+title: "Packet of Yeast \n ingredient"
+type: item
+texture: "yeast.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:    
+    0:
+        type: shapeless
+        amount: 7
+        ingredients: 
+            - almura\Ingredients\rye water_bucket almura\Ingredients\flour
+            - almura\Tools\grinder

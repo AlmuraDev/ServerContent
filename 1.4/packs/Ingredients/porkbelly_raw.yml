@@ -1,0 +1,16 @@
+title: "Raw Pork Belly \n ingredient"
+type: item
+texture: "porkbelly_raw.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 1-18-2015
+coords:
+  - 0 0 64 64 #0
+recipes:
+    0:
+        type: shaped
+        amount: 16
+        ingredients: 
+            - porkchop porkchop porkchop
+            - porkchop porkchop porkchop
+            - porkchop porkchop porkchop

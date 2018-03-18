@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:normal/building/bricks_block_b_supersmooth",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/building/bricks_block_b_sssslab",
+    "data": 0,
+    "count": 4
+  }
+}

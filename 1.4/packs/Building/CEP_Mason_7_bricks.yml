@@ -1,0 +1,40 @@
+title: Azurite Bricks
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_cube.shape"
+coords:
+    - 64 192 32 32 #0
+recipes: 
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\CEP_Mason_7_stone almura\Building\CEP_Mason_7_stone air
+            - almura\Building\CEP_Mason_7_stone almura\Building\CEP_Mason_7_stone air
+            - air air air
+    1:
+        type: shaped
+        amount: 4
+        ingredients: 
+            - air air air
+            - almura\Building\CEP_Mason_7_stone almura\Building\CEP_Mason_7_stone air
+            - almura\Building\CEP_Mason_7_stone almura\Building\CEP_Mason_7_stone air
+    2:
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Building\CEP_Mason_7_slab almura\Building\CEP_Mason_7_slab
+    3:
+        type: shapeless
+        amount: 3
+        ingredients: 
+            - almura\Building\CEP_Mason_7_stairs almura\Building\CEP_Mason_7_stairs
+    4:
+        type: shapeless
+        amount: 3
+        ingredients: 
+            - almura\Building\CEP_Mason_7_slope almura\Building\CEP_Mason_7_slope almura\Building\CEP_Mason_7_slope
+            - almura\Building\CEP_Mason_7_slope

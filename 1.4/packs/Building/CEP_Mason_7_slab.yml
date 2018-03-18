@@ -1,0 +1,34 @@
+title: Azurite Slab
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_slab.shape"
+rotate: 
+    enabled: true
+coords:
+    - 64 208 32 16 #0
+    - 64 192 32 32 #0
+recipes: 
+    0:
+        type: shaped
+        amount: 6
+        ingredients:
+            - air air air
+            - air air air
+            - almura\Building\CEP_Mason_7_bricks almura\Building\CEP_Mason_7_bricks almura\Building\CEP_Mason_7_bricks
+    1:
+        type: shaped
+        amount: 6
+        ingredients: 
+            - almura\Building\CEP_Mason_7_bricks almura\Building\CEP_Mason_7_bricks almura\Building\CEP_Mason_7_bricks
+            - air air air
+            - air air air
+    2:
+        type: shaped
+        amount: 6
+        ingredients: 
+            - air air air
+            - almura\Building\CEP_Mason_7_bricks almura\Building\CEP_Mason_7_bricks almura\Building\CEP_Mason_7_bricks
+            - air air air

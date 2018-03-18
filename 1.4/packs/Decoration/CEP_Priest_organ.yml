@@ -1,0 +1,18 @@
+type: block
+title: Priest's Organ
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_organ.shape"
+coords:
+  - 0 224 32 32 #0
+  - 32 224 32 32 #1
+  - 64 224 32 32 #2
+  - 96 224 32 32 #3
+  - 128 224 32 32 #4
+  - 160 224 32 32 #5
+  - 192 224 32 32 #6
+  - 224 224 32 32 #7

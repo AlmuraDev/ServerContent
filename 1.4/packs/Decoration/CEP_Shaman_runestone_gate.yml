@@ -1,0 +1,14 @@
+type: block
+title: Gate Runestone
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_runestone_sharp.shape"
+coords:
+  - 32 0 32 32 #0-stone
+  - 32 0 16 32 #1-left half stone
+  - 48 0 16 32 #2-right half stone
+  - 320 32 32 32 #3-rune top

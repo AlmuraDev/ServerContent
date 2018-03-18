@@ -1,0 +1,16 @@
+title: "Grinder \n tool"
+type: "item"
+texture: "grinder.png"
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shaped
+        amount: 8
+        ingredients:
+            - air stick air
+            - air iron_ingot air
+            - air bowl air

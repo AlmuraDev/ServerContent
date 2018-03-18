@@ -1,0 +1,9 @@
+type: block
+title: Hanging Chain
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_king.png"
+shape: "cep_king_chain.shape"
+coords:
+  - 32 96 32 32 #0

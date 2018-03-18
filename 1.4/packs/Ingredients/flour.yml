@@ -1,0 +1,58 @@
+title: "Flour \n ingredient"
+type: item
+texture: "flour.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 8
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+            - wheat wheat wheat
+            - wheat wheat wheat
+    1:
+        type: shapeless
+        amount: 7
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+            - wheat wheat wheat
+            - wheat wheat
+    2:
+        type: shapeless
+        amount: 6
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+            - wheat wheat wheat
+            - wheat
+    3:
+        type: shapeless
+        amount: 5
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+            - wheat wheat wheat
+    4:
+        type: shapeless
+        amount: 4
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+            - wheat wheat
+    5:
+        type: shapeless
+        amount: 3
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+            - wheat
+    6:
+        type: shapeless
+        amount: 2
+        ingredients: 
+            - almura\Tools\grinder wheat wheat
+    7:  
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Tools\grinder wheat

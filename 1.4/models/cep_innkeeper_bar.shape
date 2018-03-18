@@ -1,0 +1,92 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+  - coords: | #top
+      1 1 1
+      1 1 0
+      0 1 0
+      0 1 1
+    texture: 0
+  - coords: | #topoverhangunder
+      0 0.875 1
+      0 0.875 0
+      1 0.875 0
+      1 0.875 1
+    texture: 0
+  - coords: | #bottomoverhangover
+      1 0.0625 1
+      1 0.0625 0
+      0 0.0625 0
+      0 0.0625 1
+    texture: 0
+  - coords: | #bottom
+      1 0 0
+      1 0 1
+      0 0 1
+      0 0 0
+    texture: 0
+  - coords: | #frontside(innerwall)
+      1 0 0.75
+      1 1 0.75
+      0 1 0.75
+      0 0 0.75
+    texture: 1
+  - coords: | #frontside(outeroverhangsides)
+      1 0 1
+      1 1 1
+      0 1 1
+      0 0 1
+    texture: 2
+  - coords: | #side(left)
+      0 0 1
+      0 1 1
+      0 1 0
+      0 0 0
+    texture: 3
+  - coords: | #side(right)
+      1 0 0
+      1 1 0
+      1 1 1
+      1 0 1
+    texture: 4
+  - coords: | #backside
+      0 0 0
+      0 1 0
+      1 1 0
+      1 0 0
+    texture: 1
+  - coords: | #metalbartop
+      0 0.125 0.9375
+      1 0.125 0.9375
+      1 0.125 0.875
+      0 0.125 0.875
+    texture: 5
+  - coords: | #metalbarfront
+      1 0.0625 0.9375
+      1 0.125 0.9375
+      0 0.125 0.9375
+      0 0.0625 0.9375
+    texture: 5
+  - coords: | #metalbarside
+      0 0.0625 0.9375
+      0 0.125 0.9375
+      0 0.125 0.875
+      0 0.0625 0.875
+    texture: 5
+  - coords: | #metalbarside
+      1 0.0625 0.875
+      1 0.125 0.875
+      1 0.125 0.9375
+      1 0.0625 0.9375
+    texture: 5
+  - coords: | #metalbarback
+      0 0.0625 0.875
+      0 0.125 0.875
+      1 0.125 0.875
+      1 0.0625 0.875
+    texture: 0

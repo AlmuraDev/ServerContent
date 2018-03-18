@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "model": "almura:corn_0.obj"   //This assumes "/models/block/" if you use subdirectory.
+            },
+            "1": {
+                "model": "almura:corn_1.obj"   // Would appear as "almura:crop/corn/corn1.obj"
+            },
+            "2": {
+                "model": "almura:corn_2.obj"
+            },
+            "3": {
+                "model": "almura:corn_3.obj"
+            },
+            "4": {
+                "model": "almura:corn_4.obj"
+            }
+        }
+    }
+}

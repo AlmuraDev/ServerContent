@@ -1,0 +1,67 @@
+date: 1-6-2015
+type: container
+title: "Quantum Chest \n Large Storage"
+texture: almuraroofing_shingles.png
+shape: kitchenblocks.shape
+coords:
+    - 896 768 128 128
+    - 768 768 128 128
+    - 640 768 128 128
+    - 768 768 128 128
+    - 768 768 128 128
+    - 896 768 128 128
+creative-tab-name: storage
+show-in-creative-tab: true
+hardness: 2
+resistance: 1
+rotate:
+    enabled: true  
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Storage\quantum_chest:
+                    amount: 1
+                    data: 0
+                    bonus:
+                        enabled: false
+                        amount: 1-5
+                        chance: 10-15        
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        damage: 0
+        ingredients:
+            - emerald_block emerald_block emerald_block
+            - emerald_block ender_chest emerald_block
+            - emerald_block emerald_block emerald_block
+container:
+    inventory-size: 54
+    title: "Quantum Chest"
+    use-display-name-as-title: false
+    max-stack-size: 64
+    state:
+        has-contents:
+            texture: almuraroofing_shingles.png
+            coords:
+                - 896 768 128 128
+                - 768 768 128 128
+                - 640 640 128 128
+                - 768 768 128 128
+                - 768 768 128 128
+                - 896 768 128 128                
+            shape: kitchenblocks.shape
+        full:
+            texture: almuraroofing_shingles.png
+            coords:
+                - 896 768 128 128
+                - 768 768 128 128
+                - 512 768 128 128
+                - 768 768 128 128
+                - 768 768 128 128
+                - 896 768 128 128                
+            shape: kitchenblocks.shape

@@ -1,0 +1,21 @@
+type: block
+title: Wooden Barstool
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_barstool.shape"
+coords:
+    - 0 64 32 32 #0
+    - 32 64 32 32 #1
+    - 64 64 32 32 #2
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - planks air planks
+            - stick air stick
+            - stick air stick

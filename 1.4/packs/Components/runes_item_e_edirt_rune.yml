@@ -1,0 +1,9 @@
+type: item
+title: Enchanted Dirt Rune
+creative-tab-name: components
+show-in-creative-tab: true
+date: 12-29-2014
+damage: 1
+texture: "runes_item_e_edirt_rune.png"
+coords: 
+    - 0 0 32 32

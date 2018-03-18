@@ -1,0 +1,32 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot",
+      "data": 0,
+      "count": 1
+    },
+	
+    "B": {
+      "item": "minecraft:flint",
+      "data": 0,
+      "count": 1
+    },
+	
+	"C": {
+      "item": "almura:normal/light/glow_light",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/lighting/mine_shaft_hanging_lamp",
+    "data": 0,
+    "count": 1
+  }
+}

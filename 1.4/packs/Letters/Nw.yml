@@ -1,0 +1,11 @@
+type: block
+title: Letter N (white)
+texture: letterss.png
+shape: almuracustom1_block.shape
+creative-tab-name: letters
+show-in-creative-tab: true
+date: 10-07-20115
+rotation: 
+    enabled: true
+coords:
+    - 160 96 32 32

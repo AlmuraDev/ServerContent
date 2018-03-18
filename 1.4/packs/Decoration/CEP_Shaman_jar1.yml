@@ -1,0 +1,15 @@
+type: block
+title: Jar of Purple Liquid
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_jar.shape"
+coords:
+  - 0 256 32 32 #0-redbottom
+  - 32 256 32 32 #1-redside
+  - 64 256 32 32 #2-redtop
+  - 96 256 32 32 #3-redcapside
+  - 128 256 32 32 #4-redcaptop

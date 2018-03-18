@@ -1,0 +1,32 @@
+title: Sanguinite Slab"
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-6-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_slab.shape"
+coords:
+    - 64 112 32 16 #0
+    - 64 96 32 32 #0
+recipes: 
+    0:  
+        type: shaped
+        amount: 6
+        ingredients:
+            - air air air
+            - air air air
+            - almura\Building\CEP_Mason_4_bricks almura\Building\CEP_Mason_4_bricks almura\Building\CEP_Mason_4_bricks
+    1:
+        type: shaped
+        amount: 6
+        ingredients: 
+            - almura\Building\CEP_Mason_4_bricks almura\Building\CEP_Mason_4_bricks almura\Building\CEP_Mason_4_bricks
+            - air air air
+            - air air air
+    2:
+        type: shaped
+        amount: 6
+        ingredients: 
+            - air air air
+            - almura\Building\CEP_Mason_4_bricks almura\Building\CEP_Mason_4_bricks almura\Building\CEP_Mason_4_bricks
+            - air air air

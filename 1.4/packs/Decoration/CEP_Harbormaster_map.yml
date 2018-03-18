@@ -1,0 +1,13 @@
+type: block
+title: Old Sea Map (tabletop)
+hardness: 0.1
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_map.shape"
+coords:
+  - 0 128 128 128 #0
+  - 96 0 32 32 #1

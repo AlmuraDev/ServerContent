@@ -1,0 +1,13 @@
+type: block
+title: Broken Fence (bottom corner)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_fence.shape"
+coords:
+  - 0 0 32 32 #0
+  - 96 96 32 32 #1
+  - 0 0 32 32 #2

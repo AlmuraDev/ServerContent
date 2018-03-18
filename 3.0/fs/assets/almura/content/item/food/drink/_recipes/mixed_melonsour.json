@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_melonliqueur",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/materials_sodawater",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/mixed_melonsour",
+    "data": 0,
+    "count": 4
+  }
+}

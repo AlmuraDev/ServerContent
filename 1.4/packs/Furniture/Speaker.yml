@@ -1,0 +1,17 @@
+type: block
+title: Speaker
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: seedbarrels.png
+coords:
+    - 832 896 64 64
+    - 832 896 64 64
+    - 896 896 64 64
+    - 832 896 64 64
+    - 832 896 64 64
+    - 832 896 64 64
+shape: kitchenblocks.shape
+hardness: 1.5

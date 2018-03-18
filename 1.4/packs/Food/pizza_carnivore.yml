@@ -1,0 +1,27 @@
+title: "Meat Lovers Pizza  \n Food: \u00a76 +20 \u00a7f \n Stamina: \u00a76 +20 \u00a7f \n Health: \u00a76 +4"
+type: food
+texture: "pizza_carnivore.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 20
+    saturation-change: 20
+    health-change: 4
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\dough almura\Food\cheese almura\Food\tomato
+            - almura\Food\pepperoni almura\Food\sausage almura\Food\bacon
+    1:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\pepperoni almura\Food\sausage almura\Food\bacon
+            - almura\Food\pizza_cheese

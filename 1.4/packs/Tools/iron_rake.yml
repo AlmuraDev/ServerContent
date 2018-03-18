@@ -1,0 +1,15 @@
+type: tool
+title: Iron Rake
+texture: "sprouttools_iron_rake.png"
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-28-2014
+durability: 1000
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - iron_ingot iron_ingot iron_ingot
+            - air iron_ingot air
+            - air stick air

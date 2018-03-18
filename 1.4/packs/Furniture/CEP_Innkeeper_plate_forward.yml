@@ -1,0 +1,12 @@
+type: block
+title: Wooden Plate (tabletop, closer to edge)
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_plate_forward.shape"
+coords:
+    - 192 0 32 32 #0
+    - 224 0 32 32 #1

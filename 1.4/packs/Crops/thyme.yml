@@ -1,0 +1,242 @@
+date: 11-10-2016
+type: crop
+title: Thyme
+texture: crop.png
+level-required: 0
+seed:
+    title: Thyme Seed
+    coords: 
+        - 1568 384 32 32
+    creative-tab-name: seeds
+    show-in-creative-tab: true
+    grass:
+        enabled: true
+        chance: 1-2
+        amount: 1-3
+    recipes:
+        0:
+            type: shapeless
+            amount: 4
+            ingredients:
+                - almura\Ingredients\thyme
+soil:
+    source: farmland
+    biome:
+        enabled: disabled
+        sources:
+            plains:
+                temperature-required: 50-75.5
+                humidity-required: 50-60
+stages:
+    0:
+        coords: 
+            - 0 896 32 32
+        shape: crop-dirt.shape
+        hardness: 0
+        resistance: 1
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:
+            emission: 0
+            opacity: 0
+            required:
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    1:
+        coords: 
+            - 0 896 32 32
+            - 32 896 32 32
+            - 64 896 32 32
+        shape: crop-dirt.shape
+        hardness: 0
+        resistance: 1
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:
+            emission: 0
+            opacity: 0
+            required:
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    2:
+        coords: 
+            - 1024 384 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    3:
+        coords: 
+            - 1152 384 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    4:
+        coords: 
+            - 1280 384 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    5:
+        coords: 
+            - 1408 384 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+        break:
+            tools:
+                none:
+                    drops:
+                        almura\Ingredients\thyme:
+                            amount: 1-2
+                            bonus:
+                                enabled: false
+                                amount: 1-5
+                                chance: 10-15
+                almura\Tools\diamond_sickle:
+                    drops:
+                        almura\Ingredients\thyme:
+                            amount: 3-4
+                            bonus:
+                                enabled: true
+                                amount: 4-5
+                                chance: 45-75

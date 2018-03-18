@@ -1,0 +1,111 @@
+{
+    "map_color": "minecraft:dirt",  // Color of the in-Game map
+    "material": "minecraft:ground",
+    "seed": "almura:seed/corn_seed",
+    "state": {
+        "age=0": {
+            "aabb": {
+                "shape": {  // Collision Box
+                    "min": [0.0, 0.0, 0.0],  // Bottom of Block, format: x / y / z
+                    "max": [1.0, 0.15, 1.0]  // Top of Block, format: x / y / z
+                }
+            },
+            "can_rollback": true,  // Specifies whether or not the crop grows backwards if a specific value isn't met.
+            "growth": {
+                "chance": [
+                    {
+                        "biome": [
+                            "minecraft",
+                            "terraincontrol"
+                        ],
+                        "min": 80,
+                        "max": 100
+                    },
+                    {
+                        "min": 10,  // % Min Chance
+                        "max": 15   // % Max Chance
+                    }
+                ],
+                "light": [
+                    {
+                        "biome": [
+                            "minecraft",  // Biome NAMESPACE:BIOMENAME
+                            "terraincontrol"  // Biome NAMESPACE:BIOMENAME
+                        ],
+                        "min": 1,
+                        "max": 15
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    }                    
+                ],
+                "temperature_required": [
+                    {
+                        "biome": [
+                            "minecraft",  // Biome NAMESPACE:BIOMENAME
+                            "terraincontrol"  // Biome NAMESPACE:BIOMENAME
+                        ],
+                        "min": -2,
+                        "max": 10
+                    },
+                    {
+                        "min": -2,
+                        "max": 10
+                    }
+                ]
+            },
+            "hardness": 0.5,  // Block break hardness.
+            "hydration": {
+                "blockstate": {
+                    "minecraft:water": {
+                        "Level": 4  // Level of (blockstate)
+                    },
+                    "minecraft:lava": {
+                        "ignore_me": true  // Don't know what this is but Zidane says its important.
+                    }
+                },
+                "max_radius": 5  // Radius check around block, no Y check.
+            },
+            "fertilizer": [
+                {
+                    "item": {
+                        "minecraft:dye": {  // Bonemeal
+                            "meta": 15
+                        },
+                        "minecraft:stone": {
+                            "meta": 0
+                        }
+                    },
+                    "chance": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            ],
+            "resistance": 10.0,  // Explosion Resistance.
+            "light": {
+                "emission": 15.0,
+                "opacity": 200
+            }
+        },
+        "age=1": {
+            "parent": "age=0",
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.025, 1.0]
+                }
+            }
+        },
+        "age=2": {
+            "parent": "age=1"
+        },
+        "age=3": {
+            "parent": "age=1"
+        },
+        "age=4": {
+            "parent": "age=1"
+        }
+    }
+}

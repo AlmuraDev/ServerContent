@@ -1,0 +1,32 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:building",
+    "state": {
+        "normal": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                },
+                "wireframe": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                }
+            },
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:normal/building/cep_mason_5_column",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

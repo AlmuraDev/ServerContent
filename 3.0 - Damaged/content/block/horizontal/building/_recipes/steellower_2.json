@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "almura:horizontal/building/steelblock",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/building/steellower",
+    "data": 0,
+    "count": 6
+  }
+}

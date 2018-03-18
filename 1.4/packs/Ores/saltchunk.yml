@@ -1,0 +1,8 @@
+type: item
+title: Salt Chunk
+creative-tab-name: ores
+show-in-creative-tab: true
+date: 12-27-2014
+texture: saltrock.png
+coords:
+    - 0 0 32 32

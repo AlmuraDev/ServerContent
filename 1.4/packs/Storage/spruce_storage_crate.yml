@@ -1,0 +1,26 @@
+type: container
+title: "Spruce Storage Crate \n Storage"
+creative-tab-name: storage
+show-in-creative-tab: true
+date: 12-26-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_cep_cube.shape"
+coords:
+  - 0 96 32 32 #0(front/back)
+  - 0 96 32 32 #1(sides)
+  - 32 96 32 32 #2(top)
+  - 32 96 32 32 #3(bottom)
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - planks_spruce planks_spruce planks_spruce
+            - planks_spruce chest planks_spruce
+            - planks_spruce planks_spruce planks_spruce
+container:
+    inventory-size: 27
+    title: "Spruce Storage Crate"    
+    max-stack-size: 64

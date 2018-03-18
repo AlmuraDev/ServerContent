@@ -1,0 +1,27 @@
+type: stairs
+title: Black Marble Stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate:
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 640 768 128 128
+hardness: 1.5
+itemdropamount: 1
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\blackMarbleTile air air
+            - almura\Building\blackMarbleTile almura\Building\blackMarbleTile air
+            - almura\Building\blackMarbleTile almura\Building\blackMarbleTile almura\Building\blackMarbleTile
+    1:
+        type: shaped
+        amount: 4
+        ingredients: 
+            - air air almura\Building\blackMarbleTile
+            - air almura\Building\blackMarbleTile almura\Building\blackMarbleTile
+            - almura\Building\blackMarbleTile almura\Building\blackMarbleTile almura\Building\blackMarbleTile

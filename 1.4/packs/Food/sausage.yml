@@ -1,0 +1,20 @@
+title: "Sausages \n Food: \u00a76 +3 \u00a7f \n Stamina: \u00a76 +2"
+type: food
+texture: "sausage.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 3
+    saturation-change: 2
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - almura\Ingredients\groundpork almura\Ingredients\groundbeef

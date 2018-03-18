@@ -1,0 +1,8 @@
+title: "Peppercorn \n ingredient"
+type: item
+texture: "peppercorn.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 128 128 #0

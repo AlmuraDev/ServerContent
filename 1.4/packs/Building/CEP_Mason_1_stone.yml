@@ -1,0 +1,17 @@
+title: "Stone (Doku)"
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_cube.shape"
+coords:
+    - 96 0 32 32 #0
+recipes: 
+    0:  
+        type: shaped
+        amount: 4
+        ingredients: 
+            - air air air            
+            - air air stone
+            - air stone stone

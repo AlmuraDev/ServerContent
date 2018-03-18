@@ -1,0 +1,40 @@
+type: block
+title: "Seed Barrel \n Seed Storage"
+creative-tab-name: barrels
+show-in-creative-tab: true
+date: 12-27-2014
+texture: AlmuraCustom1_AlmuraCustom3.png
+coords:
+    - 0 384 128 128
+    - 128 384 128 128
+    - 256 384 128 128
+    - 384 384 128 128
+    - 512 384 128 128
+    - 640 384 128 128
+shape: AlmuraCustom1_barrel.shape
+hardness: 0.5
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                wheat_seeds:
+                    amount: 512
+                almura\Barrels\empty_barrel:
+                    amount: 1
+        blaze_rod:
+            experience: 0
+            exhaustion-change: 0
+            drops:                
+                almura\Barrels\seed_barrel:
+                    amount: 1
+recipes:
+    0:
+        type: Shaped
+        amount: 1
+        ingredients: 
+            - wheat_seeds:64 wheat_seeds:64 wheat_seeds:64
+            - wheat_seeds:64 almura\Barrels\empty_barrel wheat_seeds:64
+            - wheat_seeds:64 wheat_seeds:64 wheat_seeds:64

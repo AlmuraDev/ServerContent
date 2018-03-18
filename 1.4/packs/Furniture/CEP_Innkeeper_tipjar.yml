@@ -1,0 +1,13 @@
+type: block
+title: Tip Jar
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-13-2014
+rotate: 
+    enabled: true
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_tipjar.shape"
+coords:
+    - 96 64 32 32 #0
+    - 128 64 32 32 #1
+    - 160 64 32 32 #2

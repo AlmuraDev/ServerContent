@@ -1,0 +1,15 @@
+type: tool
+title: Stone Sickle
+texture: "sprouttools_stone_sickle.png"
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-28-2014
+durability: 500
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - stone stone stone
+            - air air stick
+            - air air stick

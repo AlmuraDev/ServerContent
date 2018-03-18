@@ -1,0 +1,86 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+ - texture: 1 #innertopfront
+   coords: |
+      1 0.1875 0.5
+      1 0.125 0
+      0 0.125 0
+      0 0.1875 0.5
+ - texture: 1 #innertopback
+   coords: |
+      1 0.125 1
+      1 0.1875 0.5
+      0 0.1875 0.5
+      0 0.125 1
+ - texture: 0 #front
+   coords: |
+      1 0 1
+      1 1 1
+      0 1 1
+      0 0 1 
+ - texture: 0 #back
+   coords: |
+      0 0 0
+      0 1 0
+      1 1 0
+      1 0 0 
+ - texture: 2 #top
+   coords: |
+      1 1 1
+      1 1 0
+      0 1 0
+      0 1 1
+ - texture: 2 #outerright
+   coords: |
+      1 0 0
+      1 1 0
+      1 1 1
+      1 0 1
+ - texture: 2 #outerleft
+   coords: |
+      0 0 1
+      0 1 1
+      0 1 0
+      0 0 0
+ - texture: 2 #innerright
+   coords: |
+      0.875 0 1
+      0.875 1 1
+      0.875 1 0
+      0.875 0 0
+ - texture: 2 #innerleft
+   coords: |
+      0.125 0 0
+      0.125 1 0
+      0.125 1 1
+      0.125 0 1
+ - texture: 2 #bottom
+   coords: |
+      1 0 0
+      1 0 1
+      0 0 1
+      0 0 0
+ - texture: 2 #topunderside
+   coords: |
+      1 0.9375 0
+      1 0.9375 1
+      0 0.9375 1
+      0 0.9375 0
+ - texture: 3 #glass
+   coords: |
+      1 0 0.5
+      1 1 0.5
+      0 1 0.5
+      0 0 0.5
+ - texture: 3 #glass
+   coords: |
+      0 0 0.5
+      0 1 0.5
+      1 1 0.5
+      1 0 0.5

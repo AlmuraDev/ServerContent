@@ -1,0 +1,8 @@
+title: "Raw Lambchop \n ingredient"
+type: item
+texture: "lambchop_raw.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-6-2014
+coords:
+  - 0 0 32 32 #0

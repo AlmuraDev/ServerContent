@@ -1,0 +1,15 @@
+type: block
+title: Grave (wooden cross)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_cross_wood.shape"
+coords:
+  - 64 0 32 32 #0
+  - 96 0 32 32 #1
+  - 128 0 32 32 #2
+  - 160 0 32 32 #3
+  - 192 0 32 32 #4

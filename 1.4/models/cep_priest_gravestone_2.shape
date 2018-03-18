@@ -1,0 +1,134 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+  - texture: 2 #basetop
+    coords: |
+      1 0.0625 1
+      1 0.0625 0
+      0 0.0625 0
+      0 0.0625 1
+  - texture: 2 #backbase
+    coords: |
+      0 0 0
+      0 0.0625 0
+      1 0.0625 0
+      1 0 0
+  - texture: 2 #baseleft
+    coords: |
+      0 0 1
+      0 0.0625 1
+      0 0.0625 0
+      0 0 0
+  - texture: 2 #basefront
+    coords: |
+      1 0 1
+      1 0.0625 1
+      0 0.0625 1
+      0 0 1
+  - texture: 2 #baseright
+    coords: |
+      1 0 0
+      1 0.0625 0
+      1 0.0625 1
+      1 0 1
+  - texture: 2 #basebottom
+    coords: |
+      0 0 1
+      0 0 0
+      1 0 0
+      1 0 1
+  - texture: 1 #gravetopback
+    coords: |
+      0.1875 0.75 0
+      0.3125 1 0
+      0.6875 1 0
+      0.8125 0.75 0
+  - texture: 1 #gravefronttop
+    coords: |
+      0.8125 0.75 0.125
+      0.6875 1 0.125
+      0.3125 1 0.125
+      0.1875 0.75 0.125
+  - texture: 2 #gravetop
+    coords: |
+      0.6875 1 0.125
+      0.6875 1 0
+      0.3125 1 0
+      0.3125 1 0.125
+  - texture: 1 #gravetopright
+    coords: |
+      0.8125 0.75 0
+      0.6875 1 0
+      0.6875 1 0.125
+      0.8125 0.75 0.125
+  - texture: 1 #gravetopleft
+    coords: | 
+      0.1875 0.75 0.125
+      0.3125 1 0.125
+      0.3125 1 0
+      0.1875 0.75 0
+  - texture: 0 #graveleft
+    coords: | 
+      0.1875 0.0625 0.125
+      0.1875 0.75 0.125
+      0.1875 0.75 0
+      0.1875 0.0625 0
+  - texture: 0 #graveright
+    coords: |
+      0.8125 0.0625 0
+      0.8125 0.75 0
+      0.8125 0.75 0.125
+      0.8125 0.0625 0.125
+  - texture: 3 #gravefront
+    coords: |
+      0.8125 0.0625 0.125
+      0.8125 0.75 0.125
+      0.1875 0.75 0.125
+      0.1875 0.0625 0.125
+  - texture: 1 #centerleft
+    coords: |
+      0.25 0.0625 0.8125
+      0.25 0.125 0.8125
+      0.25 0.125 0.3125
+      0.25 0.0625 0.3125
+  - texture: 1 #centerright
+    coords: |
+      0.75 0.0625 0.3125
+      0.75 0.125 0.3125
+      0.75 0.125 0.8125
+      0.75 0.0625 0.8125
+  - texture: 2 #centerfront
+    coords: |
+      0.75 0.0625 0.8125
+      0.75 0.125 0.8125
+      0.25 0.125 0.8125
+      0.25 0.0625 0.8125
+  - texture: 0
+    coords: | #graveback
+      0.1875 0 0.001
+      0.1875 0.75 0.001
+      0.8125 0.75 0.001
+      0.8125 0 0.001
+  - texture: 2 #centerback
+    coords: |
+      0.25 0.125 0.3125
+      0.75 0.125 0.3125
+      0.75 0.0625 0.3125
+      0.25 0.0625 0.3125
+  - texture: 2 #centertop
+    coords: |
+      0.75 0.125 0.8125
+      0.75 0.125 0.3125
+      0.25 0.125 0.3125
+      0.25 0.125 0.8125
+  - texture: 4 #centertopdetail
+    coords: |
+      0.75 0.126 0.8125
+      0.75 0.126 0.3125
+      0.25 0.126 0.3125
+      0.25 0.126 0.8125

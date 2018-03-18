@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "almura:normal/building/bricks_block_b_darkwood",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "almura:normal/building/bricks_block_b_ssbricks",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:normal/building/bricks_block_b_wood_stone_bricks",
+    "data": 0,
+    "count": 1
+  }
+}

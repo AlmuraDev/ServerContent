@@ -1,0 +1,19 @@
+type: block
+title: Light Red Marble Tile
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-6-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 256 512 128 128
+hardness: 1.5
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - air air air
+            - air air air
+            - bonemeal almura\Building\marbleTile dye_red

@@ -1,0 +1,8 @@
+title: "Hops \n ingredient"
+type: item
+texture: "crop.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 8-21-2015
+coords:
+  - 480 608 32 32 #0

@@ -1,0 +1,14 @@
+type: block
+title: Smith's Rack
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_rpg_blacksmith_rack.png"
+shape: "cep_rpg_blacksmith_rack.shape"
+coords:
+  - 0 0 32 32 #0-wood
+  - 32 0 32 32 #1-rackcover
+  - 64 0 32 32 #2-rackedgoodsa
+  - 64 0 32 32 #3-rackedgoodsb

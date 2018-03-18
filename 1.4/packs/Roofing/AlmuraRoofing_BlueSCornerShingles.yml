@@ -1,0 +1,14 @@
+type: block
+title: Blue Square Corner Shingles
+creative-tab-name: roofing
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: almuraroofing_shingles.png
+coords:
+    - 320 64 64 64
+    - 384 64 64 64
+    - 0 320 64 64
+shape: almuraroofing_cornershingles.shape
+hardness: 1.5

@@ -1,0 +1,21 @@
+title: "Mac and Cheese \n Food: \u00a76 +6 \u00a7f \n Stamina: \u00a76 +2 \u00a7f \n Health: \u00a76 +1"
+type: food
+texture: "mac_cheese.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 6
+    saturation-change: 2
+    health-change: 1
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\noodles almura\Food\cheese
+            - milk_bucket

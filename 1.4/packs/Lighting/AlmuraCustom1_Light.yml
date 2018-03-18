@@ -1,0 +1,26 @@
+type: block
+title: Ceiling Light
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 0 256 128 128
+    - 128 256 128 128
+    - 256 256 128 128
+    - 384 256 128 128
+shape: almuracustom1_light.shape
+hardness: 1.0
+light:
+    emission: 15
+    opacity: 200
+recipes:
+    0: 
+        type: shaped
+        amount: 2
+        ingredients: 
+            - air air air
+            - flint torch flint
+            - wool dye wool

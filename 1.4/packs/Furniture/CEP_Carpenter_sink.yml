@@ -1,0 +1,22 @@
+type: block
+title: Metal Sink
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_sink.shape"
+coords:
+    - 128 96 32 32 #0-metal
+    - 160 96 32 32 #1-nozel
+    - 192 96 32 32 #2-side
+    - 224 96 32 32 #3-top
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - stone air stone
+            - air iron_ingot air
+            - stone air stone

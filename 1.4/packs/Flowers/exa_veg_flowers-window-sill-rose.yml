@@ -1,0 +1,16 @@
+type: block
+title: Window Sill Roses
+creative-tab-name: flowers
+show-in-creative-tab: true
+date: 12-28-2014
+rotate:   
+    enabled: true
+texture: exa_veg_flowers-window-sill-rose.png
+hardness: 0
+resistance: 0 
+coords:
+    - 0 0 32 32
+    - 32 0 32 32
+    - 64 0 32 32
+    - 96 0 32 32
+shape: exa_veg_flowers-window-sill-rose.shape

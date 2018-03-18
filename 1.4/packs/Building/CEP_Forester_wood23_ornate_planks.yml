@@ -1,0 +1,17 @@
+title: Afledos Ornate Planks
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: false
+texture: "cep_forester.png"
+shape: "cep_forester_cube.shape"
+coords:
+    - 128 96 32 32 #0
+    - 128 96 32 32 #1
+recipes: 
+    0:
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Building\CEP_Forester_wood23_planks

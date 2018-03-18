@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/glass_cruet",
+    "data": 0,
+    "count": 4
+  }
+}

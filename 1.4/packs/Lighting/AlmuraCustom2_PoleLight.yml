@@ -1,0 +1,28 @@
+type: block
+title: Polelight
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-28-2014
+texture: almuraroofing_shingles.png
+rotate:
+    enabled: false
+coords:
+    - 0 896 8 16
+    - 128 896 8 64
+    - 256 896 16 112
+    - 384 896 72 96
+    - 512 896 8 48
+    - 640 896 32 32
+shape: almuracustom2_polelight.shape
+hardness: 1.0
+light:
+    emission: 15
+    opacity: 200
+recipes:
+    0: 
+        type: shaped
+        amount: 2
+        ingredients: 
+            - iron_ingot iron_ingot iron_ingot
+            - flint torch flint
+            - wool dye wool

@@ -1,0 +1,11 @@
+type: block
+title: Brown Baby Cactus
+creative-tab-name: flowers
+show-in-creative-tab: true
+hardness: 0
+resistance: 0 
+date: 12-28-2014
+texture: exa_veg_cactus-brown.png
+coords:
+    - 0 0 16 16
+shape: exa_veg_cactus-brown.shape

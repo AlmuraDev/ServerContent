@@ -1,0 +1,22 @@
+type: block
+title: "Charcoal Block \n Fuel"
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate:
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 768 256 128 128
+hardness: 1.0
+fuel:
+    enabled: true
+    max-burn-time: 921600
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - charcoal:64 charcoal:64 charcoal:64
+            - charcoal:64 charcoal:64 charcoal:64
+            - charcoal:64 charcoal:64 charcoal:64

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:coal",
+      "data": 1,
+      "count": 64
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/building/charcoalblock",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:potion",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_lime",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/nonalc_limeade",
+    "data": 0,
+    "count": 2
+  }
+}

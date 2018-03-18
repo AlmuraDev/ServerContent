@@ -1,0 +1,13 @@
+type: block
+title: Horizontal Standing Stone (alt ramp)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_standingstone_horizontal_ramp2.shape"
+coords:
+  - 32 0 32 32 #0-stone
+  - 32 0 16 32 #1-left half stone
+  - 48 0 16 32 #2-right half stone

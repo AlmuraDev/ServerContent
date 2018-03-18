@@ -1,0 +1,16 @@
+type: block
+title: Iron Hammer (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: false
+texture: "cep_rpg_blacksmith_smith.png"
+shape: "cep_rpg_blacksmith_smith_tabletop_hammer.shape"
+rotate: true
+coords:
+  - 0 0 32 32 #0-handle
+  - 32 0 32 32 #1-bottom
+  - 64 0 32 32 #2-head
+  - 96 0 32 32 #3-headtop
+  - 128 0 32 32 #4-headside

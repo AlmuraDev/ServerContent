@@ -1,0 +1,13 @@
+type: block
+title: Hanging Mackerel
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_sign2sides.shape"
+coords:
+  - 416 64 32 32 #0front
+  - 480 64 32 32 #1brace
+  - 448 64 32 32 #2back

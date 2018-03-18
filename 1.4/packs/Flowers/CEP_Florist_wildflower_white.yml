@@ -1,0 +1,13 @@
+type: block
+title: White Wildflowers
+creative-tab-name: flowers
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_florist_florist.png"
+hardness: 0
+resistance: 0 
+rotate: 
+    enabled: true
+shape: "cep_florist_flower.shape"
+coords:
+    - 288 64 32 32 #0

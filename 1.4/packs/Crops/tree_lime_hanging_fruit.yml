@@ -1,0 +1,45 @@
+date: 09-25-15
+title: Lime Tree Hanging Fruit
+type: leaves
+texture: "lamp_lamp.png"
+shape: "hanging.shape"
+coords:
+    - 512 384 128 128
+    - 640 384 128 128
+creative-tab-name: building
+show-in-creative-tab: true
+hardness: 0.5
+resistance: 1
+level-required: 18
+fuel:
+    enabled: true
+    max-burn-time: 100
+light:
+    emission: 0
+    opacity: 0
+    required:
+        enabled: false
+        min: 1
+        max: 3
+decay:
+    enabled: true
+    drops:
+        almura\Crops\tree_lime_sapling:
+            amount: 1-2
+            data: 0 
+    prevents-decay:
+        - almura\Building\CEP_Forester_wood24_log
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Food\banana:
+                    amount: 1-2
+                    data: 0
+                    bonus:
+                        enabled: false
+                        amount: 1-5
+                        chance: 10-15

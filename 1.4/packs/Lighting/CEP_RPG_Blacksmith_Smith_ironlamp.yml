@@ -1,0 +1,23 @@
+type: block
+title: Iron Lamp
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_rpg_blacksmith_smith.png"
+shape: "cep_rpg_blacksmith_smith_ironlamp.shape"
+light:
+    emission: 15
+    opacity: 200
+rotate:
+    enabled: false
+coords:
+    - 96 32 32 32 #0-iron
+    - 128 32 32 32 #1-light
+recipes:
+    0: 
+        type: shaped
+        amount: 2
+        ingredients: 
+            - iron_ingot iron_ingot iron_ingot
+            - flint torch flint
+            - wool iron_ingot wool

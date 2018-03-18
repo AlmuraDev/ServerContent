@@ -1,0 +1,20 @@
+title: "Blueberry Juice \n Food: \u00a76 +2 \u00a7f \n Stamina: \u00a76 +5 \u00a7f \n Health: \u00a76 +1"
+type: food
+texture: "juice_blueberry.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-27-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 2
+    saturation-change: 5
+    health-change: 1
+    wolf-favorite: false
+    always-edible: false 
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - glass_bottle almura\Food\blueberry

@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ABA",
+    "A A",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:planks",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/furniture/cep_carpenter_table_4legs",
+    "data": 0,
+    "count": 1
+  }
+}

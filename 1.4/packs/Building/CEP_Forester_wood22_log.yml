@@ -1,0 +1,12 @@
+title: Fraze Log
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: false
+texture: "cep_forester.png"
+shape: "cep_forester_cube.shape"
+coords:
+    - 0 64 32 32
+    - 32 64 32 32

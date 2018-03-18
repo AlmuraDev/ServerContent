@@ -1,0 +1,19 @@
+type: block
+title: Iron Lamp Post
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-6-2014
+texture: "cep_rpg_blacksmith_smith.png"
+shape: "cep_rpg_blacksmith_fencepost.shape"
+rotate: 
+    enabled: false
+coords:
+    - 96 32 32 32 #0-iron
+recipes:
+    0: 
+        type: shaped
+        amount: 2
+        ingredients: 
+            - flint iron_ingot flint
+            - flint iron_ingot flint
+            - flint iron_ingot flint

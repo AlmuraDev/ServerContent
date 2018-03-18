@@ -1,0 +1,8 @@
+title: "Stancia City Token"
+type: item
+texture: "lamp_lamp.png"
+creative-tab-name: currency
+show-in-creative-tab: true
+date: 9-16-2015
+coords:
+  - 384 256 128 128 #0

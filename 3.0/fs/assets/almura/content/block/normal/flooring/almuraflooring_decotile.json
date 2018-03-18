@@ -1,0 +1,23 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:flooring",
+    "state": {
+        "normal": {
+            "hardness": 1.0,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:normal/flooring/almuraflooring_decotile",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

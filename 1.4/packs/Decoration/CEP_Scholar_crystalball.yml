@@ -1,0 +1,14 @@
+type: block
+title: Crystal Ball (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_crystalball.shape"
+coords:
+  - 96 160 32 32 #0-sides
+  - 128 160 32 32 #1-top
+  - 160 160 32 32 #2-crystal
+  - 192 160 32 32 #3-bottom

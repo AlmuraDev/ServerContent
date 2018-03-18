@@ -1,0 +1,14 @@
+type: block
+title: Ship's Net (corner)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_net_corner.shape"
+coords:
+  - 96 64 32 32 #0
+  - 0 0 32 32 #1(nothing)
+  - 0 0 32 32 #2(nothing)
+  - 128 64 32 32 #3

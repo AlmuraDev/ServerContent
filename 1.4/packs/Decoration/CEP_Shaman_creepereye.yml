@@ -1,0 +1,15 @@
+type: block
+title: The Creeper's Eye
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_creepereye.shape"
+coords:
+  - 96 0 32 32 #0-sides
+  - 64 0 32 32 #1-top
+  - 128 0 32 32 #2-crystal
+  - 160 0 32 32 #3-bottom
+  - 192 0 32 32 #4-eye

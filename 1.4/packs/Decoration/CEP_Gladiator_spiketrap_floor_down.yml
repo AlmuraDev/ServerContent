@@ -1,0 +1,13 @@
+type: block
+title: Floor Spike Trap (spikes hidden)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+hardness: 20
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_spiketrap_floor_down.shape"
+coords:
+  - 64 128 64 64 #0
+  - 0 0 32 32 #1

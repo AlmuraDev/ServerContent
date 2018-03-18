@@ -1,0 +1,23 @@
+type: block
+title: Empty Seed Barrel
+creative-tab-name: barrels
+show-in-creative-tab: true
+date: 1-1-2015
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 0 384 128 128
+    - 128 384 128 128
+    - 256 384 128 128
+    - 384 384 128 128
+    - 512 384 128 128
+    - 384 384 128 128
+shape: almuracustom1_barrel.shape
+hardness: 0.5
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients: 
+            - air planks air
+            - planks wheat_seeds planks
+            - air planks air

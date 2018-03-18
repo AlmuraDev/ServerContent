@@ -1,0 +1,16 @@
+type: tool
+title: Staff of Water
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-28-2014
+damage: 1
+texture: "runes_item_e_water_staff.png"
+durability: 128
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - almura\Components\runes_item_e_ewater_rune almura\Components\runes_item_e_ewater_rune almura\Components\runes_item_e_ewater_rune
+            - almura\Components\runes_item_e_ewater_rune almura\Components\runes_item_e_staff almura\Components\runes_item_e_ewater_rune
+            - almura\Components\runes_item_e_ewater_rune almura\Components\runes_item_e_ewater_rune almura\Components\runes_item_e_ewater_rune

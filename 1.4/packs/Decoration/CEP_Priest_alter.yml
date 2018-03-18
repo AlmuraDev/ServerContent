@@ -1,0 +1,16 @@
+type: block
+title: Stone Alter
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_priest.png"
+shape: "cep_priest_alter.shape"
+coords:
+  - 0 64 32 32 #0
+  - 32 64 32 32 #1
+  - 64 64 32 32 #2
+  - 96 64 32 32 #3
+  - 128 64 32 32 #4
+  - 160 64 32 32 #5

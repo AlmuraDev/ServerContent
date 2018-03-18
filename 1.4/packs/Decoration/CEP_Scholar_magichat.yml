@@ -1,0 +1,13 @@
+type: block
+title: Magic Hat (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_magichat.shape"
+coords:
+  - 0 224 32 32 #0-maincolor
+  - 32 224 32 32 #1-ring
+  - 64 224 32 32 #2-undercolor

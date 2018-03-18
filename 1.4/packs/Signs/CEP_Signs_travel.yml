@@ -1,0 +1,12 @@
+type: block
+title: Travel Sign
+creative-tab-name: signs
+show-in-creative-tab: true
+date: 09-16-2015
+rotate: 
+    enabled: true
+texture: "seedbarrels.png"
+shape: "cep_signs_signs.shape"
+coords:
+    - 448 704 64 64 #0-sign
+    - 256 640 64 64 #1-bar

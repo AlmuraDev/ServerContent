@@ -1,0 +1,12 @@
+type: block
+title: Innkeeper's Candelabra
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 02-17-2015
+light:
+    emission: 15
+    opacity: 200
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_torchbase.shape"
+coords:
+    - 32 0 32 32 #0

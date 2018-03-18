@@ -1,0 +1,79 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:cep_shaman_runestone_arcane.obj",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [ {
+            "transform": {
+                "gui": {
+                    "rotation": [ {
+                        "x": 30.0
+                    }, {
+                        "y": 225.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3703704
+                },
+                "ground": {
+                    "translation": [ 0.0, 0.05, 0.0 ],
+                    "scale": 0.35555556
+                },
+                "thirdperson_righthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3703704
+                },
+                "thirdperson_lefthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3703704
+                },
+                "firstperson_righthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.35555556
+                },
+                "firstperson_lefthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.35555556
+                }
+            }
+        } ],
+        "facing": {
+            "south": {
+                "y": 180.0
+            },
+            "west": {
+                "y": 270.0
+            },
+            "north": { },
+            "east": {
+                "y": 90.0
+            }
+        }
+    }
+}

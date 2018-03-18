@@ -1,0 +1,5 @@
+newmtl corn_2
+
+# This format is:  NAMESPACE:FULL PATH from MODELS directory, including BLOCKTYPE.
+map_Kd almura:block/crop/crop.png
+map_d almura:block/crop/crop.png

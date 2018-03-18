@@ -1,0 +1,11 @@
+type: block
+title: Pink Petals
+creative-tab-name: flowers
+show-in-creative-tab: true
+date: 12-28-2014
+texture: exa_veg_pinkpetals.png
+hardness: 0
+resistance: 0 
+coords:
+    - 0 0 64 64
+hardness: 0.05

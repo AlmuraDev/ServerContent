@@ -1,0 +1,673 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1"
+    use-vanilla-block-bounds: false    
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+#~~~~~~nose
+  - texture: 3 #stageright
+    coords: |
+      0.4775 0.7875 0.775
+      0.4375 0.9375 0.525
+      0.4375 0.6875 0.525
+      0.4775 0.725 0.7125
+  - texture: 2 #top
+    coords: |
+      0.5325 0.7875 0.775
+      0.5625 0.9375 0.525
+      0.4375 0.9375 0.525
+      0.4775 0.7875 0.775
+  - texture: 2 #front
+    coords: |
+      0.5325 0.725 0.7125
+      0.5325 0.7875 0.775
+      0.4775 0.7875 0.775
+      0.4775 0.725 0.7125
+  - texture: 3 #stageleft
+    coords: |
+      0.5325 0.725 0.7125
+      0.5625 0.6875 0.525
+      0.5625 0.9375 0.525
+      0.5325 0.7875 0.775
+  - texture: 2 #bottom
+    coords: |
+      0.4775 0.725 0.7125
+      0.4375 0.6875 0.525
+      0.5625 0.6875 0.525
+      0.5325 0.725 0.7125
+#~~~~~~head
+  - texture: 3 #stagerightflange
+    coords: |
+      0.4375 0.6875 0.475
+      0.4375 0.9375 0.475
+      0.3375 1 0.3375
+      0.3375 0.8875 0.3375
+  - texture: 3 #stagerightflange
+    coords: |
+      0.3375 0.8875 0.3375
+      0.3375 1 0.3375
+      0.4375 0.9375 0.475
+      0.4375 0.6875 0.475
+  - texture: 3 #stageleftflange
+    coords: |
+      0.6625 0.8875 0.3375
+      0.6625 1 0.3375
+      0.5625 0.9375 0.475
+      0.5625 0.6875 0.475
+  - texture: 3 #stageleftflange
+    coords: |
+      0.5625 0.6875 0.475
+      0.5625 0.9375 0.475
+      0.6625 1 0.3375
+      0.6625 0.8875 0.3375
+  - texture: 5 #stageright
+    coords: |
+      0.4375 0.6875 0.525
+      0.4375 0.9375 0.525
+      0.4375 0.9375 0.3375
+      0.4375 0.6875 0.4625
+  - texture: 5 #stageleft
+    coords: |
+      0.5625 0.6875 0.4625
+      0.5625 0.9375 0.3375
+      0.5625 0.9375 0.525
+      0.5625 0.6875 0.525
+  - texture: 2 #top
+    coords: |
+      0.5625 0.9375 0.525
+      0.5625 0.9375 0.3375
+      0.4375 0.9375 0.3375
+      0.4375 0.9375 0.525
+#~~~~~~neckbottom
+  - texture: 6 #back
+    coords: |
+      0.4375 0.2 0.275
+      0.4375 0.5 0.2125
+      0.5625 0.5 0.2125
+      0.5625 0.2 0.275
+  - texture: 6 #stageleftback
+    coords: |
+      0.5625 0.2 0.275
+      0.5625 0.5 0.2125
+      0.6375 0.5 0.3375
+      0.5625 0.2 0.3375
+  - texture: 6 #stageright
+    coords: |
+      0.4375 0.2 0.4625
+      0.3625 0.5 0.4625
+      0.3625 0.5 0.3375
+      0.4375 0.2 0.3375
+  - texture: 6 #stagerightback
+    coords: |
+      0.4375 0.2 0.3375
+      0.3625 0.5 0.3375
+      0.4375 0.5 0.2125
+      0.4375 0.2 0.275
+  - texture: 6 #front
+    coords: |
+      0.5625 0.2 0.53125
+      0.5625 0.5 0.5875
+      0.4375 0.5 0.5875
+      0.4375 0.2 0.53125
+  - texture: 6 #frontstageright
+    coords: |
+      0.4375 0.2 0.53125
+      0.4375 0.5 0.5875
+      0.3625 0.5 0.4625
+      0.4375 0.2 0.4625
+  - texture: 6 #frontstageleft
+    coords: |
+      0.5625 0.2 0.4625
+      0.6375 0.5 0.4625
+      0.5625 0.5 0.5875
+      0.5625 0.2 0.53125
+  - texture: 6 #stageleft
+    coords: |
+      0.5625 0.2 0.3375
+      0.6375 0.5 0.3375
+      0.6375 0.5 0.4625
+      0.5625 0.2 0.4625
+#~~~~~~necktop
+  - texture: 6 #back
+    coords: |
+      0.4375 0.5 0.2125
+      0.4375 0.875 0.275
+      0.5625 0.875 0.275
+      0.5625 0.5 0.2125
+  - texture: 6 #stageleftback
+    coords: |
+      0.5625 0.5 0.2125
+      0.5625 0.875 0.275
+      0.5625 0.9375 0.3375
+      0.6375 0.5 0.3375
+  - texture: 2 #top
+    coords: |
+      0.4375 0.875 0.275
+      0.4375 0.9375 0.3375
+      0.5625 0.9375 0.3375
+      0.5625 0.875 0.275
+  - texture: 6 #stageright
+    coords: |
+      0.3625 0.5 0.4625
+      0.4375 0.6875 0.4625
+      0.4375 0.9375 0.3375
+      0.3625 0.5 0.3375
+  - texture: 6 #stagerightback
+    coords: |
+      0.3625 0.5 0.3375
+      0.4375 0.9375 0.3375
+      0.4375 0.875 0.275
+      0.4375 0.5 0.2125
+  - texture: 6 #front
+    coords: |
+      0.5625 0.5 0.5875
+      0.5625 0.6875 0.525
+      0.4375 0.6875 0.525
+      0.4375 0.5 0.5875
+  - texture: 6 #frontstageright
+    coords: |
+      0.4375 0.5 0.5875
+      0.4375 0.6875 0.525
+      0.4375 0.6875 0.4625
+      0.3625 0.5 0.4625
+  - texture: 6 #frontstageleft
+    coords: |
+      0.6375 0.5 0.4625
+      0.5625 0.6875 0.4625
+      0.5625 0.6875 0.525
+      0.5625 0.5 0.5875
+  - texture: 6 #stageleft
+    coords: |
+      0.6375 0.5 0.3375
+      0.5625 0.9375 0.3375
+      0.5625 0.6875 0.4625
+      0.6375 0.5 0.4625
+#~~legs
+#~~~~stageright
+  - texture: 0 #upperouter
+    coords: |
+      0.3 0.4 0.7
+      0.3 0.3 0.4
+      0.3 0.2 0.35
+      0.3 0.3 0.775
+  - texture: 0 #upperinner
+    coords: |
+      0.41 0.3 0.775
+      0.41 0.2 0.3
+      0.41 0.3 0.35
+      0.41 0.4 0.675
+  - texture: 0 #uppertop
+    coords: |
+      0.41 0.4 0.675
+      0.41 0.3 0.35
+      0.3 0.3 0.4
+      0.3 0.4 0.7
+  - texture: 0 #upperbottom
+    coords: |
+      0.3 0.3 0.775
+      0.3 0.2 0.35
+      0.41 0.2 0.3
+      0.41 0.3 0.775
+  - texture: 0 #upperback
+    coords: |
+      0.3 0.2 0.35
+      0.3 0.3 0.4
+      0.41 0.3 0.35
+      0.41 0.2 0.3
+  - texture: 2 #upperkneecap
+    coords: |
+      0.41 0.3 0.775
+      0.41 0.4 0.675
+      0.3 0.4 0.7
+      0.3 0.3 0.775
+  - texture: 5 #middlefront
+    coords: |
+      0.4 0.1 0.75
+      0.4 0.3 0.775
+      0.31 0.3 0.775
+      0.31 0.1 0.75
+  - texture: 5 #middleinner
+    coords: |
+      0.4 0.1 0.65
+      0.4 0.3 0.675
+      0.4 0.3 0.775
+      0.4 0.1 0.75
+  - texture: 5 #middleouter
+    coords: |
+      0.31 0.1 0.75
+      0.31 0.3 0.775
+      0.31 0.3 0.675
+      0.31 0.1 0.65
+  - texture: 5 #middleback
+    coords: |
+      0.31 0.1 0.65
+      0.31 0.3 0.675
+      0.4 0.3 0.675
+      0.4 0.1 0.65
+  - texture: 2 #middleplug
+    coords: |
+      0.31 0.1 0.75
+      0.31 0.1 0.65
+      0.4 0.1 0.65
+      0.4 0.1 0.75
+  - texture: 6 #lowertop
+    coords: |
+      0.45 0.05 0.85
+      0.4 0.1 0.75
+      0.31 0.1 0.75
+      0.26 0.05 0.85
+  - texture: 6 #lowerouter
+    coords: |
+      0.26 0.05 0.85
+      0.31 0.1 0.75
+      0.31 0.1 0.65
+      0.31 0.05 0.65
+  - texture: 6 #lowerinner
+    coords: |
+      0.4 0.05 0.65
+      0.4 0.1 0.65
+      0.4 0.1 0.75
+      0.45 0.05 0.85
+  - texture: 6 #lowerbottom
+    coords: |
+      0.26 0.05 0.85
+      0.31 0.05 0.65
+      0.4 0.05 0.65
+      0.45 0.05 0.85
+  - texture: 6 #lowerback
+    coords: |
+      0.31 0.05 0.65
+      0.31 0.1 0.65
+      0.4 0.1 0.65
+      0.4 0.05 0.65
+#~~~~stageleft
+  - texture: 0 #upperouter
+    coords: |
+      0.7 0.3 0.775
+      0.7 0.2 0.35
+      0.7 0.3 0.4
+      0.7 0.4 0.675
+  - texture: 0 #upperinner
+    coords: |
+      0.59 0.4 0.7
+      0.59 0.3 0.35
+      0.59 0.2 0.3
+      0.59 0.3 0.775
+  - texture: 0 #uppertop
+    coords: |
+      0.7 0.4 0.675
+      0.7 0.3 0.4
+      0.59 0.3 0.35
+      0.59 0.4 0.7
+  - texture: 0 #upperbottom
+    coords: |
+      0.59 0.3 0.775
+      0.59 0.2 0.3
+      0.7 0.2 0.35
+      0.7 0.3 0.775
+  - texture: 2 #upperback
+    coords: |
+      0.59 0.2 0.3
+      0.59 0.3 0.35
+      0.7 0.3 0.4
+      0.7 0.2 0.35
+  - texture: 2 #upperkneecap
+    coords: |
+      0.7 0.3 0.775
+      0.7 0.4 0.675
+      0.59 0.4 0.7
+      0.59 0.3 0.775
+  - texture: 5 #middlefront
+    coords: |
+      0.69 0.1 0.75
+      0.69 0.3 0.775
+      0.6 0.3 0.775
+      0.6 0.1 0.75
+  - texture: 5 #middleinner
+    coords: |
+      0.6 0.1 0.75
+      0.6 0.3 0.775
+      0.6 0.3 0.675
+      0.6 0.1 0.65
+  - texture: 5 #middleouter
+    coords: |
+      0.69 0.1 0.65
+      0.69 0.3 0.675
+      0.69 0.3 0.775
+      0.69 0.1 0.75
+  - texture: 5 #middleback
+    coords: |
+      0.6 0.1 0.65
+      0.6 0.3 0.675
+      0.69 0.3 0.675
+      0.69 0.1 0.65
+  - texture: 2 #middleplug
+    coords: |
+      0.69 0.1 0.65
+      0.69 0.1 0.75
+      0.6 0.1 0.75
+      0.6 0.1 0.65
+  - texture: 6 #lowertop
+    coords: |
+      0.74 0.05 0.85
+      0.69 0.1 0.75
+      0.6 0.1 0.75
+      0.55 0.05 0.85
+  - texture: 6 #lowerouter
+    coords: |
+      0.55 0.05 0.85
+      0.6 0.1 0.75
+      0.6 0.1 0.65
+      0.6 0.05 0.65
+  - texture: 6 #lowerinner
+    coords: |
+      0.69 0.05 0.65
+      0.69 0.1 0.65
+      0.69 0.1 0.75
+      0.74 0.05 0.85
+  - texture: 6 #lowerbottom
+    coords: |
+      0.55 0.05 0.85
+      0.6 0.05 0.65
+      0.69 0.05 0.65
+      0.74 0.05 0.85
+  - texture: 6 #lowerback
+    coords: |
+      0.6 0.05 0.65
+      0.6 0.1 0.65
+      0.7 0.1 0.65
+      0.7 0.05 0.65
+#~~arm
+#~~~~right
+  - texture: 6 #stageupperrighttop
+    coords: |
+      0.15 0.5 0.4
+      0.45 0.7 0.45
+      0.45 0.7 0.35
+      0.15 0.5 0.3
+  - texture: 6 #stageupperrightbottom
+    coords: |
+      0.25 0.5 0.3
+      0.45 0.6 0.35
+      0.45 0.6 0.45
+      0.25 0.5 0.4
+  - texture: 6 #stageupperrightback
+    coords: |
+      0.15 0.5 0.3
+      0.45 0.7 0.35
+      0.45 0.6 0.35
+      0.25 0.5 0.3
+  - texture: 6 #stageupperrightfront
+    coords: |
+      0.25 0.5 0.4
+      0.45 0.6 0.45
+      0.45 0.7 0.45
+      0.15 0.5 0.4
+  - texture: 6 #stageupperrightplug
+    coords: |
+      0.15 0.5 0.3
+      0.25 0.5 0.3
+      0.25 0.5 0.4
+      0.15 0.5 0.4
+  - texture: 0 #stagemiddlerighttop
+    coords: |
+      0.3 0.45 0.7
+      0.25 0.5 0.4
+      0.15 0.5 0.4
+      0.2 0.45 0.7
+  - texture: 0 #stagemiddlerightinner
+    coords: |
+      0.3 0.4 0.7
+      0.25 0.4 0.4
+      0.25 0.5 0.4
+      0.3 0.45 0.7
+  - texture: 0 #stagemiddlerightouter
+    coords: |
+      0.2 0.45 0.7
+      0.15 0.5 0.4
+      0.15 0.4 0.4
+      0.2 0.4 0.7
+  - texture: 0 #stagemiddlerightbottom
+    coords: |
+      0.2 0.4 0.7
+      0.15 0.4 0.4
+      0.25 0.4 0.4
+      0.3 0.4 0.7
+  - texture: 0 #stagemiddlerightplug
+    coords: |
+      0.3 0.4 0.7
+      0.3 0.45 0.7
+      0.2 0.45 0.7
+      0.2 0.4 0.7
+  - texture: 5 #stagelowerrightfront
+    coords: |
+      0.4 0.35 0.8
+      0.4 0.45 0.725
+      0.2 0.45 0.725
+      0.2 0.35 0.8
+  - texture: 2 #stagelowerrighttop
+    coords: |
+      0.4 0.45 0.725
+      0.4 0.45 0.7
+      0.2 0.45 0.7
+      0.2 0.45 0.725
+  - texture: 2 #stagelowerrightbottom
+    coords: |
+      0.2 0.35 0.8
+      0.2 0.35 0.7
+      0.4 0.35 0.7
+      0.4 0.35 0.8
+  - texture: 2 #stagelowerrightback
+    coords: |
+      0.2 0.35 0.7
+      0.2 0.45 0.7
+      0.4 0.45 0.7
+      0.4 0.35 0.7
+  - texture: 2 #stagelowerrightouter
+    coords: |
+      0.2 0.45 0.725
+      0.2 0.45 0.7
+      0.2 0.35 0.7
+      0.2 0.35 0.8
+  - texture: 2 #stagelowerrightinner
+    coords: |
+      0.4 0.35 0.8
+      0.4 0.35 0.7
+      0.4 0.45 0.7
+      0.4 0.45 0.725
+  - texture: 2 #elbowouter
+    coords: |
+      0.15 0.4 0.4
+      0.15 0.5 0.4
+      0.15 0.5 0.3
+      0.15 0.49 0.3
+  - texture: 2 #elbowinner
+    coords: |
+      0.25 0.5 0.4
+      0.25 0.4 0.4
+      0.25 0.49 0.3
+      0.25 0.5 0.3
+  - texture: 2 #elbowback
+    coords: |
+      0.15 0.4 0.4
+      0.15 0.5 0.3
+      0.25 0.5 0.3
+      0.25 0.4 0.4
+#~~~~left
+  - texture: 6 #stageupperlefttop
+    coords: |
+      0.85 0.5 0.3
+      0.55 0.7 0.35
+      0.55 0.7 0.45
+      0.85 0.5 0.4
+  - texture: 6 #stageupperleftbottom
+    coords: |
+      0.75 0.5 0.4
+      0.55 0.6 0.45
+      0.55 0.6 0.35
+      0.75 0.5 0.3
+  - texture: 6 #stageupperleftback
+    coords: |
+      0.75 0.5 0.3
+      0.45 0.6 0.35
+      0.55 0.7 0.35
+      0.85 0.5 0.3
+  - texture: 6 #stageupperleftfront
+    coords: |
+      0.85 0.5 0.4
+      0.55 0.7 0.45
+      0.55 0.6 0.45
+      0.75 0.5 0.4
+  - texture: 2 #stageupperupperplug
+    coords: |
+      0.75 0.5 0.3
+      0.85 0.5 0.3
+      0.85 0.5 0.4
+      0.75 0.5 0.4
+  - texture: 0 #stagemiddlelefttop
+    coords: |
+      0.8 0.45 0.7
+      0.85 0.5 0.4
+      0.75 0.5 0.4
+      0.7 0.45 0.7
+  - texture: 0 #stagemiddleleftinner
+    coords: |
+      0.7 0.45 0.7
+      0.75 0.5 0.4
+      0.75 0.4 0.4
+      0.7 0.4 0.7
+  - texture: 0 #stagemiddleleftouter
+    coords: |
+      0.8 0.4 0.7
+      0.85 0.4 0.4
+      0.85 0.5 0.4
+      0.8 0.45 0.7
+  - texture: 0 #stagemiddleleftbottom
+    coords: |
+      0.7 0.4 0.7
+      0.75 0.4 0.4
+      0.85 0.4 0.4
+      0.8 0.4 0.7
+  - texture: 0 #stagemiddleleftplug
+    coords: |
+      0.8 0.4 0.7
+      0.8 0.45 0.7
+      0.7 0.45 0.7
+      0.7 0.4 0.7
+  - texture: 5 #stagelowerleftfront
+    coords: |
+      0.8 0.35 0.8
+      0.8 0.45 0.725
+      0.6 0.45 0.725
+      0.6 0.35 0.8
+  - texture: 2 #stagelowerlefttop
+    coords: |
+      0.8 0.45 0.725
+      0.8 0.45 0.7
+      0.6 0.45 0.7
+      0.6 0.45 0.725
+  - texture: 2 #stagelowerleftbottom
+    coords: |
+      0.6 0.35 0.8
+      0.6 0.35 0.7
+      0.8 0.35 0.7
+      0.8 0.35 0.8
+  - texture: 2 #stagelowerleftback
+    coords: |
+      0.6 0.35 0.7
+      0.6 0.45 0.7
+      0.8 0.45 0.7
+      0.8 0.35 0.7
+  - texture: 2 #stagelowerleftouter
+    coords: |
+      0.6 0.45 0.725
+      0.6 0.45 0.7
+      0.6 0.35 0.7
+      0.6 0.35 0.8
+  - texture: 2 #stagelowerleftinner
+    coords: |
+      0.8 0.35 0.8
+      0.8 0.35 0.7
+      0.8 0.45 0.7
+      0.8 0.45 0.725
+  - texture: 2 #elbowouter
+    coords: |
+      0.85 0.5 0.4
+      0.85 0.4 0.4
+      0.85 0.49 0.3
+      0.85 0.5 0.3
+  - texture: 2 #elbowinner
+    coords: |
+      0.75 0.4 0.4
+      0.75 0.5 0.4
+      0.75 0.5 0.3
+      0.75 0.49 0.3
+  - texture: 2 #elbowback
+    coords: |
+      0.75 0.4 0.4
+      0.75 0.5 0.3
+      0.85 0.5 0.3
+      0.85 0.4 0.4
+#~~platform
+  - texture: 2
+    coords: |
+      1 0.05 1
+      1 0.05 0
+      0 0.05 0
+      0 0.05 1
+  - texture: 6
+    coords: |
+      1 0 1
+      1 0.05 1
+      0 0.05 1
+      0 0 1
+  - texture: 6
+    coords: |
+      0 0 0
+      0 0.05 0
+      1 0.05 0
+      1 0 0
+  - texture: 6
+    coords: |
+      1 0 0
+      1 0.05 0
+      1 0.05 1
+      1 0 1
+  - texture: 6
+    coords: |
+      0 0 1
+      0 0.05 1
+      0 0.05 0
+      0 0 0
+  - texture: 2
+    coords: |
+      0.8 0.2 0.6
+      0.8 0.2 0.2
+      0.2 0.2 0.2
+      0.2 0.2 0.6
+  - texture: 6
+    coords: |
+      0.8 0.05 0.6
+      0.8 0.2 0.6
+      0.2 0.2 0.6
+      0.2 0.05 0.6
+  - texture: 6
+    coords: |
+      0.2 0.05 0.2
+      0.2 0.2 0.2
+      0.8 0.2 0.2
+      0.8 0.05 0.2
+  - texture: 6
+    coords: |
+      0.8 0.05 0.2
+      0.8 0.2 0.2
+      0.8 0.2 0.6
+      0.8 0.05 0.6
+  - texture: 6
+    coords: |
+      0.2 0.05 0.6
+      0.2 0.2 0.6
+      0.2 0.2 0.2
+      0.2 0.05 0.2

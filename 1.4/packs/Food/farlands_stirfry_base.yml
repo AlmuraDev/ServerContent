@@ -1,0 +1,15 @@
+title: "Farlands Stirfry Base \n ingredient"
+type: food
+texture: "farlands_stirfry_base.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\vinegar almura\Ingredients\soysauce almura\Ingredients\vegetableoil
+            - almura\Ingredients\ginger

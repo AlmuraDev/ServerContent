@@ -1,0 +1,14 @@
+type: block
+title: Vive La France!
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_cep_walldisplay.shape"
+coords:
+  - 0 0 32 32 #0(nothing)
+  - 0 0 32 32 #1(nothing)
+  - 192 0 64 32 #2
+  - 0 0 32 32 #3(nothing)

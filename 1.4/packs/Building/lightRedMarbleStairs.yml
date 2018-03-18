@@ -1,0 +1,26 @@
+type: stairs
+title: Light Red Marble Stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 256 512 128 128
+hardness: 1.5
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\lightRedMarbleTile air air
+            - almura\Building\lightRedMarbleTile almura\Building\lightRedMarbleTile air
+            - almura\Building\lightRedMarbleTile almura\Building\lightRedMarbleTile almura\Building\lightRedMarbleTile
+    1:
+        type: shaped
+        amount: 4
+        ingredients:
+            - air air almura\Building\lightRedMarbleTile
+            - air almura\Building\lightRedMarbleTile almura\Building\lightRedMarbleTile
+            - almura\Building\lightRedMarbleTile almura\Building\lightRedMarbleTile almura\Building\lightRedMarbleTile

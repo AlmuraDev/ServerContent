@@ -1,0 +1,14 @@
+title: "Blackberry \n Food: \u00a76 +1 \u00a7f \n Stamina: \u00a76 +1"
+type: food
+texture: "blackberry.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 1
+    saturation-change: 1
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   

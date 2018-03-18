@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_gin",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/spirit_brandy",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_orange",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/mixed_paradise",
+    "data": 0,
+    "count": 4
+  }
+}

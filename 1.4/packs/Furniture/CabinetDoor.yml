@@ -1,0 +1,17 @@
+type: block
+title: Cabinet Door
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: seedbarrels.png
+coords:
+    - 192 832 64 64
+    - 192 832 64 64
+    - 768 896 64 64
+    - 192 832 64 64
+    - 192 832 64 64
+    - 192 832 64 64
+shape: kitchenblocks.shape
+hardness: 1.5

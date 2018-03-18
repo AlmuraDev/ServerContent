@@ -1,0 +1,11 @@
+type: block
+title: Barbed Wire
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_barbwire.shape"
+coords:
+  - 64 96 32 32 #0

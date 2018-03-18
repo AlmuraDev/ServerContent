@@ -1,0 +1,16 @@
+type: block
+title: Stone Pot
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_caldronpot.shape"
+coords:
+  - 96 128 32 32 #0-hole
+  - 128 96 32 32 #1-bottom
+  - 160 96 32 32 #2-bottomside
+  - 192 96 32 32 #3-side
+  - 160 96 32 32 #4-bottomsidealt
+  - 224 96 32 32 #5-topside

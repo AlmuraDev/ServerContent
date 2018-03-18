@@ -1,0 +1,32 @@
+type: block
+title: Grass Bale
+texture: almuracustom1_almuracustom3.png
+creative-tab-name: crops
+show-in-creative-tab: true
+date: 12-30-2014
+rotation: 
+    enabled: true
+coords:
+    - 384 896 64 128
+    - 256 896 128 128
+shape: almuracustom1_block.shape
+hardness: 1.0
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                tallgrass_green:
+                    amount: 8
+                string:
+                    amount: 1
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - tallgrass_green tallgrass_green tallgrass_green
+            - tallgrass_green string tallgrass_green
+            - tallgrass_green tallgrass_green tallgrass_green

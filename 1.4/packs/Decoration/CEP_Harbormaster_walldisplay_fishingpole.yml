@@ -1,0 +1,14 @@
+type: block
+title: Fishing Pole (wall mounted)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_walldisplay_fishingpole.shape"
+coords:
+  - 224 128 32 32 #0-wood
+  - 256 128 32 32 #1-spool
+  - 288 128 32 32 #2-handle
+  - 320 128 32 32 #2-windingwheel

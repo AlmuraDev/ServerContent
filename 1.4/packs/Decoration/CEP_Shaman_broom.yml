@@ -1,0 +1,13 @@
+type: block
+title: Broom
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_broom.shape"
+coords:
+  - 0 224 32 32 #0-bottm
+  - 32 224 16 32 #1-middle
+  - 64 224 16 32 #2-handle

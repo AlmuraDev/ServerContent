@@ -1,0 +1,11 @@
+type: block
+title: Iron Barricade
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_barricade.shape"
+coords:
+  - 64 0 32 32 #0

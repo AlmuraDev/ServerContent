@@ -1,0 +1,26 @@
+type: stairs
+title: Marble Stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 0 512 128 128
+hardness: 0.75
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\marbleTile air air 
+            - almura\Building\marbleTile almura\Building\marbleTile air
+            - almura\Building\marbleTile almura\Building\marbleTile almura\Building\marbleTile
+    1:
+        type: shaped
+        amount: 4
+        ingredients:
+            - air air almura\Building\marbleTile
+            - air almura\Building\marbleTile almura\Building\marbleTile
+            - almura\Building\marbleTile almura\Building\marbleTile almura\Building\marbleTile

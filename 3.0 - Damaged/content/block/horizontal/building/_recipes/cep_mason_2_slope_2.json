@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " A ",
+    " AA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "almura:normal/building/cep_mason_2_bricks",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/building/cep_mason_2_slope",
+    "data": 0,
+    "count": 4
+  }
+}

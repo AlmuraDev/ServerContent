@@ -1,0 +1,35 @@
+{
+    "item_group": "minecraft:misc",
+    "crop": "almura:crop/corn",
+    "soil": "minecraft:farmland",
+    "grass": {
+        "chance": [
+            {
+                "biome": [
+                    "minecraft",
+                    "terraincontrol"
+                ],
+                "min": 50,
+                "max": 75
+            },
+            {
+                "min": 5,
+                "max": 10
+            }
+        ],
+        "amount": [
+            {
+                "biome": [
+                    "minecraft",
+                    "terraincontrol"
+                ],
+                "min": 1,
+                "max": 3
+            },
+            {
+                "min": 1,
+                "max": 1
+            }            
+        ]
+    }
+}

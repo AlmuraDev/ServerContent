@@ -1,0 +1,17 @@
+type: block
+title: Darkwood Block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "bricks_block_b_darkwood.png"
+coords: 
+    - 0 0 64 64
+shape: "bricks_cep_cube.shape"
+recipes:
+    0:
+        type: shaped
+        amount: 3
+        ingredients:
+            - planks planks planks
+            - planks planks planks
+            - planks planks planks

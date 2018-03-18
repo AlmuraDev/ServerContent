@@ -1,0 +1,14 @@
+date: 1-19-2015
+title: "Unfermented Beer \n Ingredient"
+type: item
+texture: "materials_unfermentedbeer.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+coords:
+    - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - potion wheat almura\Ingredients\materials_hops

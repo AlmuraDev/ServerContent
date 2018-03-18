@@ -1,0 +1,51 @@
+title: "Fancy Hamburger \n Food: \u00a76 +12 \u00a7f \n Stamina: \u00a76 +10 \u00a7f \n Health: \u00a76 +3"
+type: food
+texture: "sandwich_burger_hamburger1.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 12
+    saturation-change: 10
+    health-change: 3
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\tomato
+            - almura\Food\lettuce
+    1:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\onion
+            - almura\Food\lettuce
+    2:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\snack_dillpickle
+            - almura\Food\lettuce
+    3:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\onion
+            - almura\Food\tomato
+    4:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\snack_dillpickle
+            - almura\Food\tomato
+    5:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\onion
+            - almura\Food\snack_dillpickle

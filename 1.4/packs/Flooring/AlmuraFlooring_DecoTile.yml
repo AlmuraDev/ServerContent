@@ -1,0 +1,12 @@
+type: block
+title: Decoration Tile
+texture: almuraroofing_shingles.png
+shape: almuracustom1_block.shape
+creative-tab-name: flooring
+show-in-creative-tab: true
+date: 12-28-2014
+rotation: 
+    enabled: true
+coords:
+    - 0 384 128 128
+hardness: 1.0

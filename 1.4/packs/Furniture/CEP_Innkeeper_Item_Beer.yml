@@ -1,0 +1,8 @@
+type: item
+title: "Mug of Beer"
+texture: "cep_innkeeper_beermug.png"
+coords: 
+    - 0 0 32 32
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014

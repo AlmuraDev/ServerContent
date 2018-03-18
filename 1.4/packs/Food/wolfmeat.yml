@@ -1,0 +1,20 @@
+title: "Tough Wolf Meat \n Food: \u00a76 +6 \u00a7f \n Stamina: \u00a76 +5"
+type: food
+texture: "wolfmeat.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 6
+    saturation-change: 5
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Ingredients\wolfmeat_raw

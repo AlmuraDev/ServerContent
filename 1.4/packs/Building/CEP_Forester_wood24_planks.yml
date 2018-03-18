@@ -1,0 +1,18 @@
+title: Doku Planks
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: false
+texture: "cep_forester.png"
+shape: "cep_forester_cube.shape"
+coords:
+    - 160 128 32 32
+    - 160 128 32 32
+recipes: 
+    0:
+        type: "shapeless"
+        amount: 4
+        ingredients: 
+            - almura\Building\CEP_Forester_wood24_log

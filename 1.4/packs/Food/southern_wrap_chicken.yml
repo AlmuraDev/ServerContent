@@ -1,0 +1,21 @@
+title: "Chicken Wrap \n Food: \u00a76 +6 \u00a7f \n Stamina: \u00a76 +4 \u00a7f \n Health: \u00a76 +3"
+type: food
+texture: "southern_wrap_chicken.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 6
+    saturation-change: 4
+    health-change: 3
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\groundchicken almura\Ingredients\bread_flourtortilla almura\Food\cheese
+            - almura\Food\lettuce almura\Food\southern_salsa almura\Ingredients\spicemix_taco

@@ -1,0 +1,21 @@
+title: "Deluxe Chicken Burger \n Food: \u00a76 +13 \u00a7f \n Stamina: \u00a76 +11 \u00a7f \n Health: \u00a76 +5"
+type: food
+texture: "sandwich_burger_chickenburger2.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 13
+    saturation-change: 11
+    health-change: 5
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundchicken almura\Food\snack_dillpickle
+            - almura\Food\lettuce almura\Food\tomato almura\Food\onion

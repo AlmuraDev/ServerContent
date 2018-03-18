@@ -1,0 +1,13 @@
+type: block
+title: Wooden Bellow
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_rpg_blacksmith_smith.png"
+shape: "cep_rpg_blacksmith_smith_bellow.shape"
+coords:
+  - 0 64 32 32 #0-wood
+  - 32 64 32 32 #0-ribs
+  - 64 64 32 32 #0-nose

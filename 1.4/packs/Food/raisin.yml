@@ -1,0 +1,25 @@
+title: "Handfull of Raisins \n Food: \u00a76 +2 \u00a7f \n Stamina: \u00a76 +3"
+type: food
+texture: "raisin.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 2
+    saturation-change: 3
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\grape almura\Food\grape almura\Food\grape
+    1:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\whitegrape

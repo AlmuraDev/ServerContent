@@ -1,0 +1,32 @@
+type: block
+title: Alfalfa Bale
+texture: almuracustom1_almuracustom3.png
+creative-tab-name: crops
+show-in-creative-tab: true
+date: 03/10/2016
+rotation: 
+    enabled: true
+coords:
+    - 640 256 128 128
+    - 512 256 128 128
+shape: almuracustom1_block.shape
+hardness: 1.0
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Crops\alfalfa_item:
+                    amount: 8
+                string:
+                    amount: 1
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - almura\Crops\alfalfa_item almura\Crops\alfalfa_item almura\Crops\alfalfa_item
+            - almura\Crops\alfalfa_item string almura\Crops\alfalfa_item
+            - almura\Crops\alfalfa_item almura\Crops\alfalfa_item almura\Crops\alfalfa_item

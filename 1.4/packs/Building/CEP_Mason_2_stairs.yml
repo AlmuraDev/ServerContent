@@ -1,0 +1,29 @@
+title: Sandstone Stair (Doku)
+type: stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_mason_mason.png"
+rotate: 
+    enabled: true
+coords:
+    - 64 32 32 32 #0
+    - 64 48 32 16 #1
+    - 64 32 32 16 #2
+    - 64 32 16 16 #3
+    - 80 32 16 16 #4
+recipes: 
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\CEP_Mason_2_bricks air air
+            - almura\Building\CEP_Mason_2_bricks almura\Building\CEP_Mason_2_bricks air 
+            - almura\Building\CEP_Mason_2_bricks almura\Building\CEP_Mason_2_bricks almura\Building\CEP_Mason_2_bricks
+    1:
+        type: shaped
+        amount: 4
+        ingredients: 
+            - air air almura\Building\CEP_Mason_2_bricks
+            - air almura\Building\CEP_Mason_2_bricks almura\Building\CEP_Mason_2_bricks
+            - almura\Building\CEP_Mason_2_bricks almura\Building\CEP_Mason_2_bricks almura\Building\CEP_Mason_2_bricks

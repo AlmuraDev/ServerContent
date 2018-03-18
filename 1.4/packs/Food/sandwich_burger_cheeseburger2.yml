@@ -1,0 +1,22 @@
+title: "Deluxe Cheeseburger \n Food: \u00a76 +14 \u00a7f \n Stamina: \u00a76 +13 \u00a7f \n Health: \u00a76 +5"
+type: food
+texture: "sandwich_burger_cheeseburger2.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 14
+    saturation-change: 13
+    health-change: 5
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Ingredients\groundbeef almura\Food\cheese
+            - almura\Food\lettuce almura\Food\tomato almura\Food\onion
+            - almura\Food\snack_dillpickle

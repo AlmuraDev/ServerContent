@@ -1,0 +1,99 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+
+ - texture: 2 #topback
+   coords: |
+      0.125 1 0.125
+      0.875 1 0.125
+      1 1 0
+      0 1 0
+ - texture: 2 #topleft
+   coords: |
+      0 1 1
+      0.125 1 1
+      0.125 1 0.125
+      0 1 0
+ - texture: 2 #topright
+   coords: |
+      0.875 1 1
+      1 1 1
+      1 1 0
+      0.875 1 0.125
+ - texture: 0 #frontright
+   coords: |
+      1 0 1
+      1 1 1
+      0.875 1 1
+      0.875 0 0.999
+ - texture: 0 #frontleft
+   coords: |
+      0.125 0 0.999
+      0.125 1 1
+      0 1 1
+      0 0 1
+ - texture: 2 #frontbottom
+   coords: |
+      1 0 1
+      0.875 0.125 1
+      0.125 0.125 1
+      0 0 1
+ - texture: 2 #grave bottom
+   coords: |
+      1 0 1
+      0 0 1
+      0 0 0
+      1 0 0
+ - texture: 5 #grave back
+   coords: |
+      0 0 0
+      0 1 0
+      1 1 0
+      1 0 0
+ - texture: 0 #grave right
+   coords: |
+      1 0 0
+      1 1 0
+      1 1 1
+      1 0 1
+ - texture: 0 #grave left
+   coords: |
+      0 0 1
+      0 1 1
+      0 1 0
+      0 0 0
+ - texture: 0 #innerright
+   coords: |
+      0.875 0 1
+      0.875 1 1
+      0.875 1 0.125
+      0.875 0 0.125
+ - texture: 2 #innerbottom
+   coords: |
+      0.125 0.125 1
+      0.875 0.125 1
+      0.875 0.125 0.125
+      0.125 0.125 0.125
+ - texture: 0 #innerback
+   coords: |
+      0.875 0 0.125
+      0.875 1 0.125
+      0.125 1 0.125
+      0.125 0 0.125
+ - texture: 4 #innerbackdetail
+   coords: |
+      0.875 0 0.126
+      0.875 1 0.126
+      0.125 1 0.126
+      0.125 0 0.126
+ - texture: 0 #innerleft
+   coords: |
+      0.125 0 0.125
+      0.125 1 0.125
+      0.125 1 1
+      0.125 0 1

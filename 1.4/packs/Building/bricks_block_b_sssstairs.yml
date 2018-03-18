@@ -1,0 +1,25 @@
+type: stairs
+title: Advanced Supersmooth Stone Stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "bricks_supersmooth.png"
+rotate: 
+    enabled: true
+coords:
+    - 0 0 64 64
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - almura\Building\bricks_block_b_supersmooth air air 
+            - almura\Building\bricks_block_b_supersmooth almura\Building\bricks_block_b_supersmooth air
+            - almura\Building\bricks_block_b_supersmooth almura\Building\bricks_block_b_supersmooth almura\Building\bricks_block_b_supersmooth
+    1:
+        type: "shaped"
+        amount: 4
+        ingredients:
+            - air air almura\Building\bricks_block_b_supersmooth
+            - air almura\Building\bricks_block_b_supersmooth almura\Building\bricks_block_b_supersmooth
+            - almura\Building\bricks_block_b_supersmooth almura\Building\bricks_block_b_supersmooth almura\Building\bricks_block_b_supersmooth

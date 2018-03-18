@@ -1,0 +1,17 @@
+title: Azurite Slope Corner
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-28-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_slope_corner.shape"
+rotate: 
+    enabled: true
+coords:
+    - 64 192 32 32 #0
+recipes: 
+    0:  
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Building\CEP_Mason_7_slope

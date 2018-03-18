@@ -1,0 +1,13 @@
+type: block
+title: Hanging Rope
+hardness: 0.1
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_rope.shape"
+coords:
+  - 128 96 32 32 #0
+  - 160 96 32 32 #1

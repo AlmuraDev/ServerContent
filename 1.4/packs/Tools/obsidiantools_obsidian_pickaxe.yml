@@ -1,0 +1,15 @@
+type: tool
+title: Obsidian Pickaxe
+texture: "obsidiantools_obsidian_pickaxe.png"
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-27-2014
+durability: 50000
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - obsidian obsidian obsidian
+            - air stick air
+            - air stick air

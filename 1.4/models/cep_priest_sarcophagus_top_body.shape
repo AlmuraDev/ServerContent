@@ -1,0 +1,192 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+#head
+ - texture: 2 #head up
+   coords: |
+      0.25 0.5 0
+      0.25 1 0
+      0.75 1 0
+      0.75 0.5 0
+ - texture: 0 #head bottom
+   coords: |
+      0.25 0.501 0.5
+      0.25 0.501 0
+      0.75 0.501 0
+      0.75 0.501 0.5
+ - texture: 0 #head left
+   coords: |
+      0.25 1 0.5
+      0.25 1 0
+      0.25 0.5 0
+      0.25 0.5 0.5
+ - texture: 6 #head top
+   coords: |
+      0.75 1 0.5
+      0.75 1 0
+      0.25 1 0
+      0.25 1 0.5
+ - texture: 0 #head right
+   coords: |
+      0.75 0.5 0.5
+      0.75 0.5 0
+      0.75 1 0
+      0.75 1 0.5
+ - texture: 2 #head neck
+   coords: |
+      0.75 1 0.4999
+      0.25 1 0.4999
+      0.25 0.5 0.4999
+      0.75 0.5 0.4999
+#right arm
+ - texture: 2 #right arm down
+   coords: |
+      1 0.6875 1
+      0.8125 0.6875 1
+      0.8125 0.5 1
+      1 0.5 1
+ - texture: 2 #right arm left
+   coords: |
+      0.75 0.75 0.5
+      0.75 0.5625 0.5
+      0.8125 0.5 1
+      0.8125 0.6875 1
+ - texture: 2 #right arm bottom
+   coords: |
+      1 0.5 1
+      0.8125 0.5 1
+      0.75 0.5625 0.5
+      0.9375 0.5625 0.5
+ - texture: 2 #right arm up
+   coords: |
+      0.75 0.75 0.5
+      0.9375 0.75 0.5
+      0.9375 0.5625 0.5
+      0.75 0.5625 0.5
+ - texture: 2 #right arm top
+   coords: |
+      0.8125 0.6875 1
+      1 0.6875 1
+      0.9375 0.75 0.5
+      0.75 0.75 0.5
+ - texture: 2 #right arm right
+   coords: |
+      1 0.6875 1
+      1 0.5 1
+      0.9375 0.5625 0.5
+      0.9375 0.75 0.5
+ #left arm
+ - texture: 2 #left arm right
+   coords: |
+      0.1875 0.6875 1
+      0.1875 0.5 1
+      0.25 0.5625 0.5
+      0.25 0.75 0.5
+ - texture: 2 #left arm left
+   coords: |
+      0.0625 0.75 0.5
+      0.0625 0.5625 0.5
+      0 0.5 1
+      0 0.6875 1
+ - texture: 2 #left arm down
+   coords: |
+      0.1875 0.6875 1
+      0 0.6875 1
+      0 0.5 1
+      0.1875 0.5 1
+ - texture: 2 #left arm top
+   coords: |
+      0 0.6875 1
+      0.1875 0.6875 1
+      0.25 0.75 0.5
+      0.0625 0.75 0.5
+ - texture: 2 #left arm bottom
+   coords: |
+      0.1875 0.5 1
+      0 0.5 1
+      0.0625 0.5625 0.5
+      0.25 0.5625 0.5
+ - texture: 2 #left arm up
+   coords: |
+      0.0625 0.75 0.5
+      0.25 0.75 0.5
+      0.25 0.5625 0.5
+      0.0625 0.5625 0.5
+#body
+ - texture: 3 #body top
+   coords: |
+      0.75 0.75 1
+      0.75 0.75 0.5
+      0.25 0.75 0.5
+      0.25 0.75 1
+ - texture: 1 #body bottom
+   coords: |
+      0.25 0.501 1
+      0.25 0.501 0.5
+      0.75 0.501 0.5
+      0.75 0.501 1
+ - texture: 1 #body left
+   coords: |
+      0.25 0.75 1
+      0.25 0.75 0.5
+      0.25 0.5 0.5
+      0.25 0.5 1
+ - texture: 1 #body right
+   coords: |
+      0.75 0.5 1
+      0.75 0.5 0.5
+      0.75 0.75 0.5
+      0.75 0.75 1
+ - texture: 2 #body down
+   coords: |
+      0.75 0.75 1
+      0.25 0.75 1
+      0.25 0.5 1
+      0.75 0.5 1
+ - texture: 2 #body up
+   coords: |
+      0.25 0.75 0.5
+      0.75 0.75 0.5
+      0.75 0.5 0.5
+      0.25 0.5 0.5
+ - texture: 2 #platformtop
+   coords: |
+      1 0.5 1
+      1 0.5 0
+      0 0.5 0
+      0 0.5 1
+ - texture: 5 #platformfront
+   coords: |
+      1 0 1
+      1 0.5 1
+      0 0.5 1
+      0 0 1
+ - texture: 5 #platformback
+   coords: |
+      0 0 0
+      0 0.5 0
+      1 0.5 0
+      1 0 0
+ - texture: 5 #platformright
+   coords: |
+      1 0 0
+      1 0.5 0
+      1 0.5 1
+      1 0 1
+ - texture: 5 #platformleft
+   coords: |
+      0 0 1
+      0 0.5 1
+      0 0.5 0
+      0 0 0
+ - texture: 2 #platformbottom
+   coords: |
+      1 0 0
+      1 0 1
+      0 0 1
+      0 0 0

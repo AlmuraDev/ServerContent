@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/laurel",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:seed/laurel_seed",
+    "data": 0,
+    "count": 4
+  }
+}

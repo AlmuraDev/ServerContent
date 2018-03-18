@@ -1,0 +1,21 @@
+title: "Bottle of Bumbo \n Food: \u00a7c -1 \u00a7f \n Stamina: \u00a76 +4 \u00a7f \n Health: \u00a76 +1"
+type: food
+texture: "other_bumbo.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: ^1
+    saturation-change: 4
+    health-change: 1
+    wolf-favorite: false
+    always-edible: false  
+recipes:
+    0:
+        type: shapeless
+        amount: 3
+        ingredients:
+            - potion almura\Ingredients\nutmeg almura\Drinks\spirit_rum
+            - sugar

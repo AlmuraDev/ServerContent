@@ -1,0 +1,22 @@
+title: Log Saw
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_logsaw.shape"
+coords:
+  - 0 0 32 32 #0-wood
+  - 0 32 32 32 #1-troughtop
+  - 32 32 32 32 #2-saw
+  - 64 32 32 32 #3-ironspindel
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - planks iron_ingot planks
+            - planks air planks
+            - planks planks planks

@@ -1,0 +1,18 @@
+title: Meaty Dog Bone
+type: food
+date: 12-27-2014
+texture: "almuracustom1_mdogbone.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+consumption:
+    food-change: 1
+    saturation-change: 1
+    health-change: 1    
+    wolf-favorite: true
+    always-edible: false  
+recipes:
+    0:
+        type: smelt
+        input: rotten_flesh
+        experience: 0
+        amount: 4

@@ -1,0 +1,17 @@
+title: Stone Slope Corner (Doku)
+type: block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "cep_mason_mason.png"
+shape: "cep_mason_slope_corner.shape"
+rotate: 
+    enabled: true
+coords:
+  - 64 0 32 32 #0
+recipes: 
+    0:    
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Building\CEP_Mason_1_slope

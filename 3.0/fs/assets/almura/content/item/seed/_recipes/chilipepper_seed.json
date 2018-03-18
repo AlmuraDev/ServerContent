@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/chilipepper",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:seed/chilipepper_seed",
+    "data": 0,
+    "count": 4
+  }
+}

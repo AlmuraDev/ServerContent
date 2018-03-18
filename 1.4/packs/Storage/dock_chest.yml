@@ -1,0 +1,58 @@
+date: 1-6-2015
+type: container
+title: "Dock Chest \n Storage"
+texture: lamp_lamp.png
+shape: kitchenblocks.shape
+coords:
+    - 0 800 224 224
+    - 224 800 224 224
+    - 672 800 224 224
+    - 224 800 224 224
+    - 224 800 224 224
+    - 0 800 224 224
+creative-tab-name: storage
+show-in-creative-tab: true
+hardness: 2
+resistance: 1
+rotate:
+    enabled: true  
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Storage\dock_chest:
+                    amount: 1
+                    data: 0
+                    bonus:
+                        enabled: false
+                        amount: 1-5
+                        chance: 10-15        
+container:
+    inventory-size: 54
+    title: "Dock Chest"
+    use-display-name-as-title: false
+    max-stack-size: 64
+    state:
+        has-contents:
+            texture: lamp_lamp.png
+            coords:
+                - 0 800 224 224
+                - 224 800 224 224
+                - 672 576 224 224
+                - 224 800 224 224
+                - 224 800 224 224
+                - 0 800 224 224                
+            shape: kitchenblocks.shape
+        full:
+            texture: lamp_lamp.png
+            coords:
+                - 0 800 224 224
+                - 224 800 224 224
+                - 448 800 224 224
+                - 224 800 224 224
+                - 224 800 224 224
+                - 0 800 224 224        
+            shape: kitchenblocks.shape

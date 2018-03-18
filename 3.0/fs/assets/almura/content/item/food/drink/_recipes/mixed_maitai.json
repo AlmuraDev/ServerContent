@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_rum",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/spirit_triplesec",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_lime",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/syrup",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/mixed_maitai",
+    "data": 0,
+    "count": 6
+  }
+}

@@ -1,0 +1,14 @@
+type: block
+title: USSR Flag
+creative-tab-name: flags
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraft_ww2_faction5.png"
+shape: "cep_battlecraft_ww2_faction_flag.shape"
+coords:
+    - 64 0 32 32 #0
+    - 96 0 32 32 #1
+    - 128 0 32 32 #2
+    - 160 0 32 32 #2

@@ -1,0 +1,17 @@
+type: block
+title: Advanced Brick
+creative-tab-name: building
+show-in-creative-tab: true
+coords: 
+    - 0 0 64 64
+date: 12-27-2014
+texture: "bricks_block_b_brick.png"
+shape: "bricks_cep_cube.shape"
+recipes:
+    0:
+        type: shaped
+        amount: 4
+        ingredients:
+            - brick brick brick
+            - brick brick brick
+            - brick brick brick

@@ -1,0 +1,25 @@
+title: "Loaf of White Bread \n Food: \u00a76 +4 \u00a7f \n Stamina: \u00a76 +2"
+type: food
+texture: "loafofbread.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 4
+    saturation-change: 2
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:    
+    0:
+        type: smelt
+        experience: 0
+        amount: 2
+        input: almura\Ingredients\dough
+    1:
+        type: shapeless
+        amount: 2
+        ingredients:
+            - bread

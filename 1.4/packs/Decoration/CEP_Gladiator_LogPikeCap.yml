@@ -1,0 +1,12 @@
+type: block
+title: Wooden Log Top Spike
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_logspikewallcap.shape"
+coords:
+  - 0 32 32 32 #0
+  - 32 32 32 32 #1

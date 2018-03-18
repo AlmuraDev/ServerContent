@@ -1,0 +1,53 @@
+type: block
+title: "Statue"
+texture: "cep_mason_statue_4.png"
+shape: "cep_mason_statue_4.shape"
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+
+coords:
+  - 16 16 16 16 #0-headfront
+  - 48 16 16 16 #1-headback
+  - 0 16 16 16 #2-headright
+  - 32 16 16 16 #3-headleft
+  - 16 0 16 16 #4-headtop
+  - 32 0 16 16 #5-headbottom
+  - 8 32 8 8 #6-legtop
+  - 0 40 8 24 #7-legoutside
+  - 8 40 8 24 #8-legfront
+  - 16 40 8 24 #9-leginside
+  - 24 40 8 24 #10-legback
+  - 8 32 8 8 #11-legbottom
+  - 32 40 8 24 #12-torsoright
+  - 40 40 16 24 #13-torsofront
+  - 56 40 8 24 #14-torsoleft
+  - 64 40 16 24 #15-torsoback
+  - 40 32 16 8 #16-torsotop
+  - 56 32 16 8 #17-torsobottom
+  - 88 32 8 8 #18-armtop
+  - 80 40 8 24 #19-armoutside
+  - 88 40 8 24 #20-armfront
+  - 96 40 8 24 #21-arminside
+  - 104 40 8 24 #22-armback
+  - 96 32 8 8 #23-armbottom
+  - 96 32 -8 8 #24-armtopmirrored
+  - 88 40 -8 24 #25-armoutsidemirrored
+  - 96 40 -8 24 #26-armfrontmirrored
+  - 104 40 -8 24 #27-arminsidemirrored
+  - 112 40 -8 24 #28-armbackmirrored
+  - 104 32 -8 8 #29-armbottommirrored
+  - 16 32 -8 8 #30-legtopmirrored
+  - 8 40 -8 24 #31-legoutsidemirrored
+  - 16 40 -8 24 #32-legfrontmirrored
+  - 24 40 -8 24 #33-leginsidemirrored
+  - 32 40 -8 24 #34-legbackmirrored
+  - 16 32 -8 8 #35-legbottommirrored
+  - 80 16 16 16 #36-maskfront
+  - 112 16 16 16 #37-maskback
+  - 64 16 16 16 #38-maskright
+  - 96 16 16 16 #39-maskleft
+  - 80 0 16 16 #40-masktop
+  - 96 0 16 16 #41-maskbottom

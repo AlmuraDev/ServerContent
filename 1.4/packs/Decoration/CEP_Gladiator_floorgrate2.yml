@@ -1,0 +1,13 @@
+type: block
+title: Arena Floor Grate (full)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_floorgrate.shape"
+coords:
+  - 0 0 32 32 #0(1/2)
+  - 96 96 32 32 #1
+  - 128 96 32 32 #2(full)

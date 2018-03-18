@@ -1,0 +1,13 @@
+type: block
+title: Ship's Wheel
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_shipwheel.shape"
+coords:
+  - 128 128 32 32 #0
+  - 160 128 32 32 #1
+  - 196 128 32 32 #2

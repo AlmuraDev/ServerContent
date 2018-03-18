@@ -1,0 +1,29 @@
+title: Juko Ornate Stair
+type: stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-6-2014
+texture: "cep_forester.png"
+rotate: 
+    enabled: true
+coords:
+    - 128 224 32 32
+    - 128 240 32 16
+    - 128 224 32 16
+    - 128 224 16 16
+    - 144 224 16 16
+recipes: 
+    0:
+        type: shaped
+        amount: 4
+        ingredients: 
+            - almura\Building\CEP_Forester_wood27_ornate_planks air air 
+            - almura\Building\CEP_Forester_wood27_ornate_planks almura\Building\CEP_Forester_wood27_ornate_planks air
+            - almura\Building\CEP_Forester_wood27_ornate_planks almura\Building\CEP_Forester_wood27_ornate_planks almura\Building\CEP_Forester_wood27_ornate_planks
+    1:
+        type: shaped
+        amount: 4
+        ingredients:
+            - air air almura\Building\CEP_Forester_wood27_ornate_planks
+            - air almura\Building\CEP_Forester_wood27_ornate_planks almura\Building\CEP_Forester_wood27_ornate_planks
+            - almura\Building\CEP_Forester_wood27_ornate_planks almura\Building\CEP_Forester_wood27_ornate_planks almura\Building\CEP_Forester_wood27_ornate_planks

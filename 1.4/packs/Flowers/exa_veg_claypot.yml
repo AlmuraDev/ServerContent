@@ -1,0 +1,15 @@
+type: block
+title: Dirt Clay Pot
+creative-tab-name: flowers
+show-in-creative-tab: true
+date: 12-28-2014
+texture: exa_veg_claypot.png
+shape: "pots.shape"
+coords:
+    - 0 0 16 16
+    - 16 0 16 16
+    - 32 0 16 16
+    - 48 0 16 16
+    - 64 0 16 16
+    - 80 0 16 16
+    - 96 0 16 16

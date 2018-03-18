@@ -1,0 +1,40 @@
+type: block
+title: "Blackberry Seed Barrel \n Seed Storage"
+creative-tab-name: barrels
+show-in-creative-tab: true
+date: 12-27-2014
+texture: seedbarrels.png
+coords:
+    - 0 0 128 128
+    - 128 0 128 128
+    - 256 0 128 128
+    - 384 0 128 128
+    - 512 0 128 128
+    - 128 512 128 128
+shape: seedbarrels.shape
+hardness: 0.5
+break:
+    enabled: true
+    tools:
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Crops\blackberry\seed:
+                    amount: 512
+                almura\Barrels\empty_barrel:
+                    amount: 1
+        blaze_rod:
+            experience: 0
+            exhaustion-change: 0
+            drops:                
+                almura\Barrels\blackberry_seed_barrel:
+                    amount: 1
+recipes:
+    0:
+        type: Shaped
+        amount: 1
+        ingredients: 
+            - almura\Crops\blackberry\seed:64 almura\Crops\blackberry\seed:64 almura\Crops\blackberry\seed:64
+            - almura\Crops\blackberry\seed:64 almura\Barrels\empty_barrel almura\Crops\blackberry\seed:64
+            - almura\Crops\blackberry\seed:64 almura\Crops\blackberry\seed:64 almura\Crops\blackberry\seed:64

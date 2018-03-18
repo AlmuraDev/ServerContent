@@ -1,0 +1,13 @@
+type: block
+title: Nazi Trophy Pedestal
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraft_ww2_faction2.png"
+shape: "cep_battlecraft_ww2_faction_pedestal.shape"
+coords:
+  - 64 64 32 32 #0
+  - 96 64 32 32 #1
+  - 128 64 32 32 #2

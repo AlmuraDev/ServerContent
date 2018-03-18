@@ -1,0 +1,15 @@
+type: tool
+title: Unpowered Staff
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-28-2014
+damage: 1
+texture: "runes_item_e_staff.png"
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - glass glass glass
+            - glass blaze_rod glass
+            - air blaze_rod air

@@ -1,0 +1,13 @@
+type: block
+title: Beer Mug (tabletop, centered)
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: true
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_beermug_center.shape"
+coords:
+    - 64 0 32 32 #0
+    - 96 0 32 32 #1
+    - 128 0 32 32 #2
+    - 160 0 32 32 #3

@@ -1,0 +1,14 @@
+title: "Bottle of Swill \n Health: \u00a7c -2"
+type: food
+texture: "beer_swill.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-27-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 0
+    saturation-change: 0
+    health-change: ^2
+    wolf-favorite: false
+    always-edible: false 

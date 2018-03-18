@@ -1,0 +1,15 @@
+title: "Bowl of Salsa \n ingredient"
+type: food
+texture: "southern_salsa.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - almura\Food\tomato almura\Food\onion almura\Food\lime
+            - almura\Food\chilipepper almura\Ingredients\cilantro

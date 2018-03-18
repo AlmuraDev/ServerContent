@@ -1,0 +1,14 @@
+type: block
+title: Front Desk Bell
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_bell.shape"
+coords:
+    - 128 128 32 32 #0
+    - 160 128 32 32 #1
+    - 192 128 32 32 #2
+    - 224 128 32 32 #3

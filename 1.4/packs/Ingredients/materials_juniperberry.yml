@@ -1,0 +1,8 @@
+title: "Juniper Berries \n Ingredient"
+type: "item"
+texture: "materials_juniperberry.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-27-2014
+coords:
+    - 0 0 32 32 #0

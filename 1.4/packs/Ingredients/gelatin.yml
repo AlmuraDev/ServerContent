@@ -1,0 +1,14 @@
+title: "Block of Gelatin \n ingredient"
+type: item
+texture: "gelatin.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - bone bone

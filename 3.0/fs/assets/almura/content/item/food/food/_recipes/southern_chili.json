@@ -1,0 +1,40 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/pintobean",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/chilipepper",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/tomato",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/onion",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:beef",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/southern_chili",
+    "data": 0,
+    "count": 1
+  }
+}

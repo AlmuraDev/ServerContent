@@ -1,0 +1,22 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:letter",
+    "state": {
+        "normal": {
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:normal/letter/cb",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

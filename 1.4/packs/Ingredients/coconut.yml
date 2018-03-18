@@ -1,0 +1,8 @@
+title: "Coconut \n ingredient"
+type: item
+texture: "coconut.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0

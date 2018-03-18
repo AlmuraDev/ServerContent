@@ -1,0 +1,14 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 0 0 0"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 .025 1"
+    use-vanilla-block-bounds: false    
+    block-bounds: "0 0 0 1 .025 1"
+shapes:
+  - texture: 0
+    coords: |
+      0 0 1
+      1 0 1
+      1 0 0
+      0 0 0

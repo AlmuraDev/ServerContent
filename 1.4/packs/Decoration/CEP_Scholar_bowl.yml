@@ -1,0 +1,12 @@
+type: block
+title: Bowl of Powder (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_bowl.shape"
+coords:
+  - 160 0 32 32 #0-bowlbottom
+  - 192 0 32 32 #1-bowlpowder

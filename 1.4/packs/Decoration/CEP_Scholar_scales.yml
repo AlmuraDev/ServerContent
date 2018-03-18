@@ -1,0 +1,13 @@
+type: block
+title: Measuring Scales (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+texture: "cep_scholar.png"
+shape: "cep_scholar_scales.shape"
+coords:
+  - 0 160 32 32 #0-wood
+  - 32 160 32 32 #1-iron
+  - 64 160 32 32 #2-strings

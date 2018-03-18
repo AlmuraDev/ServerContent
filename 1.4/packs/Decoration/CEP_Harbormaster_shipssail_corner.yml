@@ -1,0 +1,13 @@
+type: block
+title: Ship's Sail (corner)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_sign2sides.shape"
+coords:
+  - 32 96 32 32 #0front
+  - 0 0 32 32 #1brace
+  - 64 96 32 32 #2back

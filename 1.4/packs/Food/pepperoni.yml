@@ -1,0 +1,21 @@
+title: "Spicy Pepperoni \n Food: \u00a76 +4 \u00a7f \n Stamina: \u00a76 +1"
+type: food
+texture: "pepperoni.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 4
+    saturation-change: 1
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Ingredients\groundpork almura\Ingredients\groundbeef almura\Ingredients\salt
+            - almura\Ingredients\pepper almura\Ingredients\garlic

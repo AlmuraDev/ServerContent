@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/vinegar",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/cheese",
+    "data": 0,
+    "count": 1
+  }
+}

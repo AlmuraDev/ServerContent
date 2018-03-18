@@ -1,0 +1,16 @@
+type: block
+title: Spike Trap
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+hardness: 20
+falldamage: 10
+walkaction:
+  health: -2
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_spiketrap_floor.shape"
+coords:
+  - 64 128 64 64 #0
+  - 128 128 64 64 #1

@@ -1,0 +1,12 @@
+type: block
+title: Magic Circle 10 (floor)
+texture: "cep_shaman_shaman.png"
+shape: "cep_shaman_floordisplay.shape"
+creative-tab-name: flooring
+show-in-creative-tab: true
+date: 12-28-2014
+rotation: 
+    enabled: true
+coords:
+    - 448 160 64 64 #0(1x1)
+    - 0 0 32 32 #1(alwaysempty)

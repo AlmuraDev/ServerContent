@@ -1,0 +1,8 @@
+type: item
+title: Empty Beer Mug 
+texture: "cep_innkeeper_emptybeermug.png"
+coords: 
+    - 0 0 32 32
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 1-18-2015

@@ -1,0 +1,177 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0.05 0 0.25 0.95 1.7 0.75"
+    use-vanilla-wireframe: false
+    wireframe-box: "0.05 0 0.25 0.95 1.7 0.75" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0.05 0 0.25 0.95 1.7 0.75"
+shapes:
+#rune
+  - texture: 3 #top
+    coords: |
+      0.8125 0.625 0.751
+      0.8125 1.25 0.751
+      0.1875 1.25 0.751
+      0.1875 0.625 0.751
+#front
+  - texture: 0 #frontfacebottom
+    coords: |
+      0.8125 0 0.75
+      0.8125 0.625 0.75
+      0.1875 0.625 0.75
+      0.1875 0 0.75
+  - texture: 0 #frontfacemiddle
+    coords: |
+      0.8125 0.625 0.75
+      0.8125 1.25 0.75
+      0.1875 1.25 0.75
+      0.1875 0.625 0.75
+  - texture: 1 #frontfacetopleft
+    coords: |
+      0.5 1.25 0.75
+      0.5 1.5625 0.75
+      0.25 1.5 0.75
+      0.1875 1.25 0.75
+  - texture: 2 #frontfacetopright
+    coords: |
+      0.8125 1.25 0.75
+      0.75 1.5 0.75
+      0.5 1.5625 0.75
+      0.5 1.25 0.75
+#leftside
+  - texture: 2 #frontbottom
+    coords: | 
+      0.1875 0 0.75
+      0.1875 0.625 0.75
+      0.0625 0.625 0.5
+      0.0625 0 0.5
+  - texture: 1 #backbottom
+    coords: | 
+      0.0625 0 0.5
+      0.0625 0.625 0.5
+      0.1875 0.625 0.25
+      0.1875 0 0.25
+  - texture: 2 #frontmiddle
+    coords: | 
+      0.1875 0.625 0.75
+      0.1875 1.25 0.75
+      0.0625 1.25 0.5
+      0.0625 0.625 0.5
+  - texture: 1 #backmiddle
+    coords: | 
+      0.0625 0.625 0.5
+      0.0625 1.25 0.5
+      0.1875 1.25 0.25
+      0.1875 0.625 0.25
+  - texture: 2 #fronttop
+    coords: | 
+      0.1875 1.25 0.75
+      0.25 1.5 0.75
+      0.125 1.5625 0.5
+      0.0625 1.25 0.5
+  - texture: 1 #backtop
+    coords: | 
+      0.0625 1.25 0.5
+      0.125 1.5625 0.5
+      0.25 1.5 0.25
+      0.1875 1.25 0.25
+#rightside
+  - texture: 1 #frontbottom
+    coords: | 
+      0.9375 0 0.5
+      0.9375 0.625 0.5
+      0.8125 0.625 0.75
+      0.8125 0 0.75
+  - texture: 2 #backbottom
+    coords: | 
+      0.8125 0 0.25
+      0.8125 0.625 0.25
+      0.9375 0.625 0.5
+      0.9375 0 0.5
+  - texture: 1 #frontmiddle
+    coords: | 
+      0.9375 0.625 0.5
+      0.9375 1.25 0.5
+      0.8125 1.25 0.75
+      0.8125 0.625 0.75
+  - texture: 2 #backmiddle
+    coords: | 
+      0.8125 0.625 0.25
+      0.8125 1.25 0.25
+      0.9375 1.25 0.5
+      0.9375 0.625 0.5
+  - texture: 1 #fronttop
+    coords: | 
+      0.9375 1.25 0.5
+      0.875 1.5625 0.5
+      0.75 1.5 0.75
+      0.8125 1.25 0.75
+  - texture: 2 #backtop
+    coords: | 
+      0.8125 1.25 0.25
+      0.75 1.5 0.25
+      0.875 1.5625 0.5
+      0.9375 1.25 0.5
+#back
+  - texture: 0 #frontfacebottom
+    coords: |
+      0.1875 0 0.25
+      0.1875 0.625 0.25
+      0.8125 0.625 0.25
+      0.8125 0 0.25
+  - texture: 0 #frontfacemiddle
+    coords: |
+      0.1875 0.625 0.25
+      0.1875 1.25 0.25
+      0.8125 1.25 0.25
+      0.8125 0.625 0.25
+  - texture: 2 #frontfacetopleft
+    coords: |
+      0.1875 1.25 0.25
+      0.25 1.5 0.25
+      0.5 1.5625 0.25
+      0.5 1.25 0.25
+  - texture: 1 #frontfacetopright
+    coords: |
+      0.5 1.25 0.25
+      0.5 1.5625 0.25
+      0.75 1.5 0.25
+      0.8125 1.25 0.25
+#top
+  - texture: 1 #frontleft
+    coords: | 
+      0.25 1.5 0.75
+      0.5 1.5625 0.75
+      0.5 1.6875 0.5
+      0.125 1.5625 0.5
+  - texture: 1 #backleft
+    coords: | 
+      0.125 1.5625 0.5
+      0.5 1.6875 0.5
+      0.5 1.5625 0.25
+      0.25 1.5 0.25
+  - texture: 2 #frontright
+    coords: | 
+      0.5 1.5625 0.75
+      0.75 1.5 0.75
+      0.875 1.5625 0.5
+      0.5 1.6875 0.5
+  - texture: 2 #backright
+    coords: | 
+      0.5 1.6875 0.5
+      0.875 1.5625 0.5
+      0.75 1.5 0.25
+      0.5 1.5625 0.25
+#bottom
+  - texture: 1 #back
+    coords: |
+      0.0625 0 0.5
+      0.1875 0 0.25
+      0.8125 0 0.25
+      0.9375 0 0.5
+  - texture: 2 #front
+    coords: |
+      0.1875 0 0.75
+      0.0625 0 0.5
+      0.9375 0 0.5
+      0.8125 0 0.75

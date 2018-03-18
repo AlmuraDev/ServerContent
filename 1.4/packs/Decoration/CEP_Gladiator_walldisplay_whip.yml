@@ -1,0 +1,14 @@
+type: block
+title: Whip (wall mounted)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_walldisplay.shape"
+coords:
+  - 224 96 32 32 #0
+  - 0 0 32 32 #1(empty)
+  - 0 0 32 32 #2(empty)
+  - 0 0 32 32 #3(empty)

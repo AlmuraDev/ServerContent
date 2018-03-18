@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:mossy_cobblestone",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:mossy_cobblestone",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/building/bricks_block_b_cmsbrick1",
+    "data": 0,
+    "count": 4
+  }
+}

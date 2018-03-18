@@ -1,0 +1,20 @@
+type: block
+title: asphalt half
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 896 128 128 128
+shape: almuracustom1_lower.shape
+hardness: 1.5
+recipes:
+    0:
+        type: shaped
+        amount: 6
+        ingredients:
+            - air air air
+            - air air air
+            - almura\Building\asphalt almura\Building\asphalt almura\Building\asphalt   

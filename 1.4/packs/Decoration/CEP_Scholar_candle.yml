@@ -1,0 +1,14 @@
+type: block
+title: Scholar's Candle (tabletop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+lightlevel: 14
+texture: "cep_scholar.png"
+shape: "cep_scholar_candle.shape"
+coords:
+  - 128 192 32 32 #0-candle
+  - 160 192 32 32 #1-flame
+  - 192 192 32 32 #2-candleholder

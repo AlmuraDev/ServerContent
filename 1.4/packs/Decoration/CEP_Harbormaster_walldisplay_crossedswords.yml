@@ -1,0 +1,12 @@
+type: block
+title: Crossed Cutlasses (wall mounted)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_walldisplay.shape"
+coords:
+  - 352 128 32 32 #0
+  - 0 0 32 32 #1(nothing)

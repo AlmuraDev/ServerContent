@@ -1,0 +1,8 @@
+type: item
+title: Raw Marble
+texture: almuracustom1_rawmarble.png
+creative-tab-name: ores
+show-in-creative-tab: true
+date: 12-27-2014
+coords:
+- 0 0 128 128

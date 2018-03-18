@@ -1,0 +1,26 @@
+type: container
+title: "Birch Storage Crate \n Storage"
+creative-tab-name: storage
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_cep_cube.shape"
+coords:
+    - 0 64 32 32 #0(front/back)
+    - 0 64 32 32 #1(sides)
+    - 32 64 32 32 #2(top)
+    - 32 64 32 32 #3(bottom)
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - planks_birch planks_birch planks_birch
+            - planks_birch chest planks_birch
+            - planks_birch planks_oak planks_birch
+container:
+    inventory-size: 27
+    title: "Birch Storage Crate"    
+    max-stack-size: 64

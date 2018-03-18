@@ -1,0 +1,36 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:decoration",
+    "state": {
+        "normal": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.3, 0.0, 0.3 ],
+                    "max": [ 0.7, 2.0, 0.7 ]
+                },
+                "wireframe": {
+                    "min": [ 0.3, 0.0, 0.3 ],
+                    "max": [ 0.7, 2.0, 0.7 ]
+                }
+            },
+            "resistance": 10.0,
+            "light": {
+                "emission": 15.0,
+                "opacity": 200
+            },
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:normal/decoration/cep_king_tallcandelabra",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

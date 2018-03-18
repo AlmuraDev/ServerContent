@@ -1,0 +1,21 @@
+type: block
+title: Salt Ore
+creative-tab-name: ores
+show-in-creative-tab: true
+date: 12-27-2014
+texture: saltore.png
+rotate:
+    enabled: true
+coords:
+    - 0 0 128 128
+hardness: 0.75
+break:
+    tools:
+        none:
+            drops:
+                almura\Ores\saltchunk:
+                    amount: 2-8
+                    bonus:
+                        enabled: false
+                        amount: 1-5
+                        chance: 10-15

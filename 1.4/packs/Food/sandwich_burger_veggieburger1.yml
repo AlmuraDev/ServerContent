@@ -1,0 +1,51 @@
+title: "Fancy Veggie Burger \n Food: \u00a76 +7 \u00a7f \n Stamina: \u00a76 +5 \u00a7f \n Health: \u00a76 +4"
+type: food
+texture: "sandwich_burger_veggieburger1.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 7
+    saturation-change: 5
+    health-change: 4
+    wolf-favorite: false
+    always-edible: false   
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Food\soybean almura\Food\tomato
+            - almura\Food\lettuce
+    1:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Food\soybean almura\Food\onion
+            - almura\Food\lettuce
+    2:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Food\soybean almura\Food\snack_dillpickle
+            - almura\Food\lettuce
+    3:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Food\soybean almura\Food\onion
+            - almura\Food\tomato
+    4:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Food\soybean almura\Food\snack_dillpickle
+            - almura\Food\tomato
+    5:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - almura\Food\bread_sesameseedbun almura\Food\soybean almura\Food\onion
+            - almura\Food\snack_dillpickle

@@ -1,0 +1,19 @@
+type: stairs
+title: Advanced Supersmooth Stone Outer Stair
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "bricks_supersmooth.png"
+rotate: 
+    enabled: true
+coords:
+    - 0 0 64 64
+    - 64 0 64 32
+    - 128 0 64 64
+    - 192 0 64 64
+recipes:
+    0:
+        type: "shapeless"
+        amount: 1
+        ingredients: 
+            - almura\Building\bricks_block_b_sssstairs

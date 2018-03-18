@@ -1,0 +1,9 @@
+type: item
+title: Magic Cane (prop)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: false
+texture: "cep_scholar_magiccane.png"
+coords: 0 0 32 32

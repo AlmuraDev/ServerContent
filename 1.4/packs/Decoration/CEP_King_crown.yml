@@ -1,0 +1,14 @@
+type: block
+title: King's Crown
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_king.png"
+shape: "cep_king_crown.shape"
+coords:
+  - 0 64 32 32 #0
+  - 32 64 32 32 #1
+  - 64 64 32 32 #2
+  - 96 64 32 32 #3

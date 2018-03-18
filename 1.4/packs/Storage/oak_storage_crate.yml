@@ -1,0 +1,25 @@
+type: container
+title: "Oak Storage Crate \n Storage" 
+creative-tab-name: storage
+show-in-creative-tab: true
+date: 12-13-2014
+rotate: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_cep_cube.shape"
+coords:
+    - 0 32 32 32 #0(front/back)
+    - 0 32 32 32 #1(sides)
+    - 32 32 32 32 #2(top)
+    - 32 32 32 32 #3(bottom)
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - planks_oak planks_oak planks_oak
+            - planks_oak chest planks_oak
+            - planks_oak planks_oak planks_oak
+container:
+    inventory-size: 27
+    title: "Oak Storage Crate"    
+    max-stack-size: 64

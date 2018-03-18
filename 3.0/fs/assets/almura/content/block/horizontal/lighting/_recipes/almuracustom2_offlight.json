@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "A A",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:flint",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:wool",
+      "data": 0,
+      "count": 1
+    },
+    "C": {
+      "item": "minecraft:dye",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/lighting/almuracustom2_offlight",
+    "data": 0,
+    "count": 2
+  }
+}

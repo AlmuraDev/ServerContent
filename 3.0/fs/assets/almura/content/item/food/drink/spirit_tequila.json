@@ -1,0 +1,46 @@
+{
+    "item_group": "almura:drink",
+    "always_edible": true,
+    "apply": {
+        "food_level_change": {
+            "min": -2,
+            "max": -1
+        },
+        "health_change": -2,
+        "saturation_change": 4
+    },
+    "duration_ticks": 25,
+     "potion_effects": [
+        {
+            "potion": [
+                "minecraft:glowing"                
+            ],            
+            "chance": {
+                "min": 100,
+                "max": 100
+            },
+            "duration": 6000,
+            "amplifier": 1,
+            "ambient": false,
+            "show_particles": true
+        },
+        {
+            "potion": [
+                "minecraft:nausea"
+            ],
+            "curatives": {
+                "minecraft:milk": {
+                    "meta": 0
+                }                
+            },
+            "chance": {
+                "min": 100,
+                "max": 100
+            },
+            "duration": 300,
+            "amplifier": 1,
+            "ambient": false,
+            "show_particles": true
+        }
+    ]                 
+}

@@ -1,0 +1,13 @@
+type: block
+title: Italian Banner (bottom)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraft_ww2_faction6.png"
+shape: "cep_battlecraft_ww2_faction_banner.shape"
+coords:
+  - 192 96 32 32 #0
+  - 224 32 32 32 #1
+  - 224 32 32 32 #2

@@ -1,0 +1,19 @@
+type: block
+title: Steel Block
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 384 0 128 128
+hardness: 2.0
+recipes:
+    0:
+        type: shaped
+        amount: 8
+        ingredients:
+            - iron_block iron_block iron_block
+            - iron_block lava_bucket iron_block
+            - iron_block iron_block iron_block

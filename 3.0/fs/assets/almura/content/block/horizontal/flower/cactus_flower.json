@@ -1,0 +1,43 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:flower",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.1, 0.0, 0.1 ],
+                    "max": [ 0.9, 1.0, 0.9 ]
+                },
+                "collision": -1,
+                "wireframe": {
+                    "min": [ 0.1, 0.0, 0.1 ],
+                    "max": [ 0.9, 1.0, 0.9 ]
+                }
+            },
+            "hardness": 0.0,
+            "resistance": 0.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/flower/cactus_flower",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

@@ -1,0 +1,242 @@
+date: 11-10-2016
+type: crop
+title: Cloves
+texture: crop.png
+level-required: 0
+seed:
+    title: Cloves Seed
+    coords: 
+        - 512 1024 32 32
+    creative-tab-name: seeds
+    show-in-creative-tab: true
+    grass:
+        enabled: true
+        chance: 1-2
+        amount: 1-3
+    recipes:
+        0:
+            type: shapeless
+            amount: 4
+            ingredients:
+                - almura\Ingredients\clove
+soil:
+    source: farmland
+    biome:
+        enabled: disabled
+        sources:
+            plains:
+                temperature-required: 50-75.5
+                humidity-required: 50-60
+stages:
+    0:
+        coords: 
+            - 0 896 32 32
+        shape: crop-dirt.shape
+        hardness: 0
+        resistance: 1
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:
+            emission: 0
+            opacity: 0
+            required:
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    1:
+        coords: 
+            - 0 896 32 32
+            - 32 896 32 32
+            - 64 896 32 32
+        shape: crop-dirt.shape
+        hardness: 0
+        resistance: 1
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:
+            emission: 0
+            opacity: 0
+            required:
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    2:
+        coords: 
+            - 0 1024 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    3:
+        coords: 
+            - 128 1024 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    4:
+        coords: 
+            - 256 1024 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+    5:
+        coords: 
+            - 384 1024 128 128
+        shape: crop-1h.shape
+        hardness: 0
+        resistance: 0        
+        hydration:
+            enabled: false
+            sources:
+                water:
+                    needed-promixity: 5
+        fertilizer:
+            enabled: true
+            sources:
+                bonemeal:
+                     amount: 5
+        light:            
+            emission: 0
+            opacity: 0
+            required: 
+                enabled: true
+                min: 6
+                max: 15
+        growth:
+            chance: 50-80
+        collision:
+            enabled: false
+            sources:
+                player:
+                    health-change: 0
+                skeleton:
+                    health-change: 0
+        break:
+            tools:
+                none:
+                    drops:
+                        almura\Ingredients\clove:
+                            amount: 1-2
+                            bonus:
+                                enabled: false
+                                amount: 1-5
+                                chance: 10-15
+                almura\Tools\diamond_sickle:
+                    drops:
+                        almura\Ingredients\clove:
+                            amount: 3-4
+                            bonus:
+                                enabled: true
+                                amount: 4-5
+                                chance: 45-75

@@ -1,0 +1,15 @@
+type: tool
+title: Gold Rake
+texture: "sprouttools_gold_rake.png"
+creative-tab-name: tool
+show-in-creative-tab: true
+date: 12-28-2014
+durability: 2000
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - gold_ingot gold_ingot gold_invot
+            - air gold_ingot air
+            - air stick air

@@ -1,0 +1,14 @@
+title: "Dragon Fruit \n Food: \u00a76 +4 \u00a7f \n Stamina: \u00a76 +2"
+type: food
+texture: "dragonfruit.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 2
+    saturation-change: 1
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   

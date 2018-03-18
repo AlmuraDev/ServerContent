@@ -1,0 +1,15 @@
+title: "Crunchy Corn Taco Shell \n ingredient"
+type: item
+texture: "bread_corntaco.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 4
+        ingredients:
+            - almura\Food\corn almura\Ingredients\salt water_bucket
+            - almura\Ingredients\butter

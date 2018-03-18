@@ -1,0 +1,8 @@
+type: item
+title: Psy Orb
+creative-tab-name: components
+show-in-creative-tab: true
+date: 12-29-2014
+texture: runes_item_e_psy.png
+coords:
+    - 0 0 64 64

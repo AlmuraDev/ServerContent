@@ -1,0 +1,13 @@
+type: block
+title: Dagger in Wall
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_dagger_note_wall.shape"
+coords:
+  - 128 0 32 32 #0
+  - 0 0 32 32 #1
+  - 0 0 32 32 #2

@@ -1,0 +1,77 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+#bottomandback-32x32-texture
+  - texture: 0
+    coords: |
+      1 0 0
+      1 0 1
+      0 0 1
+      0 0 0
+  - texture: 0
+    coords: |
+      0 0 0
+      0 1 0
+      1 1 0
+      1 0 0
+#base-32x16-texture
+  - texture: 1
+    coords: |
+      0 0 1
+      0 0.5 1
+      0 0.5 0
+      0 0 0
+  - texture: 1
+    coords: |
+      1 0 1
+      1 0.5 1
+      0 0.5 1
+      0 0 1
+#firststep
+  - texture: 1
+    coords: |
+      1 0.5 1
+      1 0.5 0.5
+      0 0.5 0.5
+      0 0.5 1
+#base-32x16-texturemirrored
+  - texture: 1
+    coords: |
+      1 0 0
+      1 0.5 0
+      1 0.5 1
+      1 0 1
+#secondstep-32x16-texture
+  - texture: 2
+    coords: |
+      1 1 0.5
+      1 1 0
+      0 1 0
+      0 1 0.5
+  - texture: 2
+    coords: |
+      1 0.5 0.5
+      1 1 0.5
+      0 1 0.5
+      0 0.5 0.5
+
+#topside-16x16
+  - texture: 3
+    coords: |
+      0 0.5 0.5
+      0 1 0.5
+      0 1 0
+      0 0.5 0
+
+#topside-16x16-mirrored
+  - texture: 4
+    coords: |
+      1 0.5 0
+      1 1 0
+      1 1 0.5
+      1 0.5 0.5

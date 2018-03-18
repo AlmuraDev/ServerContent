@@ -1,0 +1,14 @@
+type: block
+title: Shelf with Bottles
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_innkeeper_shelf.png"
+shape: "cep_innkeeper_shelf.shape"
+coords:
+    - 256 0 64 64 #0-goods
+    - 0 0 64 64 #1-wood
+    - 64 0 64 64 #2-ringinnershelf
+    - 128 0 64 64 #3-frontface

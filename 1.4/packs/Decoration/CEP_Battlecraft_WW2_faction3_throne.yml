@@ -1,0 +1,14 @@
+type: block
+title: Chair With Emblem (UK)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraft_ww2_faction3.png"
+shape: "cep_battlecraft_ww2_faction_throne.shape"
+coords:
+  - 64 32 32 32 #0
+  - 96 32 32 32 #1
+  - 128 32 32 32 #2
+  - 160 32 32 32 #3

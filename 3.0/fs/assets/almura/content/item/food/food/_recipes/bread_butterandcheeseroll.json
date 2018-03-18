@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/dough",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/cheese",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/butter",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/bread_butterandcheeseroll",
+    "data": 0,
+    "count": 1
+  }
+}

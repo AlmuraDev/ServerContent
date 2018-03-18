@@ -1,0 +1,23 @@
+type: container
+title: "Dark Oak Storage Crate \n Storage"
+creative-tab-name: storage
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_carpenter.png"
+shape: "cep_carpenter_cube.shape"
+coords: 
+    - 64 64 32 32
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - planks_dark_oak planks_dark_oak planks_dark_oak
+            - planks_dark_oak chest planks_dark_oak
+            - planks_dark_oak planks_dark_oak planks_dark_oak
+container:
+    inventory-size: 27
+    title: "Dark Oak Storage Crate"    
+    max-stack-size: 64

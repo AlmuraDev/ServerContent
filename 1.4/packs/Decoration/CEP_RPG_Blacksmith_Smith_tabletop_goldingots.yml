@@ -1,0 +1,13 @@
+type: block
+title: Stack of Gold Ingots
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: true
+transparency: true
+texture: "cep_rpg_blacksmith_smith.png"
+shape: "cep_rpg_blacksmith_smith_ingots.shape"
+rotate: true
+coords:
+  - 0 32 32 32 #0

@@ -1,0 +1,12 @@
+type: block
+title: Iron Chain
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-29-2014
+rotate: 
+    enabled: false
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_ironchain.shape"
+coords:
+  - 96 32 32 32 #0
+  - 0 0 32 32 #1

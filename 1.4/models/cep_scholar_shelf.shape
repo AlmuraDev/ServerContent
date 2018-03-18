@@ -1,0 +1,99 @@
+bounds:
+    use-vanilla-collision: false
+    collision-box: "0 0 0 1 1 1"
+    use-vanilla-wireframe: false
+    wireframe-box: "0 0 0 1 1 1" 
+    use-vanilla-block-bounds: false
+    block-bounds: "0 0 0 1 1 1"
+shapes:
+  - coords: | #top
+      0 1 1
+      1 1 1
+      1 1 0
+      0 1 0
+    texture: 1
+  - coords: | #bottom
+      1 0 1
+      0 0 1
+      0 0 0
+      1 0 0
+    texture: 1
+  - coords: | #centershelfbottom
+      0 0.53125 0
+      1 0.53125 0
+      1 0.53125 1
+      0 0.53125 1
+    texture: 1
+  - coords: | #topshelfbottom
+      0 0.90625 0
+      1 0.90625 0
+      1 0.90625 1
+      0 0.90625 1
+    texture: 1
+  - coords: | #centershelftop 
+      0 0.59375 1
+      1 0.59375 1
+      1 0.59375 0
+      0 0.59375 0
+    texture: 2
+  - coords: | #bottmshelftop 
+      0 0.1875 1
+      1 0.1875 1
+      1 0.1875 0
+      0 0.1875 0
+    texture: 2
+  - coords: | #outterlayerfront
+      1 0 1
+      1 1 1
+      0 1 1
+      0 0 1
+    texture: 3
+  - coords: | #thegoods
+      1 0 0.875
+      1 1 0.875
+      0 1 0.875
+      0 0 0.875
+    texture: 0
+  - coords: | #outerlayer-innerside
+      0 0 0.9375
+      0 1 0.9375
+      1 1 0.9375
+      1 0 0.9375
+    texture: 3
+  - coords: | #outerlayer-innerside
+      1 0 0.0625
+      1 1 0.0625
+      0 1 0.0625
+      0 0 0.0625
+    texture: 3
+  - coords: | #outterlayerb
+      0 0 0
+      0 1 0
+      1 1 0
+      1 0 0
+    texture: 1
+  - coords: | #outterlayerb
+      1 0 0
+      1 1 0
+      1 1 1
+      1 0 1
+    texture: 1
+  - coords: | #outterlayerb
+      0 0 1
+      0 1 1
+      0 1 0
+      0 0 0
+    texture: 1
+  - coords: | #outerlayer-innerside
+      0.0625 0 0
+      0.0625 1 0
+      0.0625 1 1
+      0.0625 0 1
+    texture: 1
+  - coords: | #outerlayer-innerside
+      0.9375 0 1
+      0.9375 1 1
+      0.9375 1 0
+      0.9375 0 0
+    texture: 1
+

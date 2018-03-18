@@ -1,0 +1,15 @@
+title: "K-7 BBQ Sauce \n ingredient"
+type: item
+texture: "barbecuesauce.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 1
+        ingredients:
+            - sugar almura\Food\tomato almura\Ingredients\garlic
+            - almura\Ingredients\salt almura\Food\chilipepper almura\Ingredients\vinegar

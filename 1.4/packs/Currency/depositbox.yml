@@ -1,0 +1,15 @@
+type: block
+title: "Coin Exchange \n Exchange your Coins Here"
+creative-tab-name: currency
+show-in-creative-tab: true
+date: 8-20-2015
+texture: lamp_lamp.png
+coords:
+    - 256 384 256 256
+    - 256 384 256 256
+    - 0 384 256 256
+    - 256 384 256 256
+    - 256 384 256 256
+    - 256 384 256 256
+shape: kitchenblocks.shape
+hardness: 5.0

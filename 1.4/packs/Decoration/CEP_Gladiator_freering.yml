@@ -1,0 +1,13 @@
+type: block
+title: Iron Ring
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_freering.shape"
+coords:
+  - 128 64 32 32 #0
+  - 160 64 32 32 #1
+  - 0 0 32 32 #2

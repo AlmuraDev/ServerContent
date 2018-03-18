@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    " AB",
+    " CD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_powder",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:coal",
+      "data": 0,
+      "count": 1
+    },
+    "C": {
+      "item": "minecraft:glass",
+      "data": 0,
+      "count": 1
+    },
+    "D": {
+      "item": "minecraft:string",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/lighting/almuracustom1_walllight",
+    "data": 0,
+    "count": 2
+  }
+}

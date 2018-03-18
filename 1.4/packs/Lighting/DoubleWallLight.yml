@@ -1,0 +1,27 @@
+type: block
+title: Double Wall Light
+creative-tab-name: lighting
+show-in-creative-tab: true
+date: 12-31-2014
+rotate: 
+    enabled: true
+texture: almuracustom1_almuracustom3.png
+coords:
+    - 640 896 128 128
+    - 512 896 16 32
+    - 528 896 16 32
+    - 544 896 16 32
+    - 560 896 16 32
+    - 576 896 16 32
+    - 592 896 16 32
+    - 608 896 16 32
+    - 624 896 16 32
+    - 768 896 128 128
+shape: doublewalllight.shape
+render:
+    normal-cube: false
+    opaque: true
+hardness: 1.0
+light:
+    emission: 15
+    opacity: 0

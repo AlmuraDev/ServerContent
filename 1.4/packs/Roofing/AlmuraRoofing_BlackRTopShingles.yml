@@ -1,0 +1,14 @@
+type: block
+title: Black Rounded Top Shingles
+creative-tab-name: roofing
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: almuraroofing_shingles.png
+coords:
+    - 576 192 64 64
+    - 640 192 64 64
+    - 0 320 64 64
+shape: almuraroofing_topshingles.shape
+hardness: 1.5

@@ -1,0 +1,14 @@
+type: block
+title: Polearm Display (wall mounted)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_gladiator.png"
+shape: "cep_gladiator_walldisplay.shape"
+coords:
+  - 0 0 32 32 #0(1x1)
+  - 160 192 32 64 #1(1x2)
+  - 0 0 32 32 #2(2x1)
+  - 0 0 32 32 #3(alwaysempty)

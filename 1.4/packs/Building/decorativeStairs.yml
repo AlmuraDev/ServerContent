@@ -1,0 +1,15 @@
+type: stairs
+title: Decorative Stairs
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+rotate: 
+    enabled: true
+texture: almuraroofing_shingles.png
+coords:
+    - 0 640 128 128
+    - 128 640 64 128
+    - 256 640 128 64
+    - 384 640 128 128
+    - 512 640 128 128
+hardness: 1.0

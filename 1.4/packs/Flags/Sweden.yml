@@ -1,0 +1,14 @@
+type: block
+title: Sweden
+creative-tab-name: flags
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: flags3.png
+coords:
+    - 0 0 32 32
+    - 32 0 32 32
+    - 0 32 32 32
+    - 32 32 32 32
+shape: flags.shape

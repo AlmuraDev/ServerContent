@@ -1,0 +1,14 @@
+type: block
+title: Ammo Box
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_cep_cube.shape"
+coords:
+  - 0 192 32 32 #0(front/back)
+  - 0 128 32 32 #1(sides)
+  - 32 128 32 32 #2(top)
+  - 32 128 32 32 #3(bottom)

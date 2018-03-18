@@ -1,0 +1,14 @@
+title: "Head of Lettuce \n Food: \u00a76 +1"
+type: food
+texture: "lettuce.png"
+creative-tab-name: foods
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: 1
+    saturation-change: 0
+    health-change: 0
+    wolf-favorite: false
+    always-edible: false   

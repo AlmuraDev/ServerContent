@@ -1,0 +1,8 @@
+title: "Platinum Coin \n Worth: 1,000,000.00"
+type: item
+texture: "almuracustom1_platinumcoin.png"
+creative-tab-name: currency
+show-in-creative-tab: true
+date: 8-19-2015
+coords:
+  - 0 0 128 128 #0

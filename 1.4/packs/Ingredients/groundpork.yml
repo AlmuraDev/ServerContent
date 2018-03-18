@@ -1,0 +1,107 @@
+title: "Ground Pork \n ingredient"
+type: item
+texture: "groundpork.png"
+creative-tab-name: ingredients
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+recipes:
+    0:
+        type: shapeless
+        amount: 8
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+            - porkchop porkchop porkchop
+            - porkchop porkchop porkchop
+    1:
+        type: shapeless
+        amount: 7
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+            - porkchop porkchop porkchop
+            - porkchop porkchop
+    2:
+        type: shapeless
+        amount: 6
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+            - porkchop porkchop porkchop
+            - porkchop
+    3:
+        type: shapeless
+        amount: 5
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+            - porkchop porkchop porkchop
+    4:
+        type: shapeless
+        amount: 4
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+            - porkchop porkchop
+    5:
+        type: shapeless
+        amount: 3
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+            - porkchop
+    6:
+        type: shapeless
+        amount: 2
+        ingredients: 
+            - almura\Tools\grinder porkchop porkchop
+    7:
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Tools\grinder porkchop
+    8:
+        type: shapeless
+        amount: 8
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+    9:
+        type: shapeless
+        amount: 7
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+    10:
+        type: shapeless
+        amount: 6
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw
+    11:
+        type: shapeless
+        amount: 5
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+    12:
+        type: shapeless
+        amount: 4
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+    13:
+        type: shapeless
+        amount: 3
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+            - almura\Ingredients\porkbelly_raw
+    14:
+        type: shapeless
+        amount: 2
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw almura\Ingredients\porkbelly_raw
+    15:
+        type: shapeless
+        amount: 1
+        ingredients: 
+            - almura\Tools\grinder almura\Ingredients\porkbelly_raw

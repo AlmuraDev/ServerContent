@@ -1,0 +1,58 @@
+{
+    "item_group": "almura:food",
+    "always_edible": true,
+    "apply": {
+        "food_level_change": {
+            "min": 2,
+            "max": 4
+        },
+        "health_change": 5,
+        "saturation_change": 5
+    },
+    "duration_ticks": 32,
+    "potion_effects": [
+        {
+            "potion": [
+                "minecraft:speed",
+                "minecraft:jump_boost"
+            ],
+            "curatives": {
+                "minecraft:milk": {
+                    "meta": 0
+                },
+                "minecraft:apple": {
+                    "meta": 0
+                }
+            },
+            "chance": {
+                "min": 50,
+                "max": 75
+            },
+            "duration": 400,
+            "amplifier": 1,
+            "ambient": false,
+            "show_particles": true
+        },
+        {
+            "potion": [
+                "minecraft:regeneration"
+            ],
+            "curatives": {
+                "minecraft:milk": {
+                    "meta": 0
+                },
+                "minecraft:apple": {
+                    "meta": 0
+                }
+            },
+            "chance": {
+                "min": 100,
+                "max": 100
+            },
+            "duration": 400,
+            "amplifier": 1,
+            "ambient": false,
+            "show_particles": true
+        }
+    ]
+}

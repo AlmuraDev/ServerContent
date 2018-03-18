@@ -1,0 +1,15 @@
+type: block
+title: "City Token Exchange \n Exchange your City Token Here"
+creative-tab-name: currency
+show-in-creative-tab: true
+date: 8-20-2015
+texture: cep_shaman_shaman.png
+coords:
+    - 256 384 256 256
+    - 256 384 256 256
+    - 0 640 256 256
+    - 256 384 256 256
+    - 256 384 256 256
+    - 256 384 256 256
+shape: kitchenblocks.shape
+hardness: 5.0

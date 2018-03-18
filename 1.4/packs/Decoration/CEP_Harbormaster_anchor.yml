@@ -1,0 +1,13 @@
+type: block
+title: Ship's Anchor
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_harbormaster.png"
+shape: "cep_harbormaster_anchor.shape"
+coords:
+  - 32 0 32 32 #0
+  - 64 0 32 32 #1
+  - 96 0 32 32 #2

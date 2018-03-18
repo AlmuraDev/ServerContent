@@ -1,0 +1,11 @@
+{
+    "volume": 0.1,
+    "pitch": 0.1,
+    "sound": {
+        "break": "block.gravel.break",
+        "step": "block.ladder.step",
+        "place": "block.cloth.place",
+        "hit": "block.glass.hit",
+        "fall": "block.anvil.fall"
+    }
+}

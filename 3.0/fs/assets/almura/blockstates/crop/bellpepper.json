@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "model": "almura:crop/common/sprout_0.obj"
+            },
+            "1": {
+                "model": "almura:crop/common/sprout_1.obj"
+            },
+            "2": {
+                "model": "almura:crop/bellpepper/bellpepper_2.obj"
+            },
+            "3": {
+                "model": "almura:crop/bellpepper/bellpepper_3.obj"
+            },
+            "4": {
+                "model": "almura:crop/bellpepper/bellpepper_4.obj"
+            }
+        }
+    }
+}

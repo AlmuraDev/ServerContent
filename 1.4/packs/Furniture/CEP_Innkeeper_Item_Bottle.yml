@@ -1,0 +1,8 @@
+type: item
+title: Beer Bottle 
+texture: "cep_innkeeper_beerbottle.png"
+coords: 
+    - 224 64 32 32
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-28-2014

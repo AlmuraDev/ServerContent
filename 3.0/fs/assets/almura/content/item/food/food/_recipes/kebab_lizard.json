@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/lizard",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/kebab_lizard",
+    "data": 0,
+    "count": 1
+  }
+}

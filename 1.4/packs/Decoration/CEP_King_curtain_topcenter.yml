@@ -1,0 +1,13 @@
+type: block
+title: Red Curtain (top center)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_king.png"
+shape: "cep_king_curtain.shape"
+coords:
+  - 0 128 32 32 #0
+  - 32 128 32 32 #1
+  - 64 160 32 32 #2(nothing)

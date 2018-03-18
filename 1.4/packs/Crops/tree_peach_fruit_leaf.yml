@@ -1,0 +1,56 @@
+date: 09-25-15
+title: Peach Tree Fruit Leaves
+type: leaves
+texture: "cep_shaman_shaman.png"
+shape: "cep_forester_cube.shape"
+coords:
+    - 640 0 128 128
+    - 640 0 128 128
+creative-tab-name: building
+show-in-creative-tab: true
+hardness: 0.2
+resistance: 1
+level-required: 18
+fuel:
+    enabled: true
+    max-burn-time: 100
+light:
+    emission: 0
+    opacity: 0
+    required:
+        enabled: false
+        min: 1
+        max: 3
+decay:
+    enabled: true
+    drops:
+        almura\Crops\tree_peach_sapling:
+            amount: 1-2
+            data: 0 
+    prevents-decay:
+        - almura\Building\CEP_Forester_wood24_log
+break:
+    enabled: true
+    tools:
+        minecraft\shears:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Food\peach:
+                    amount: 1-2
+                    data: 0
+                    bonus:
+                        enabled: true
+                        amount: 1-5
+                        chance: 10-15
+        none:
+            experience: 0
+            exhaustion-change: 0
+            drops:
+                almura\Food\peach:
+                    amount: 1-2
+                    data: 0
+                    bonus:
+                        enabled: false
+                        amount: 1-5
+                        chance: 10-15

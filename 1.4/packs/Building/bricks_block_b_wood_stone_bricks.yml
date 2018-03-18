@@ -1,0 +1,33 @@
+type: block
+title: Advanced Small Stone Bricks (Wood)
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-27-2014
+texture: "bricks_block_b_wood_stone_bricks.png"
+shape: "bricks_cep_cube2.shape"
+coords:
+    - 128 0 64 64
+    - 64 0 64 64
+    - 0 0 64 64 
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - almura\Building\bricks_block_b_darkwood air air
+            - almura\Building\bricks_block_b_ssbricks air air 
+            - almura\Building\bricks_block_b_ssbricks air air
+    1:
+        type: shaped
+        amount: 1
+        ingredients:
+            - air almura\Building\bricks_block_b_darkwood air
+            - air almura\Building\bricks_block_b_ssbricks air 
+            - air almura\Building\bricks_block_b_ssbricks air
+    2:
+        type: shaped
+        amount: 1
+        ingredients:
+            - air air almura\Building\bricks_block_b_darkwood
+            - air air almura\Building\bricks_block_b_ssbricks
+            - air air almura\Building\bricks_block_b_ssbricks

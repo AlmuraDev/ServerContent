@@ -1,0 +1,13 @@
+type: block
+title: Sandbag Wall (slab)
+creative-tab-name: decoration
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: "cep_battlecraftww2.png"
+shape: "cep_battlecraftww2_sandbags_slab.shape"
+coords:
+  - 160 0 32 32 #0
+  - 160 48 32 16 #1
+  - 192 48 32 16 #2

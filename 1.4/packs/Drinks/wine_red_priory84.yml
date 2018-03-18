@@ -1,0 +1,14 @@
+title: "Greenwood Priory Special Vintage 84 \n Food: \u00A7c -2 \u00A7f \n Stamina: \u00A76 +5 \u00A7f \n Health: \u00A76 +5"
+type: food
+texture: "wine_red_priory84.png"
+creative-tab-name: drinks
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+  - 0 0 32 32 #0
+consumption:    
+    food-change: ^2
+    saturation-change: 5
+    health-change: 5
+    wolf-favorite: false
+    always-edible: false  

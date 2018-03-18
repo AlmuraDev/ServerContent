@@ -1,0 +1,24 @@
+type: block
+title: Tile Topped Bar (side)
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-13-2014
+rotate: 
+    enabled: true
+texture: "cep_innkeeper.png"
+shape: "cep_innkeeper_bar.shape"
+coords:
+    - 0 96 32 32 #0
+    - 32 96 32 32 #1
+    - 64 96 32 32 #2
+    - 96 96 32 32 #3
+    - 128 96 32 32 #4
+    - 160 96 32 32 #5
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients:
+            - planks almura\Building\marbleTile planks
+            - planks air planks
+            - planks air planks

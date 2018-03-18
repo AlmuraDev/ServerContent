@@ -1,0 +1,17 @@
+type: block
+title: Advanced Cobblestone
+texture: "bricks_block_b_cobble1.png"
+coords:
+    - 0 0 64 64
+shape: "bricks_cep_cube.shape"
+creative-tab-name: building
+show-in-creative-tab: true
+date: 12-6-2014
+recipes:
+    0:
+        type: shaped
+        amount: 1
+        ingredients: 
+            - air air air
+            - air cobblestone air
+            - air air cobblestone

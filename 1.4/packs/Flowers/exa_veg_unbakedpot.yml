@@ -1,0 +1,8 @@
+type: item
+title: Unbaked Clay Pot
+texture: exa_veg_unbakedpot.png
+creative-tab-name: flowers
+show-in-creative-tab: true
+date: 12-28-2014
+coords:
+    - 0 0 120 120

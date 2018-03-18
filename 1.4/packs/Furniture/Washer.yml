@@ -1,0 +1,17 @@
+type: block
+title: Washer
+creative-tab-name: furniture
+show-in-creative-tab: true
+date: 12-13-2014
+rotate: 
+    enabled: true
+texture: seedbarrels.png
+coords:
+    - 128 960 64 64
+    - 128 960 64 64
+    - 64 960 64 64
+    - 128 960 64 64
+    - 128 960 64 64
+    - 128 960 64 64
+shape: kitchenblocks.shape
+hardness: 1.5

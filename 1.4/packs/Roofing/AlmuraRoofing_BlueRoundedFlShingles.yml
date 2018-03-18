@@ -1,0 +1,14 @@
+type: block
+title: Blue Rounded Flat Shingles
+creative-tab-name: roofing
+show-in-creative-tab: true
+date: 12-28-2014
+rotate: 
+    enabled: true
+texture: almuraroofing_shingles.png
+coords:
+    - 0 64 64 64
+    - 0 64 64 64
+    - 0 960 64 64
+shape: almuraroofing_flatshingles.shape
+hardness: 1.5
