@@ -10,7 +10,7 @@
                     {
                         "drop": [
                             {
-                                "item": "almura:log/doku_tree_log",
+                                "item": "almura:food/food/kiwi",
                                 "amount": 1
                             }
                         ]

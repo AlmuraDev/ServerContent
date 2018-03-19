@@ -10,8 +10,8 @@
                     {
                         "drop": [
                             {
-                                "item": "almura:log/doku_tree_log",
-                                "amount": 1
+                                "item": "almura:food/food/walnut",
+                                "amount": 4
                             }
                         ]
                     }

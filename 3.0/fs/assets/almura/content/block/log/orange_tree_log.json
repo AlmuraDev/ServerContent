@@ -1,0 +1,10 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "item_group": "almura:tree",
+    "state": {
+        "normal": {
+            "resistance": 10.0
+        }
+    }
+}
