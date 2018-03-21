@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:sapling/lemon_tree_sapling.obj",
+        "model": "almura:sapling/lemon_tree_sapling",
         "transform": "forge:default-block"
     },
 
@@ -12,12 +12,12 @@
             // Stage when not grown yet
             "0": {
                 // Model to be used during this stage
-                "model": "almura:sapling/lemon_tree_sapling.obj"
+                "model": "almura:sapling/lemon_tree_sapling"
             },
             // Stage when grown into a tree, technically isn't seen as a tree generates at this stage currently.
             "1": {
                 // Model to be used during this stage
-                "model": "almura:sapling/lemon_tree_sapling.obj"
+                "model": "almura:sapling/lemon_tree_sapling"
             }
         }
     }
