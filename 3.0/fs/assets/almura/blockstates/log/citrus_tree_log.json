@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:log/lemon_tree_log",
+        "model": "almura:log/citrus_tree_log",
         "transform": "forge:default-block"
     },
     "variants": {

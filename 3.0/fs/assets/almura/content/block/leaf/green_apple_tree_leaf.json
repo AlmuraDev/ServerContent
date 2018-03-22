@@ -7,9 +7,6 @@
             "flammability": 30,  // 30 == default
             "fire_spread_speed": 60,  // 60 = default
             "resistance": 10.0,
-            "action": {
-                // Destroy logic, Zidane may add support for specifying drop with shears                
-                // Decay logic
                 "action": {
                 "destroy": [
                     {
