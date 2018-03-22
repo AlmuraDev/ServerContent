@@ -1,6 +1,7 @@
 {
     "material": "minecraft:ground",
     "map_color": "minecraft:dirt",
+    "render_layer": "cutout_mipped",
     "item_group": "almura:lighting",
     "state": {
         "facing=east": {
