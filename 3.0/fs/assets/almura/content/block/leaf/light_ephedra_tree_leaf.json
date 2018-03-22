@@ -1,11 +1,55 @@
 {
-    "material": "minecraft:rock",
-    "map_color": "minecraft:stone",
-	"render_layer": "cutout_mipped",
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
     "item_group": "almura:tree",
     "state": {
         "normal": {
-            "resistance": 10.0
+            "flammability": 30,  // 30 == default
+            "fire_spread_speed": 60,  // 60 = default
+            "resistance": 10.0,
+            "action": {
+                // Destroy logic, Zidane may add support for specifying drop with shears                
+                // Decay logic
+                "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:sapling/light_ephedra_tree_sapling",
+                                "amount": 0,
+                                "bonus": {
+                                    "amount": 1,
+                                    "chance": 25
+                                }
+                            }
+                        ]
+                    }
+                ],            
+                "decay": [
+                    {
+                        "chance": [
+                            {
+                                "biome": [
+                                    "minecraft",
+                                    "terraincontrol"
+                                ],
+                                "min": 0,
+                                "max": 10
+                            },
+                            {
+                                "min": 0,
+                                "max": 10
+                            }
+                        ],
+                        "drop": [
+                            {
+                                "item": "almura:sapling/light_ephedra_tree_sapling",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 {
     "material": "minecraft:rock",
     "map_color": "minecraft:stone",
-	"render_layer": "cutout_mipped",
+    "render_layer": "cutout_mipped",
     "item_group": "almura:tree",
     "state": {
         "normal": {
@@ -9,6 +9,31 @@
             "action": {
                 "destroy": [
                     {
+                        "drop": [
+                            {
+                                "item": "almura:food/food/plum",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ],
+                // Decay logic
+                "decay": [
+                    {
+                        "chance": [
+                            {
+                                "biome": [
+                                    "minecraft",
+                                    "terraincontrol"
+                                ],
+                                "min": 10,
+                                "max": 20
+                            },
+                            {
+                                "min": 0,
+                                "max": 10
+                            }
+                        ],
                         "drop": [
                             {
                                 "item": "almura:food/food/plum",
