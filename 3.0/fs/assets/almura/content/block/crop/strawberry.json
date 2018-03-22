@@ -1,7 +1,7 @@
 {
     "map_color": "minecraft:dirt",
     "material": "minecraft:ground",
-    "render_layer": "cutout_mipped",
+    "render_layer": "translucent",
     "seed": "almura:seed/strawberry_seed",
     "state": {
         "age=0": {
