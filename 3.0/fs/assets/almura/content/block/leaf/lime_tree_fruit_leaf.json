@@ -1,7 +1,7 @@
 {
     "material": "minecraft:rock",
     "map_color": "minecraft:stone",
-    "render_layer": "cutout_mipped",
+    "render_layer": "translucent",
     "item_group": "almura:tree",
     "state": {
         "normal": {

@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:leaf/cherry_tree_fruit_leaf.obj",
+        "model": "almura:leaf/cherry_tree_fruit_leaf",
         "transform": "forge:default-block"
     },
     "variants": {

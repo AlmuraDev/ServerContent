@@ -1,4 +1,5 @@
 {
+    "big": true,
     "height": [
         // Specifies the biome the settings apply to, can be specific to a biome or to a domain
         {
@@ -7,19 +8,19 @@
                 "terraincontrol"
             ],
             // The minimum height of the tree trunk
-            "min": 3,
+            "min": 15,
             // The variance applied to the minimum height (min+/-)
             "variance": {
                 "min": 0,
-                "max": 3
+                "max": 10
             }
         },
         // Defaults for non-biome specific settings
         {
-            "min": 3,
+            "min": 15,
             "variance": {
                 "min": 0,
-                "max": 3
+                "max": 10
             }
         }
     ],

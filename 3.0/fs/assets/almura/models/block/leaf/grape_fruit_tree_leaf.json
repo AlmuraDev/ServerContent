@@ -1,0 +1,6 @@
+{
+    "parent": "almura:block/leaf/leaf",
+    "textures": {
+        "leaf": "almura:block/leaf/grape_fruit_tree_leaf"
+    }
+}

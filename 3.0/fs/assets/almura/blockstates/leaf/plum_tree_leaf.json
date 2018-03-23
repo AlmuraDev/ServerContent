@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:leaf/plum_tree_leaf.obj",
+        "model": "almura:leaf/plum_tree_leaf",
         "transform": "forge:default-block"
     },
     "variants": {

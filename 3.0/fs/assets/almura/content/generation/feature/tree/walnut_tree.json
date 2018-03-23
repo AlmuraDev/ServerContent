@@ -14,7 +14,9 @@
         {
             "biome": [
                 "minecraft:forest",
+                "minecraft:roofed_forest",
                 "minecraft:plains",
+                "minecraft:savanna",
                 "terraincontrol"
             ],
             "min": 0,

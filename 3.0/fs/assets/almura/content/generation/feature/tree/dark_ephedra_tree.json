@@ -13,9 +13,7 @@
         // Biome specific chance of generating
         {
             "biome": [
-                "minecraft:forest",
-                "minecraft:plains",
-                "terraincontrol"
+                "minecraft:swampland"
             ],
             "min": 0,
             "max": 10

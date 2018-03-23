@@ -18,7 +18,7 @@
                 "terraincontrol"
             ],
             "min": 0,
-            "max": 10
+            "max": 0
         },
         // Global chance of generating
         {

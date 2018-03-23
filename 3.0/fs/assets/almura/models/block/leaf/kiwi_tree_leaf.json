@@ -1,0 +1,6 @@
+{
+    "parent": "almura:block/leaf/leaf",
+    "textures": {
+        "leaf": "almura:block/leaf/kiwi_tree_leaf"
+    }
+}

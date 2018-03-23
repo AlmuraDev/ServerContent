@@ -1,6 +1,7 @@
 {
     "material": "minecraft:ground",
     "map_color": "minecraft:dirt",
+    "render_layer": "translucent",
     "item_group": "almura:tree",
     "state": {
         "normal": {

@@ -15,6 +15,7 @@
             "biome": [
                 "minecraft:forest",
                 "minecraft:plains",
+                "minecraft:swampland",
                 "terraincontrol"
             ],
             "min": 0,
