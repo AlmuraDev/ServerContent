@@ -1,0 +1,22 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "item_group": "minecraft:buildingblocks",
+    "block": "minecraft:stonebrick",
+    "state": {
+        "normal": {
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/stonebrick_cracked_stair",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
