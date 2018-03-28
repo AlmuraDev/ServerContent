@@ -5,7 +5,19 @@
     "item_group": "almura:tree",
     "state": {
         "normal": {
-            "resistance": 10.0
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:log/kiwi_tree_log",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }        
         }
     }
 }
