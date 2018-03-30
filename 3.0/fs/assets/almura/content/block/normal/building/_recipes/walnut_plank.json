@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:log/walnut_tree_log",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:normal/building/walnut_plank",
+    "data": 0,
+    "count": 4
+  }
+}
