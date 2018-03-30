@@ -2,7 +2,7 @@
     "material": "minecraft:ground",
     "map_color": "minecraft:dirt",
     "render_layer": "solid",
-    "item_group": "almura:building",
+    "item_group": "almura:decoration",
     "state": {
         "facing=east": {
             "parent": "facing=north"
@@ -14,11 +14,11 @@
             "aabb": {
                 "shape": {
                     "min": [ 0.0, 0.0, 0.0 ],
-                    "max": [ 1.0, 1.5, 1.0 ]
+                    "max": [ 1.0, 1.0, 1.0 ]
                 },
                 "wireframe": {
                     "min": [ 0.0, 0.0, 0.0 ],
-                    "max": [ 1.0, 1.5, 1.0 ]
+                    "max": [ 1.0, 1.0, 1.0 ]
                 }
             },
             "resistance": 10.0,
@@ -27,7 +27,7 @@
                     {
                         "drop": [
                             {
-                                "item": "almura:horizontal/building/cep_carpenter_logsaw",
+                                "item": "almura:horizontal/decoration/log_trough",
                                 "amount": 1
                             }
                         ]

@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:cep_carpenter_logsaw.obj",
+        "model": "almura:decoration/doku_log_saw.obj",
         "transform": "forge:default-block"
     },
     "variants": {

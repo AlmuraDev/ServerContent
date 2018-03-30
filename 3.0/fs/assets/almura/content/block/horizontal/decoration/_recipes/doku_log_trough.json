@@ -1,24 +1,24 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "ABA",
     "A A",
-    "AAA"
+    "AAA",
+    "BBB"
   ],
   "key": {
     "A": {
-      "item": "minecraft:planks",
+      "item": "minecraft:iron_ingot",
       "data": 0,
       "count": 1
     },
     "B": {
-      "item": "minecraft:iron_ingot",
+      "item": "almura:normal/building/doku_plank",
       "data": 0,
       "count": 1
-    }
+    }    
   },
   "result": {
-    "item": "almura:horizontal/building/cep_carpenter_logsaw",
+    "item": "almura:horizontal/decoration/doku_log_trough",
     "data": 0,
     "count": 1
   }
