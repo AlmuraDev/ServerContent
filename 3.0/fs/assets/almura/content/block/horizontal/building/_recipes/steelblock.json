@@ -1,25 +1,14 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "AAA",
-    "ABA",
-    "AAA"
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:iron_block",
-      "data": 0,
-      "count": 1
-    },
-    "B": {
-      "item": "minecraft:lava_bucket",
-      "data": 0,
-      "count": 1
-    }
+  "type": "furnace",
+  "input": {
+    "item": "minecraft:iron_block",
+    "data": 0,
+    "count": 1
   },
-  "result": {
+  "output": {
     "item": "almura:horizontal/building/steelblock",
     "data": 0,
-    "count": 8
-  }
+    "count": 1
+  },
+  "experience": 0.0
 }
