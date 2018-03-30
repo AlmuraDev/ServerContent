@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:stair/mossy_stonebrick_stair"
+        "model": "almura:stair/stonebrick_mossy_stair"
     },
     "variants": {
         "inventory": [{}],
