@@ -1,0 +1,22 @@
+{
+    "material": "minecraft:gravel",
+    "map_color": "minecraft:gravel",
+    "item_group": "minecraft:buildingblocks",
+    "block": "minecraft:gravel",
+    "state": {
+        "normal": {
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/gravel_stair",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

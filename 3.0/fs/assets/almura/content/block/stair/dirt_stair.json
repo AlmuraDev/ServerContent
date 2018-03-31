@@ -1,0 +1,22 @@
+{
+    "material": "minecraft:dirt",
+    "map_color": "minecraft:dirt",
+    "item_group": "minecraft:buildingblocks",
+    "block": "minecraft:dirt",
+    "state": {
+        "normal": {
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/dirt_stair",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

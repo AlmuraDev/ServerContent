@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dirt",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:stair/dirt_stair",
+    "data": 0,
+    "count": 4
+  }
+}
