@@ -11,7 +11,7 @@
                     "max": [1.0, 0.15, 1.0]
                 }
             },
-            "can_rollback": false,
+            "can_rollback": true,
             "growth": {
                 "chance": [
                     {
@@ -46,6 +46,21 @@
                 }
             ],
             "hardness": 0.0,
+            "hydration": {
+                "block": [
+                    {
+                        "id": "minecraft:farmland",
+                        "state": {
+                            "level": {
+                                "type": "int range",
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    }
+                ],
+                "max_radius": 0  // Radius check around block, no Y check.
+            },
             "hydration": {
                 "block": [
                     {

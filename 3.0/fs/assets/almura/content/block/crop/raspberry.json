@@ -32,7 +32,22 @@
                     }
                 ]
             },
-            "hardness": 0.0,            
+            "hardness": 0.0,
+            "hydration": {
+                "block": [
+                    {
+                        "id": "minecraft:farmland",
+                        "state": {
+                            "level": {
+                                "type": "int range",
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    }
+                ],
+                "max_radius": 0  // Radius check around block, no Y check.
+            },            
             "fertilizer": [
                 {
                     "item": {
