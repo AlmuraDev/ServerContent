@@ -5,7 +5,8 @@
     "item_group": "almura:tree",
     "state": {
         "normal": {
-            "resistance": 10.0,
+            "hardness": 2.0,
+            "resistance": 5.0,
             "action": {
                 "destroy": [
                     {

@@ -1,0 +1,28 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:building",
+    "is_double": true,
+    "single": "almura:slab/green_apple_slab",
+    "state": {
+        "normal": {
+            "hardness": 2.0,
+            "resistance": 5.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/green_apple_slab",
+                                "amount": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+}
+}
+}

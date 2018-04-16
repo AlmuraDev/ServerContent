@@ -1,0 +1,27 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:dirt",
+    "is_double": false,
+    "single": "almura:slab/fraze_slab",
+    "state": {
+        "normal": {
+            "hardness": 2.0,
+            "resistance": 5.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/fraze_slab",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+}
+}
+}

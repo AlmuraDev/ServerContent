@@ -1,0 +1,26 @@
+{
+    "material": "minecraft:packed_ice",
+    "map_color": "minecraft:ice",
+    "is_double": false,
+    "single": "almura:slab/packed_ice",
+    "state": {
+        "normal": {
+            "hardness": 0.5,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/packed_ice",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+}
+}
+}
