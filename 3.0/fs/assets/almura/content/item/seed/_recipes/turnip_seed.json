@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:normal/ingredient/turnip",
+      "item": "almura:food/food/turnip",
       "data": 0,
       "count": 1
     }
