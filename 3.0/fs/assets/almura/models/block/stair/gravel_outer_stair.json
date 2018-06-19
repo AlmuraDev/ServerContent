@@ -1,5 +1,5 @@
 {
-    "parent": "block/outer_stairs_stone",
+    "parent": "block/stone_outer_stairs",
     "textures": {
         "bottom": "blocks/gravel",
         "top": "blocks/gravel",

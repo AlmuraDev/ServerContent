@@ -1,5 +1,5 @@
 {
-    "parent": "block/inner_stairs_stone",
+    "parent": "block/stone_inner_stairs",
     "textures": {
         "bottom": "blocks/dirt",
         "top": "blocks/dirt",
