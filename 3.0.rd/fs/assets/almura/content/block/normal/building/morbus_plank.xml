@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:ground" material-color="minecraft:dirt" item-group="almura:building">
+    <states>
+      <state hardness="2.0" resistance="5.0">
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:normal/building/morbus_plank" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

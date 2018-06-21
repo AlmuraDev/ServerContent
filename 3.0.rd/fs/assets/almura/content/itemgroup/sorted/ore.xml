@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <item-group>
+    <icon item="almura:horizontal/ore/marbleore" />
+  </item-group>
+</droplet>

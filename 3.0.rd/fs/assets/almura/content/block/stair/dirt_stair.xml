@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:dirt" material-color="minecraft:dirt" item-group="minecraft:buildingblocks" block="minecraft:dirt">
+    <states>
+      <state>
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:stair/dirt_stair" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <definition log="almura:log/green_apple_tree_log" leaves="almura:leaf/green_apple_tree_leaf">
+    <heights>
+      <height min="3">
+        <biome>
+          <any>
+            <namespace>minecraft</namespace>
+            <namespace>terraincontrol</namespace>
+          </any>
+        </biome>
+        <variance min="0" max="3" />
+      </height>
+      <height min="3" default="true">
+        <variance min="0" max="3" />
+      </height>
+    </heights>
+    <fruit block="almura:leaf/green_apple_tree_fruit_leaf" />
+    <chances>
+      <chance min="30" max="40">
+        <biome>
+          <any>
+            <namespace>minecraft</namespace>
+            <namespace>terraincontrol</namespace>
+          </any>
+        </biome>
+      </chance>
+      <chance min="30" max="40" default="true" />
+    </chances>
+  </definition>
+</droplet>

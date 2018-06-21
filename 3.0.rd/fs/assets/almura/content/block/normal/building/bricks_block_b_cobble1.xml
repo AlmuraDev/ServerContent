@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:ground" material-color="minecraft:dirt" item-group="almura:building">
+    <states>
+      <state resistance="10.0">
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:normal/building/bricks_block_b_cobble1" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:ground" material-color="minecraft:dirt" item-group="almura:crop">
+    <states>
+      <state hardness="1.0" resistance="10.0" />
+    </states>
+  </block>
+</droplet>

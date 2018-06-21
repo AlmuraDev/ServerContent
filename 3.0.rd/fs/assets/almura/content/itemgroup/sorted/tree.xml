@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <item-group>
+    <icon item="almura:log/light_ephedra_tree_log" />
+  </item-group>
+</droplet>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:ground" material-color="minecraft:dirt" item-group="almura:flower" render-layer="cutout_mipped">
+    <states>
+      <state id="east" facing="east" parent="north" />
+      <state id="south" facing="south" parent="north" />
+      <state id="north" facing="north" hardness="0.0" resistance="0.0">
+        <shape>
+          <base min="0.3, 0.0, 0.3" max="0.7, 1.0, 0.7" />
+          <collision none="true" />
+          <outline min="0.3, 0.0, 0.3" max="0.7, 1.0, 0.7" />
+        </shape>
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:horizontal/flower/timidpincussion" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+      <state id="west" facing="west" parent="north" />
+    </states>
+  </block>
+</droplet>

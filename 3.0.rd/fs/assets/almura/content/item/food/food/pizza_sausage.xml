@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <item item-group="almura:food" always-edible="true" use-duration="25">
+    <apply>
+      <food-level min="12" max="14" />
+      <health>10</health>
+      <saturation>10</saturation>
+    </apply>
+  </item>
+</droplet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <item-group>
+    <icon item="almura:horizontal/furniture/cep_carpenter_drawer2" />
+  </item-group>
+</droplet>

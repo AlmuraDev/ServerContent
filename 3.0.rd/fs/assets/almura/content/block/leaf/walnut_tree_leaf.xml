@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:ground" material-color="minecraft:dirt" item-group="almura:tree" render-layer="translucent">
+    <states>
+      <state resistance="10.0">
+        <fire encouragement="60" flammability="30" />
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:sapling/walnut_tree_sapling" quantity="0">
+                <bonus quantity="1" chance="25" />
+              </item>
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

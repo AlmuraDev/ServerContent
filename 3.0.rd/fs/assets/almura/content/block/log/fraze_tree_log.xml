@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:rock" material-color="minecraft:stone" item-group="almura:tree" render-layer="solid">
+    <states>
+      <state hardness="2.0" resistance="5.0">
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:log/fraze_tree_log" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

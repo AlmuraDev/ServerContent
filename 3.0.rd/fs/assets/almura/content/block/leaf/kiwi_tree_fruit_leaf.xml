@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:rock" material-color="minecraft:stone" item-group="almura:tree" render-layer="translucent">
+    <states>
+      <state resistance="10.0">
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:food/food/kiwi" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

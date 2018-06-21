@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:rock" material-color="minecraft:stone" item-group="minecraft:buildingblocks" render-layer="cutout_mipped" block="minecraft:stonebrick">
+    <states>
+      <state>
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:stair/stonebrick_cracked_stair" quantity="1" />
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

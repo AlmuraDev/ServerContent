@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:ground" material-color="minecraft:dirt" render-layer="translucent" seed="almura:seed/oat_seed">
+    <states>
+      <state id="0" age="0" hardness="0.0" resistance="0.0" can-rollback="false">
+        <shape>
+          <base min="0.0, 0.0, 0.0" max="1.0, 0.15, 1.0" />
+        </shape>
+        <fertilizers>
+          <fertilizer>
+            <item item="minecraft:dye" data="15" />
+            <chance min="10" max="15" default="true" />
+          </fertilizer>
+        </fertilizers>
+        <growth>
+          <chances>
+            <chance min="15" max="20" default="true" />
+          </chances>
+          <lights>
+            <light min="10" max="15" default="true" />
+          </lights>
+          <temperatures>
+            <temperature min="0.5" max="1.25" default="true" />
+          </temperatures>
+        </growth>
+      </state>
+      <state id="1" age="1" parent="0">
+        <shape>
+          <base min="0.0, 0.0, 0.0" max="1.0, 0.025, 1.0" />
+        </shape>
+      </state>
+      <state id="2" age="2" parent="1" />
+      <state id="3" age="3" parent="1">
+        <on>
+          <destroy>
+            <drop>
+              <item item="almura:normal/ingredient/oat" quantity="1">
+                <bonus quantity="1" chance="10" />
+              </item>
+            </drop>
+          </destroy>
+        </on>
+      </state>
+    </states>
+  </block>
+</droplet>

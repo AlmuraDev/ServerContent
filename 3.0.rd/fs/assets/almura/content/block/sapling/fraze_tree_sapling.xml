@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <block material="minecraft:rock" material-color="minecraft:stone" item-group="almura:tree" render-layer="translucent">
+    <states>
+      <state hardness="1.25" resistance="1000.0" tree="almura:fraze_tree" />
+    </states>
+  </block>
+</droplet>

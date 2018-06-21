@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<droplet spec="1.0.0">
+  <item item-group="almura:food" always-edible="true" use-duration="25">
+    <apply>
+      <food-level min="10" max="12" />
+      <health>3</health>
+      <saturation>10</saturation>
+    </apply>
+    <effects>
+      <effect duration="6000" amplifier="1" ambient="false" show-particles="false">
+        <potions>
+          <potion>minecraft:STRENGTH</potion>
+        </potions>
+        <chance min="100" max="100" />
+      </effect>
+    </effects>
+  </item>
+</droplet>
