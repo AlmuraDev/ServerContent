@@ -1,0 +1,41 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:decoration",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.25, 0.0, 0.55 ],
+                    "max": [ 0.5, 0.15, 0.8 ]
+                },
+                "wireframe": {
+                    "min": [ 0.25, 0.0, 0.55 ],
+                    "max": [ 0.5, 0.15, 0.8 ]
+                }
+            },
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/decoration/cep_scholar_brickpot1",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

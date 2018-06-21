@@ -1,0 +1,41 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:flag",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.4, 0.0, 0.4 ],
+                    "max": [ 0.6, 1.60, 0.6 ]
+                },
+                "wireframe": {
+                    "min": [ 0.4, 0.0, 0.4 ],
+                    "max": [ 0.6, 1.60, 0.6 ]
+                }
+            },
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/flag/cep_gladiator_faction_flag",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}
