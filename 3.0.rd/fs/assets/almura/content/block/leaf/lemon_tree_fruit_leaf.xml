@@ -9,6 +9,22 @@
               <item item="almura:food/food/lemon" quantity="1" />
             </drop>
           </destroy>
+          <decay>
+            <chances>
+              <chance min="10" max="20">
+                <biome>
+                  <any>
+                    <namespace>minecraft</namespace>
+                    <namespace>terraincontrol</namespace>
+                  </any>
+                </biome>
+              </chance>
+              <chance min="0" max="10" default="true" />
+            </chances>
+            <drop>
+              <item item="almura:food/food/lemon" quantity="1" />
+            </drop>
+          </decay>
         </on>
       </state>
     </states>
