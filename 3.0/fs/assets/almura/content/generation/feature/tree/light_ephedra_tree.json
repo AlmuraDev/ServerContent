@@ -13,7 +13,7 @@
         // Biome specific chance of generating
         {
             "biome": [
-                "minecraft:birth_forest"                          
+                "minecraft:birch_forest"                          
             ],
             "min": 0,
             "max": 10
