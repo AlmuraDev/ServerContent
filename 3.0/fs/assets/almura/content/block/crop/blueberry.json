@@ -27,8 +27,8 @@
                 ],
                 "temperature_required": [                   
                     {
-                        "min": 0.25,
-                        "max": 1.5
+                        "min": 0.5,
+                        "max": 1.25
                     }
                 ]
             },
@@ -40,7 +40,7 @@
                         "state": {
                             "level": {
                                 "type": "int range",
-                                "min": 4,
+                                "min": 5,
                                 "max": 7
                             }
                         }

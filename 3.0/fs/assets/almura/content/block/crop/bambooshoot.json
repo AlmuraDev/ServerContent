@@ -47,8 +47,7 @@
                     }
                 ],
                 "max_radius": 0  // Radius check around block, no Y check.
-            },                       
-            
+            },            
             "fertilizer": [
                 {
                     "item": {

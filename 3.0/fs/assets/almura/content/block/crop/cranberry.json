@@ -32,20 +32,7 @@
                     }
                 ]
             },
-            "fertilizer": [
-                {
-                    "item": {
-                        "minecraft:dye": {
-                            "meta": 15
-                        }
-                    },
-                    "chance": {
-                        "min": 10,
-                        "max": 15
-                    }
-                }
-            ],
-            "hardness": 0.0,
+            "hardness": 0.0,                
             "hydration": {
                 "block": [
                     {
@@ -73,10 +60,23 @@
                             }
                         }
                     }
-                ]
+                ],
+                 // Radius check around block, no Y check.
+                "max_radius": 4
             },
-            // Radius check around block, no Y check.
-            "max_radius": 0,
+            "fertilizer": [
+                {
+                    "item": {
+                        "minecraft:dye": {
+                            "meta": 15
+                        }
+                    },
+                    "chance": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            ],        
             "resistance": 0.0
         },
         "age=1": {
