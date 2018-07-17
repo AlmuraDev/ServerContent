@@ -1,0 +1,6 @@
+{
+    "parent": "almura:block/crop/common/crop_2h",
+    "textures": {
+        "crop": "almura:block/crop/concord_grape_plant_3"
+    }
+}

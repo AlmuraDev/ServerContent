@@ -9,13 +9,13 @@
                 "model": "almura:crop/common/flat_0.obj"
             },
             "1": {
-                "model": "almura:crop/peanut/peanut_1.obj"
+                "model": "almura:crop/peanut/peanut_1"
             },
             "2": {
-                "model": "almura:crop/peanut/peanut_2.obj"
+                "model": "almura:crop/peanut/peanut_2"
             },
             "3": {
-                "model": "almura:crop/peanut/peanut_3.obj"
+                "model": "almura:crop/peanut/peanut_3"
             }
         }
     }

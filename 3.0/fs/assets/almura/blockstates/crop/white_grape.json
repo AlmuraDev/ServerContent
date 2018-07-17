@@ -12,10 +12,13 @@
                 "model": "almura:crop/common/sprout_1.obj"
             },
             "2": {
-                "model": "almura:crop/white_grape/white_grape_2.obj"
+                "model": "almura:crop/white_grape/white_grape_1"
             },
             "3": {
-                "model": "almura:crop/white_grape/white_grape_3.obj"
+                "model": "almura:crop/white_grape/white_grape_2"
+            },
+            "4": {
+                "model": "almura:crop/white_grape/white_grape_3"
             }
         }
     }

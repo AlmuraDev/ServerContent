@@ -12,16 +12,16 @@
                 "model": "almura:crop/common/sprout_1.obj"
             },
             "2": {
-                "model": "almura:crop/cumin/cumin_2.obj"
+                "model": "almura:crop/cumin/cumin_2"
             },
             "3": {
-                "model": "almura:crop/cumin/cumin_3.obj"
+                "model": "almura:crop/cumin/cumin_3"
             },
             "4": {
-                "model": "almura:crop/cumin/cumin_4.obj"
+                "model": "almura:crop/cumin/cumin_4"
             },
             "5": {
-                "model": "almura:crop/cumin/cumin_5.obj"
+                "model": "almura:crop/cumin/cumin_5"
             }
         }
     }

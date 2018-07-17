@@ -1,4 +1,4 @@
 newmtl corn_4
 
-map_Kd almura:block/crop/crop.png
-map_d almura:block/crop/crop.png
+map_Ka almura:block/crop/corn_plant_3.png
+map_Kd almura:block/crop/corn_plant_3.png

@@ -1,7 +1,7 @@
 {
     "material": "minecraft:plants",
     "map_color": "minecraft:foliage",
-    "sound": "minecraft:plant"
+    "sound": "minecraft:plant",
     "render_layer": "translucent",
     "item_group": "almura:tree",
     // States of the block
