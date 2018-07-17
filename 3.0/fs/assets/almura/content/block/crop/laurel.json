@@ -1,6 +1,7 @@
 {
     "map_color": "minecraft:foliage",
     "material": "minecraft:plants",
+    "sound": "minecraft:plant",
     "render_layer": "translucent",
     "seed": "almura:seed/laurel_seed",
     "state": {
