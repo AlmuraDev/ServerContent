@@ -1,8 +1,15 @@
 {
-    "material": "minecraft:ground",
-    "map_color": "minecraft:dirt",
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "sound": "minecraft:stone",
     "render_layer": "solid",
     "item_group": "almura:ore",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:gold_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
     "state": {
         "facing=east": {
             "parent": "facing=north"
