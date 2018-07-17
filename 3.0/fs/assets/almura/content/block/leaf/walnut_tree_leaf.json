@@ -1,6 +1,7 @@
 {
-    "material": "minecraft:ground",
-    "map_color": "minecraft:dirt",
+    "material": "minecraft:leaves",
+    "map_color": "minecraft:foliage",
+    "sound": "minecraft:plant",
     "render_layer": "translucent",
     "item_group": "almura:tree",
     "state": {
