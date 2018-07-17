@@ -1,6 +1,7 @@
 {
-    "material": "minecraft:ground",
-    "map_color": "minecraft:dirt",
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",
+    "sound": "minecraft:wood",
     "render_layer": "cutout_mipped",
     "item_group": "almura:sign",
     "state": {
