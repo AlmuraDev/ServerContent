@@ -1,6 +1,7 @@
 {
     "material": "minecraft:packed_ice",
     "map_color": "minecraft:ice",
+    "sound": "minecraft:ground",
     "item_group": "almura:decoration",
     "is_double": true,
     "single": "almura:slab/packed_ice",

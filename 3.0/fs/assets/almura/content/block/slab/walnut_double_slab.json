@@ -1,9 +1,16 @@
 {
-    "material": "minecraft:rock",
-    "map_color": "minecraft:dirt",
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",
+    "sound": "minecraft:wood",
     "item_group": "almura:building",
     "is_double": true,
     "single": "almura:slab/walnut_slab",
+    "effective_tools": [
+        "minecraft:stone_axe",
+        "minecraft:iron_axe",
+        "minecraft:gold_axe",
+        "minecraft:diamond_axe"
+    ],
     "state": {
         "normal": {
             "hardness": 2.0,

@@ -1,9 +1,16 @@
 {
     "material": "minecraft:rock",
-    "map_color": "minecraft:dirt",
+    "map_color": "minecraft:stone",
+    "sound": "minecraft:stone",
     "item_group": "almura:building",
     "is_double": true,
     "single": "almura:slab/stonebrick_mossy_slab",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:gold_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
     "state": {
         "normal": {
             "hardness": 2.0,
