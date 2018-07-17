@@ -1,8 +1,14 @@
 {
-    "material": "minecraft:rock",
-    "map_color": "minecraft:stone",
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",    
     "render_layer": "solid",
     "item_group": "almura:tree",
+    "effective_tools": [
+        "minecraft:stone_axe",
+        "minecraft:iron_axe",
+        "minecraft:gold_axe",
+        "minecraft:diamond_axe"
+    ],
     "state": {
         "normal": {
             "hardness": 2.0,
