@@ -1,6 +1,8 @@
 {
-    "material": "minecraft:ground",
-    "map_color": "minecraft:dirt",
+    "material": "minecraft:plants",
+    "map_color": "minecraft:foliage",
+    "sound": "minecraft:plant",
+    "sound": "minecraft:plant",
     "render_layer": "cutout_mipped",
     "item_group": "almura:flower",
     "state": {
