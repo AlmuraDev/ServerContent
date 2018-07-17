@@ -1,6 +1,6 @@
 {
-    "map_color": "minecraft:dirt",
-    "material": "minecraft:ground",
+    "map_color": "minecraft:foliage",
+    "material": "minecraft:plants",
     "render_layer": "translucent",
     "seed": "almura:seed/tomato_seed",
     "state": {
