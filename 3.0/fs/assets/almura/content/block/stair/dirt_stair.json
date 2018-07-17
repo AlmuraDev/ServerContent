@@ -3,6 +3,12 @@
     "map_color": "minecraft:dirt",
     "item_group": "minecraft:buildingblocks",
     "block": "minecraft:dirt",
+    "effective_tools": [
+        "minecraft:stone_shovel",
+        "minecraft:iron_shovel",
+        "minecraft:gold_shovel",
+        "minecraft:diamond_shovel"
+    ],
     "state": {
         "normal": {
             "action": {

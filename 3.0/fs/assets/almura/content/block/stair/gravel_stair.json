@@ -1,8 +1,15 @@
 {
-    "material": "minecraft:gravel",
-    "map_color": "minecraft:gravel",
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "sound": "minecraft:ground",
     "item_group": "minecraft:buildingblocks",
     "block": "minecraft:gravel",
+    "effective_tools": [
+        "minecraft:stone_shovel",
+        "minecraft:iron_shovel",
+        "minecraft:gold_shovel",
+        "minecraft:diamond_shovel"
+    ],
     "state": {
         "normal": {
             "action": {
