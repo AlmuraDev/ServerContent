@@ -22,7 +22,18 @@ Each subdirectory under `blockstates` represents a implementation type.
 * `storage` - storage crates and boxes
 
 ## Content
+The content directory is broken up slightly different than how Blockstates are.  The following subfolders exist:
+* `block` - core directory for all block type implementations
+* `block_sound_group` - custom sounds are stored here
+* `generation` - specification files for world generation are stored here
+* `grass` - DON'T KNOW
+* `item` - item specification
+* `item_group` - Creative Tab setup files
+* `tree` - custom tree implemenation files
 
 ## Models
+The models directory contains both `OBJ` and `JSON` based model definitions.
+* `block` -
+* `item` -
 
 ## Textures
