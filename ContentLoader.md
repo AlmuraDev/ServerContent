@@ -1,5 +1,11 @@
 # Raindrop #
-The purpose of this file is to give an explaination of each functionality of the content loader that exists within Almura 3.0
+The purpose of this file is to give an explaination of each functionality of the content loader that exists within Almura.  Through out the history of Almura there has been a 3 different version in which we implemented the content loader.  The first version was on the Spoutcraft platform.  The second implemenation was within the Minecraft 1.7.10 environment running on top of Cauldron.  The third implementation was build upon Minecraft 1.12.2 and SpongeForge.
+
+The current base directory structure is:
+* `2.5` - Almura 2.5 Rediscovered
+* `3.0` - Almura 3.0 Resurrected
+
+**The information below is only related for the 3.0 version as previous implementations have been abandoned.**
 
 Blocks and Items are constructed from a various combination of basic files.
 The files for the content loader go within `(BaseMinecraftDirectory)/assets`
