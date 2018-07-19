@@ -1,5 +1,5 @@
 # Raindrop #
-The purpose of this file is to give an explaination of each functionality of the content loader that exists within Almura.  Through out the history of Almura there has been a 3 different version in which we implemented the content loader.  The first version was on the Spoutcraft platform.  The second implemenation was within the Minecraft 1.7.10 environment running on top of Cauldron.  The third implementation was build upon Minecraft 1.12.2 and SpongeForge.
+The purpose of this file is to give an explaination of each functionality of the content loader that exists within Almura.  Through out the history of Almura there has been a 3 different versions in which we implemented the content loader.  The first version was on the Spoutcraft platform.  The second implemenation was within the Minecraft 1.7.10 environment running on top of Cauldron.  The third implementation was build upon Minecraft 1.12.2 and SpongeForge.
 
 The current base directory structure is:
 * `2.5` - Almura 2.5 Rediscovered
@@ -44,3 +44,8 @@ The models directory contains both `.OBJ` and `.JSON` based model definitions.  
 * `item` -
 
 ## Textures
+The textures directory contains images for not only the content loader but the base Almura code implementation itself.  The following directories exist:
+* `accessories` - cutout images for accessories feature.
+* `backgrounds` - individual background images for MainMenu.
+* `block` - Block textures can be on a sprite sheet.
+* `item` - Item textures **cannot be** on a sprite sheet.
