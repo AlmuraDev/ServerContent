@@ -2,10 +2,11 @@
 The purpose of this file is to give an explaination of each functionality of the content loader that exists within Almura 3.0
 
 Blocks and Items are constructed from a various combination of basic files.
-* BlockState:   `fs/assets/almura/blockstates/`
+The files for the content loader go within `(BaseMinecraftDirectory)/assets`
+* BlockState:   `/fs/assets/almura/blockstates/`
 * Content:      `fs/assets/almura/content/`
-* Models:       `fs/assets/almura/models/`
-* Texture:      `fs/assets/almura/textures/`
+* Models:       `/fs/assets/almura/models/`
+* Texture:      `/fs/assets/almura/textures/`
 
 ## Blockstates
 Blockstate files hold various types of information which includes things such as forge markers, model, transform, variants and rotation specifications.
@@ -32,7 +33,7 @@ The content directory is broken up slightly different than how Blockstates are. 
 * `tree` - custom tree implemenation files
 
 ## Models
-The models directory contains both `OBJ` and `JSON` based model definitions.
+The models directory contains both `OBJ` and `JSON` based model definitions.  The location of these files are important to only `block` and `item`.  Past the base directories you only need to make sure that the content files point to the appropriate subfolders past each parent directory.
 * `block` -
 * `item` -
 
