@@ -33,7 +33,7 @@ The content directory is broken up slightly different than how Blockstates are. 
 * `tree` - custom tree implemenation files
 
 ## Models
-The models directory contains both `OBJ` and `JSON` based model definitions.  The location of these files are important to only `block` and `item`.  Past the base directories you only need to make sure that the content files point to the appropriate subfolders past each parent directory.
+The models directory contains both `.OBJ` and `.JSON` based model definitions.  The location of these files are important to only `block` and `item`.  Past the base directories you only need to make sure that the content files point to the appropriate subfolders past each parent directory.  Note:  OBJ models require the usage of a `.MTL` file to load the information about the `.OBJ` mode.
 * `block` -
 * `item` -
 
