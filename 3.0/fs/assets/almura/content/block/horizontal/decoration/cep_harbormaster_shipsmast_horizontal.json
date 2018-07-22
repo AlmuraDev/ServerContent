@@ -11,6 +11,19 @@
         },
         "facing=north": {
             "resistance": 10.0
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/decoration/cep_harbormaster_shipsmast_horizontal",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         "facing=west": {
             "parent": "facing=north"

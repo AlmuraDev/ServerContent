@@ -1,10 +1,17 @@
 {
-    "material": "minecraft:ground",
-    "map_color": "minecraft:dirt",
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
     "item_group": "almura:building",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:gold_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
     "state": {
         "normal": {
             "resistance": 10.0,
+            "block_face_shape": "solid",
             "action": {
                 "destroy": [
                     {

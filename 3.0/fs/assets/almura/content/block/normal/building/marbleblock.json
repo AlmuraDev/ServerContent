@@ -1,7 +1,7 @@
 {
-    "material": "minecraft:wood",
-    "map_color": "minecraft:wood",
-    "sound": "minecraft:wood",
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "sound": "minecraft:stone",
     "item_group": "almura:building",
     "effective_tools": [
         "minecraft:stone_axe",
@@ -13,6 +13,7 @@
         "normal": {
             "hardness": 0.75,
             "resistance": 10.0,
+            "block_face_shape": "solid",
             "action": {
                 "destroy": [
                     {

@@ -13,6 +13,7 @@
         "normal": {
             "hardness": 2.0,
             "resistance": 5.0,
+            "block_face_shape": "solid",
             "action": {
                 "destroy": [
                     {
