@@ -22,8 +22,8 @@
                 ],
                 "light": [                    
                     {
-                        "min": 13,
-                        "max": 17
+                        "min": 11,
+                        "max": 15
                     }                    
                 ],
                 "temperature_required": [                   
