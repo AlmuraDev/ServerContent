@@ -12,7 +12,7 @@
                     "max": [1.0, 0.15, 1.0]
                 }
             },
-            "can_rollback": false,
+            "can_rollback": true,
             "growth": {
                 "chance": [                    
                     {
