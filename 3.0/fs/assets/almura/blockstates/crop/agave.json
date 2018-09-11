@@ -6,10 +6,10 @@
     "variants": {
         "age": {
             "0": {
-                "model": "almura:crop/common/sprout_0"
+                "model": "almura:crop/common/sprout_0.obj"
             },
             "1": {
-                "model": "almura:crop/common/sprout_1"
+                "model": "almura:crop/common/sprout_1.obj"
             },
             "2": {
                 "model": "almura:crop/agave/agave_2"
