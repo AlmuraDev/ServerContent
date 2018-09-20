@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "almura:block/building/cherry_plank",
-        "top": "almura:block/building/cherry_plank",
-        "side": "almura:block/building/cherry_plank"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "almura:block/building/light_ephedra_plank",
-        "top": "almura:block/building/light_ephedra_plank",
-        "side": "almura:block/building/light_ephedra_plank"
-    }
-}

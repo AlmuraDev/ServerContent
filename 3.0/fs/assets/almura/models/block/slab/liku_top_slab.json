@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "almura:block/building/liku_plank",
-        "top": "almura:block/building/liku_plank",
-        "side": "almura:block/building/liku_plank"
-    }
-}

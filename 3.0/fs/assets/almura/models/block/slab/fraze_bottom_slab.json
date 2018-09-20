@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "almura:block/building/fraze_plank",
-        "top": "almura:block/building/fraze_plank",
-        "side": "almura:block/building/fraze_plank"
-    }
-}

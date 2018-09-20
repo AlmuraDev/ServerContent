@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "almura:block/building/juko_plank",
-        "top": "almura:block/building/juko_plank",
-        "side": "almura:block/building/juko_plank"
-    }
-}

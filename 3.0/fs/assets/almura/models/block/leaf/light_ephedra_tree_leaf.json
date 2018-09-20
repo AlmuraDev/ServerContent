@@ -1,6 +1,0 @@
-{
-    "parent": "almura:block/leaf/leaf",
-    "textures": {
-        "leaf": "almura:block/leaf/light_ephedra_tree_leaf"
-    }
-}

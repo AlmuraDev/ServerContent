@@ -1,6 +1,0 @@
-{
-    "parent": "almura:block/crop/common/crop_1h",
-    "textures": {
-        "crop": "almura:block/crop/cucumber_plant_2"
-    }
-}

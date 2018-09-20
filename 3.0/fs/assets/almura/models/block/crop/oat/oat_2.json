@@ -1,6 +1,0 @@
-{
-    "parent": "almura:block/crop/common/flat_crop",
-    "textures": {
-        "crop": "almura:block/crop/oat_plant_2"
-    }
-}

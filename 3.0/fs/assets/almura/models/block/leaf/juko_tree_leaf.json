@@ -1,6 +1,0 @@
-{
-    "parent": "almura:block/leaf/leaf",
-    "textures": {
-        "leaf": "almura:block/leaf/juko_tree_leaf"
-    }
-}

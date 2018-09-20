@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "almura:block/log/plum_tree_log_top",
-        "side": "almura:block/log/plum_tree_log_side"
-    }
-}

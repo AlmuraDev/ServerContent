@@ -1,6 +1,0 @@
-{
-    "parent": "almura:block/sapling/sapling",
-    "textures": {
-        "sapling": "almura:block/sapling/light_ephedra_tree_sapling"
-    }
-}

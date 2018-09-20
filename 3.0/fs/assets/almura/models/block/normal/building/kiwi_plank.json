@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "almura:block/building/kiwi_plank"
-    }
-}

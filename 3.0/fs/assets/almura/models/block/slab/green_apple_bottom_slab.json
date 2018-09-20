@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "almura:block/building/green_apple_plank",
-        "top": "almura:block/building/green_apple_plank",
-        "side": "almura:block/building/green_apple_plank"
-    }
-}

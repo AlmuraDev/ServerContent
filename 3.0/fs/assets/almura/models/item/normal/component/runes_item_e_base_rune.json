@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "almura:item/runes_item_e_base_rune"
-    }
-}

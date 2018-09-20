@@ -1,8 +1,0 @@
-{    
-    "tier": "minecraft:wood",
-    "item_group": "almura:tool",
-    "effective_on": [
-        "almura:crop/strawberry",
-        "almura:crop/raspberry"
-    ]
-}
