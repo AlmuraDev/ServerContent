@@ -7,7 +7,7 @@
     "effective_tools": [
         "minecraft:stone_pickaxe",
         "minecraft:iron_pickaxe",
-        "minecraft:gold_pickaxe",
+        "minecraft:golden_pickaxe",
         "minecraft:diamond_pickaxe"
     ],    
     "state": {
