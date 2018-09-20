@@ -1,0 +1,79 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:cep_mason_statue_2.obj",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [ {
+            "transform": {
+                "gui": {
+                    "rotation": [ {
+                        "x": 30.0
+                    }, {
+                        "y": 225.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.23584904
+                },
+                "ground": {
+                    "translation": [ 0.0, 0.05, 0.0 ],
+                    "scale": 0.22641508
+                },
+                "thirdperson_righthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.23584904
+                },
+                "thirdperson_lefthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.23584904
+                },
+                "firstperson_righthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.22641508
+                },
+                "firstperson_lefthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.22641508
+                }
+            }
+        } ],
+        "facing": {
+            "south": {
+                "y": 180.0
+            },
+            "west": {
+                "y": 270.0
+            },
+            "north": { },
+            "east": {
+                "y": 90.0
+            }
+        }
+    }
+}

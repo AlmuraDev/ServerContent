@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:normal/building/kiwi_plank",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:slab/kiwi_slab",
+    "data": 0,
+    "count": 6
+  }
+}

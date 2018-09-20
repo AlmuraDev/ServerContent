@@ -1,0 +1,49 @@
+{
+    "material": "minecraft:leaves",
+    "map_color": "minecraft:foliage",
+    "sound": "minecraft:plant",
+    "render_layer": "translucent",
+    "item_group": "almura:tree",
+    "state": {
+        "normal": {
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:food/food/orange",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ],
+                // Decay logic
+                "decay": [
+                    {
+                        "chance": [
+                            {
+                                "biome": [
+                                    "minecraft",
+                                    "terraincontrol"
+                                ],
+                                "min": 10,
+                                "max": 20
+                            },
+                            {
+                                "min": 0,
+                                "max": 10
+                            }
+                        ],
+                        "drop": [
+                            {
+                                "item": "almura:food/food/orange",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

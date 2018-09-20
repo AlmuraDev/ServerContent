@@ -1,0 +1,45 @@
+{
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",
+    "sound": "minecraft:wood",
+    "render_layer": "cutout_mipped",
+    "item_group": "almura:sign",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.0, 0.17, 0.45 ],
+                    "max": [ 1.0, 1.0, 0.55 ]
+                },
+                "collision": -1,
+                "wireframe": {
+                    "min": [ 0.0, 0.17, 0.45 ],
+                    "max": [ 1.0, 1.0, 0.55 ]
+                }
+            },
+            "resistance": 10.0,
+            "hardness": 0.10,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/sign/hanging_sign_tailor",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

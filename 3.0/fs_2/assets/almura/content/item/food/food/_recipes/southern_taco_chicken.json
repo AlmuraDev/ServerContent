@@ -1,0 +1,40 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/groundchicken",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/bread_corntaco",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/cheese",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/lettuce",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/southern_salsa",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/spicemix_taco",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/southern_taco_chicken",
+    "data": 0,
+    "count": 3
+  }
+}

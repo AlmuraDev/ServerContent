@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "almura:horizontal/sign/hanging_sign_blank",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:sign",
+      "data": 0,
+      "count": 1
+    },
+    "C": {
+      "item": "minecraft:string",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/sign/hanging_sign_tailor",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_vodka",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_grapefruit",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/mixed_greyhound",
+    "data": 0,
+    "count": 2
+  }
+}

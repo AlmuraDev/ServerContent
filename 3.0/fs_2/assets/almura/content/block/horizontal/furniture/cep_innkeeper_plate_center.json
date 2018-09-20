@@ -1,0 +1,41 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:furniture",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.2, 0.0, 0.3 ],
+                    "max": [ 0.8, 0.1, 0.9 ]
+                },
+                "wireframe": {
+                    "min": [ 0.2, 0.0, 0.3 ],
+                    "max": [ 0.8, 0.1, 0.9 ]
+                }
+            },
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/furniture/cep_innkeeper_plate_center",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

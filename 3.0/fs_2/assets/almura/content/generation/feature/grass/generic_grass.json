@@ -1,0 +1,16 @@
+{
+    "grass": "almura:generic_grass",
+    "requires": [
+        "minecraft:grass"
+    ],
+    "chance": [
+        {
+            "biome": [
+                "minecraft",
+                "terraincontrol"
+            ],
+            "min": 100,
+            "max": 100
+        }
+    ]
+}

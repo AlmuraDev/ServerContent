@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:log/citrus_tree_log",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [{}],
+        // Axis of the log
+        "axis": {
+            "x": {},
+            "y": {},
+            "z": {},
+            "none": {}
+        }
+    }
+}

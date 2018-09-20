@@ -1,0 +1,42 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:decoration",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.25, 0.0, 0.0 ],
+                    "max": [ 0.75, 0.45, 1.0 ]
+                },
+                "wireframe": {
+                    "min": [ 0.25, 0.0, 0.0 ],
+                    "max": [ 0.75, 0.45, 1.0 ]
+                }
+            },
+            "resistance": 10.0,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/decoration/cep_rpg_blacksmith_smith_anvil",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

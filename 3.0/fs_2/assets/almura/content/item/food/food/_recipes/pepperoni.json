@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/groundpork",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/groundbeef",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/pepper",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/garlic",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/pepperoni",
+    "data": 0,
+    "count": 1
+  }
+}

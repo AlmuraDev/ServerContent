@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/sliceofbread",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/sliceofbread",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:cooked_fish",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/lettuce",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sandwich_fish",
+    "data": 0,
+    "count": 1
+  }
+}

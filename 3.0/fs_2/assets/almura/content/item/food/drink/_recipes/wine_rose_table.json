@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/yeast",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_mixedgrape",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/wine_rose_table",
+    "data": 0,
+    "count": 1
+  }
+}

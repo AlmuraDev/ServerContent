@@ -1,0 +1,6 @@
+{
+    "parent": "almura:block/sapling/sapling",
+    "textures": {
+        "sapling": "almura:block/sapling/liku_tree_sapling"
+    }
+}

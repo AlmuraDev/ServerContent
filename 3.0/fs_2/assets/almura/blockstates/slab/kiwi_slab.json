@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "half=bottom": { "model": "almura:slab/kiwi_bottom_slab" },
+        "half=top": { "model": "almura:slab/kiwi_top_slab" }
+    }
+}

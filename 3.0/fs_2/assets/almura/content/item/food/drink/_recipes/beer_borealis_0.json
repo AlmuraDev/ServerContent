@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:wheat",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/hops",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/yeast",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/mint",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/beer_borealis",
+    "data": 0,
+    "count": 1
+  }
+}

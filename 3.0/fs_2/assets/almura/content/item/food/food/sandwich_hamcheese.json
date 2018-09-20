@@ -1,0 +1,13 @@
+{
+    "item_group": "almura:food",
+    "always_edible": true,
+    "apply": {
+        "food_level_change": {
+            "min": 6,
+            "max": 7
+        },
+        "health_change": 2,
+        "saturation_change": 5
+    },
+    "duration_ticks": 25    
+}

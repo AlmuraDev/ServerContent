@@ -1,0 +1,36 @@
+{
+    "material": "minecraft:plants",
+    "map_color": "minecraft:foliage",
+    "sound": "minecraft:plant",
+    "render_layer": "cutout_mipped",
+    "item_group": "almura:flower",
+    "state": {
+        "normal": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.3, 0.0, 0.3 ],
+                    "max": [ 0.7, 1.0, 0.7 ]
+                },
+                "collision": -1,
+                "wireframe": {
+                    "min": [ 0.3, 0.0, 0.3 ],
+                    "max": [ 0.7, 1.0, 0.7 ]
+                }
+            },
+            "hardness": 0.0,
+            "resistance": 0.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:flower/thistle",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

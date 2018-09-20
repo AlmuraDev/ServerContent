@@ -1,0 +1,8 @@
+{    
+    "tier": "minecraft:iron",
+    "item_group": "almura:tool",
+    "effective_on": [
+        "almura:crop/strawberry",
+        "almura:crop/raspberry"
+    ]
+}

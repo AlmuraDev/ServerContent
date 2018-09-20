@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_ingot",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:tool_sickle/crop_gold_sickle",
+    "data": 0,
+    "count": 1
+  }
+}

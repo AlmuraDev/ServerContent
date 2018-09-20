@@ -1,0 +1,41 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:decoration",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.3, 0.0, 0.3 ],
+                    "max": [ 0.7, 1.0, 0.7 ]
+                },
+                "wireframe": {
+                    "min": [ 0.3, 0.0, 0.3 ],
+                    "max": [ 0.7, 1.0, 0.7 ]
+                }
+            },
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/decoration/cep_shaman_bundle_bones",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

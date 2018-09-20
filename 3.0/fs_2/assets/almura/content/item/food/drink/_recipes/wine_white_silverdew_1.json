@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/ginger",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/yeast",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_whitegrape",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/wine_white_silverdew",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/tool/grinder",
+      "data": 32767,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/porkbelly_raw",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/groundpork",
+    "data": 0,
+    "count": 8
+  }
+}

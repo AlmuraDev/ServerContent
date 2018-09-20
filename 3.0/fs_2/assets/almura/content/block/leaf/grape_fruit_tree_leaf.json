@@ -1,0 +1,54 @@
+{
+    "material": "minecraft:leaves",
+    "map_color": "minecraft:foliage",
+    "sound": "minecraft:plant",
+    "render_layer": "translucent",
+    "item_group": "almura:tree",
+    "state": {
+        "normal": {
+            "flammability": 30,  // 30 == default
+            "fire_spread_speed": 60,  // 60 = default
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:sapling/grape_fruit_tree_sapling",
+                                "amount": 0,
+                                "bonus": {
+                                    "amount": 1,
+                                    "chance": 25
+                                }
+                            }
+                        ]
+                    }
+                ],            
+                "decay": [
+                    {
+                        "chance": [
+                            {
+                                "biome": [
+                                    "minecraft",
+                                    "terraincontrol"
+                                ],
+                                "min": 0,
+                                "max": 10
+                            },
+                            {
+                                "min": 0,
+                                "max": 10
+                            }
+                        ],
+                        "drop": [
+                            {
+                                "item": "almura:sapling/grape_fruit_tree_sapling",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

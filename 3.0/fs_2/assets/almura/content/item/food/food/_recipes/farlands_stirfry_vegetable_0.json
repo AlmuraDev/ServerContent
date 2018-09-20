@@ -1,0 +1,45 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/rice",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:carrot",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/fargreen",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/vinegar",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/soysauce",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/vegetableoil",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/ginger",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/farlands_stirfry_vegetable",
+    "data": 0,
+    "count": 1
+  }
+}

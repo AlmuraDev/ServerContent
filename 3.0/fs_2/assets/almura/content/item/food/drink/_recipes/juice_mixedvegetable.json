@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/juice_tomato",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_carrot",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/juice_mixedvegetable",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/plum",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/juice_plum",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/flour",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/snack_crackers",
+    "data": 0,
+    "count": 4
+  }
+}

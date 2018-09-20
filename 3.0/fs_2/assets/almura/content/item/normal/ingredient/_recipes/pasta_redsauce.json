@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/garlic",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/tomato",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/onion",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/oregano",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_cruet",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/pasta_redsauce",
+    "data": 0,
+    "count": 1
+  }
+}

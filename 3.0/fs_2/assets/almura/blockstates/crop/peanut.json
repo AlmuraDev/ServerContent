@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "model": "almura:crop/common/flat_0.obj"
+            },
+            "1": {
+                "model": "almura:crop/peanut/peanut_1"
+            },
+            "2": {
+                "model": "almura:crop/peanut/peanut_2"
+            },
+            "3": {
+                "model": "almura:crop/peanut/peanut_3"
+            }
+        }
+    }
+}

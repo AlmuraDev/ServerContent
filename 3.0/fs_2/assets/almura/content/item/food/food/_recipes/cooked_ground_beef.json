@@ -1,0 +1,14 @@
+{
+  "type": "furnace",
+  "input": {
+    "item": "almura:normal/ingredient/groundbeef",
+    "data": 0,
+    "count": 1
+  },
+  "output": {
+    "item": "almura:food/food/cooked_ground_beef",
+    "data": 0,
+    "count": 1
+  },
+  "experience": 0.0
+}

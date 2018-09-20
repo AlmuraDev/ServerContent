@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wool",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:glowstone_dust",
+      "data": 0,
+      "count": 1
+    },
+    "C": {
+      "item": "minecraft:obsidian",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/lighting/lamp_blackwalllamp",
+    "data": 0,
+    "count": 1
+  }
+}

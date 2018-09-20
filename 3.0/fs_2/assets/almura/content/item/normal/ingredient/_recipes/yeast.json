@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/rye",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/flour",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/tool/grinder",
+      "data": 32767,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/yeast",
+    "data": 0,
+    "count": 16
+  }
+}

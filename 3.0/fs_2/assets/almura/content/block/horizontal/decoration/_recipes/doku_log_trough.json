@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A A",
+    "AAA",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "almura:normal/building/doku_plank",
+      "data": 0,
+      "count": 1
+    }    
+  },
+  "result": {
+    "item": "almura:horizontal/decoration/doku_log_trough",
+    "data": 0,
+    "count": 1
+  }
+}

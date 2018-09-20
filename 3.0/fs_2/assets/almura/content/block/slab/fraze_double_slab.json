@@ -1,0 +1,33 @@
+{
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",
+    "sound": "minecraft:wood",
+    "item_group": "almura:building",
+    "is_double": true,
+    "single": "almura:slab/fraze_slab",
+    "effective_tools": [
+        "minecraft:stone_axe",
+        "minecraft:iron_axe",
+        "minecraft:golden_axe",
+        "minecraft:diamond_axe"
+    ],
+    "state": {
+        "normal": {
+            "hardness": 2.0,
+            "resistance": 5.0,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/fraze_slab",
+                                "amount": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/bread_sesameseedbun",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/cooked_ground_chicken",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/snack_dillpickle",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/tomato",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sandwich_burger_chickenburger1",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/yeast",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/drink/juice_mixedgrape",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/rosemary",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:yellow_flower",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/wine_rose_triplerose",
+    "data": 0,
+    "count": 1
+  }
+}

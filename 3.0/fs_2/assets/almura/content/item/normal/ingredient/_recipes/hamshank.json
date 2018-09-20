@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:porkchop",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:porkchop",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:porkchop",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/hamshank",
+    "data": 0,
+    "count": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:planks",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:stone",
+      "data": 0,
+      "count": 1
+    },
+    "C": {
+      "item": "minecraft:lapis_block",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/furniture/cep_carpenter_shelf3",
+    "data": 0,
+    "count": 1
+  }
+}

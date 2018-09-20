@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/broth_milk",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/corn",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/soup_corn",
+    "data": 0,
+    "count": 1
+  }
+}

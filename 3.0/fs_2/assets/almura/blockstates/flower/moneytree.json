@@ -1,0 +1,68 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:flower/moneytree.obj",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [ {
+            "transform": {
+                "gui": {
+                    "rotation": [ {
+                        "x": 30.0
+                    }, {
+                        "y": 225.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3125
+                },
+                "ground": {
+                    "translation": [ 0.0, 0.05, 0.0 ],
+                    "scale": 0.3
+                },
+                "thirdperson_righthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3125
+                },
+                "thirdperson_lefthand": {
+                    "rotation": [ {
+                        "x": 75.0
+                    }, {
+                        "y": 45.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3125
+                },
+                "firstperson_righthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3
+                },
+                "firstperson_lefthand": {
+                    "rotation": [ {
+                        "x": 0.0
+                    }, {
+                        "y": 135.0
+                    }, {
+                        "z": 0.0
+                    } ],
+                    "scale": 0.3
+                }
+            }
+        } ],
+        "normal": [ { } ]
+    }
+}

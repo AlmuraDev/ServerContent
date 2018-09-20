@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/kebab_mushroom",
+    "data": 0,
+    "count": 1
+  }
+}

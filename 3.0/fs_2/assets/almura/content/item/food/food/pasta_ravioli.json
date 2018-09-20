@@ -1,0 +1,28 @@
+{
+    "item_group": "almura:food",
+    "always_edible": true,
+    "apply": {
+        "food_level_change": {
+            "min": 14,
+            "max": 15
+        },
+        "health_change": 15,
+        "saturation_change": 12
+    },
+    "duration_ticks": 50,
+    "potion_effects": [       
+        {
+            "potion": [
+                "minecraft:health_boost"
+            ],            
+            "chance": {
+                "min": 100,
+                "max": 100
+            },
+            "duration": 6000,
+            "amplifier": 4,
+            "ambient": false,
+            "show_particles": false
+        }
+    ]        
+}

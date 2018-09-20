@@ -1,0 +1,6 @@
+{
+    "parent": "almura:block/crop/common/flat_crop",
+    "textures": {
+        "crop": "almura:block/crop/alfalfa_plant_3"
+    }
+}

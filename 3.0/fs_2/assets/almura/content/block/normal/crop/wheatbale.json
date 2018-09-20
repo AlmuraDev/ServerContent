@@ -1,0 +1,11 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:crop",
+    "state": {
+        "normal": {
+            "hardness": 1.0,
+            "resistance": 10.0
+        }
+    }
+}

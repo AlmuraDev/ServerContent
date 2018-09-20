@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "almura:block/building/walnut_plank",
+        "top": "almura:block/building/walnut_plank",
+        "side": "almura:block/building/walnut_plank"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "furnace",
+  "input": {
+    "item": "almura:normal/ingredient/lambchop_raw",
+    "data": 0,
+    "count": 1
+  },
+  "output": {
+    "item": "almura:food/food/lambchop",
+    "data": 0,
+    "count": 1
+  },
+  "experience": 0.0
+}

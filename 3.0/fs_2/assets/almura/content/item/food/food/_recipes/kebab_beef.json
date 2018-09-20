@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:beef",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/chilipepper",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/kebab_beef",
+    "data": 0,
+    "count": 1
+  }
+}

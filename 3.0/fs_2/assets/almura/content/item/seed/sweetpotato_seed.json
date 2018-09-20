@@ -1,0 +1,27 @@
+{
+    // Creative Tab
+    "item_group": "almura:seed",
+    // Crop this seed is associated with.
+    "crop": "almura:crop/sweetpotato",
+    // Soil block this seed requires.
+    "soil": "minecraft:farmland",
+    // Seed can be found by breaking:
+    "grass": {
+        // Chances of dropping seed from the above block break.
+        "chance": [           
+            // Default Drop chances regardless of biome.
+            {
+                "min": 5,
+                "max": 10
+            }
+        ],
+        // Amount of seeds to drop.
+        "amount": [            
+            // Default drop amounts.
+            {
+                "min": 1,
+                "max": 1
+            }            
+        ]
+    }
+}

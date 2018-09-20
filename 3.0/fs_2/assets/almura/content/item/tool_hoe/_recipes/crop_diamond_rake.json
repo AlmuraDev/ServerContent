@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    " A ",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:tool_hoe/crop_diamond_rake",
+    "data": 0,
+    "count": 1
+  }
+}

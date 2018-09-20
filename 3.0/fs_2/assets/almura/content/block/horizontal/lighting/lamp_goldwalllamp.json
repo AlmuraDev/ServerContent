@@ -1,0 +1,47 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "render_layer": "cutout_mipped",
+    "item_group": "almura:lighting",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.25, 0.0, 0.0 ],
+                    "max": [ 0.75, 0.95, 0.55 ]
+                },
+                "wireframe": {
+                    "min": [ 0.25, 0.0, 0.0 ],
+                    "max": [ 0.75, 0.95, 0.55 ]
+                }
+            },
+            "hardness": 0.5,
+            "resistance": 10.0,
+            "light": {
+                "emission": 15.0,
+                "opacity": 200
+            },
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/lighting/lamp_goldwalllamp",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

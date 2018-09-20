@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/cream",
+    "data": 0,
+    "count": 4
+  }
+}

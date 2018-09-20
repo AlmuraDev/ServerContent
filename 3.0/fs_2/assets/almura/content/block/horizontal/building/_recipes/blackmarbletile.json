@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dye",
+      "data": 4,
+      "count": 1
+    },
+    "B": {
+      "item": "almura:horizontal/building/marbletile",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/building/blackmarbletile",
+    "data": 0,
+    "count": 1
+  }
+}

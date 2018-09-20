@@ -1,0 +1,30 @@
+{
+    // Tree used for generation
+    "tree": "almura:lime_tree",
+    // Worlds this generation applies to. Only applies to worlds that have tree generation. If this isn't specified then it will apply to all worlds with tree generation
+    //"worlds": [
+    //    "test",
+    //    "world"
+    //],
+    // The block(s) required for placement during generation. Can either be a single block or multiple. If not specified it will default to vanilla logic for requirement.
+    //"requires": "minecraft:water",
+    // Chance of generation, 0-100 scale.
+    "chance": [
+        // Biome specific chance of generating
+        {
+            "biome": [
+                "minecraft:forest",
+                "minecraft:plains",
+                "minecraft:swampland",
+                "terraincontrol"
+            ],
+            "min": 0,
+            "max": 5
+        },
+        // Global chance of generating
+        {
+            "min": 0,
+            "max": 0
+        }
+    ]
+}
