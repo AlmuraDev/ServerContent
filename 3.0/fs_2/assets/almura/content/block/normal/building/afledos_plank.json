@@ -11,7 +11,7 @@
     ],
     "state": {
         "normal": {
-            "hardness": 2.0,
+            "hardness": 0.75,
             "resistance": 5.0,
             "block_face_shape": "solid",
             "action": {

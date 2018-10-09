@@ -4,6 +4,7 @@
     "item_group": "almura:building",
     "state": {
         "normal": {
+            "hardness": 2.0,
             "resistance": 10.0,
             "block_face_shape": "solid",
             "action": {

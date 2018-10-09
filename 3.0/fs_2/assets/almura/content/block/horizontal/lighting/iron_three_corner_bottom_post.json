@@ -21,6 +21,7 @@
                     "max": [ 0.67, 1.0, 1.0 ]
                 }
             },
+            "hardness": 1.0,
             "resistance": 10.0,
             "action": {
                 "destroy": [

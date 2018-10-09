@@ -24,7 +24,7 @@
                 }
             },
             "resistance": 10.0,
-            "hardness": 0.10,
+            "hardness": 1.0,
             "action": {
                 "destroy": [
                     {
