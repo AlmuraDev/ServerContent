@@ -1,0 +1,31 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "sound": "minecraft:stone",
+    "render_layer": "cutout_mipped",
+    "item_group": "almura:building",
+    "block": "almura:Normal/building/cep_mason_2_smooth",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "normal": {
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:Normal/building/cep_mason_2_smooth",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
