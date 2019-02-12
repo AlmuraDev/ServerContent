@@ -1,0 +1,8 @@
+{
+    "parent": "block/stone_inner_stairs",
+    "textures": {
+        "bottom": "alumra:normal/building/cep_mason_5_smooth_inner_stair",
+        "top": "alumra:normal/building/cep_mason_5_smooth_inner_stair",
+        "side": "alumra:normal/building/cep_mason_5_smooth_inner_stair"
+    }
+}
