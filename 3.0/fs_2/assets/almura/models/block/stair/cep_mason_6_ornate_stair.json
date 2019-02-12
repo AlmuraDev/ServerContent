@@ -1,8 +1,0 @@
-{
-    "parent": "block/stone_stairs",
-    "textures": {
-        "bottom": "alumra:normal/building/",
-        "top": "alumra:normal/building/",
-        "side": "alumra:normal/building/"
-    }
-}

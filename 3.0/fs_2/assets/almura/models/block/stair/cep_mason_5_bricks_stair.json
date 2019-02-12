@@ -1,8 +1,0 @@
-{
-    "parent": "block/stone_stairs",
-    "textures": {
-        "bottom": "alumra:normal/building/cep_mason_5_bricks_stair",
-        "top": "alumra:normal/building/cep_mason_5_bricks_stair",
-        "side": "alumra:normal/building/cep_mason_5_bricks_stair"
-    }
-}
