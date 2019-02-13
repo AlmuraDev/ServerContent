@@ -1,0 +1,48 @@
+{
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",
+    "sound": "minecraft:wood",
+    "item_group": "almura:building",
+    "effective_tools": [
+        "minecraft:stone_axe",
+        "minecraft:iron_axe",
+        "minecraft:golden_axe",
+        "minecraft:diamond_axe"
+    ],
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 0.5, 1.0 ]
+                },
+                "wireframe": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 0.5, 1.0 ]
+                }
+            },
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/building/cep_forester_wood25_ornate_slab",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "item_group": "almura:building",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:diamond_pickxe"
+    ],
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                },
+                "wireframe": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                }
+            },
+            "hardness": 1.5,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/building/asphaltramp",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}
