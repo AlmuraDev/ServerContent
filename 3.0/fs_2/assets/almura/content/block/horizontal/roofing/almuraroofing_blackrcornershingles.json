@@ -1,0 +1,39 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "render_layer": "solid",
+    "item_group": "almura:roofing",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:gold_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "hardness": 1.5,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/roofing/almuraroofing_blackrcornershingles",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

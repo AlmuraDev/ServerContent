@@ -1,0 +1,43 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "render_layer": "solid",
+    "item_group": "almura:furniture",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:gold_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "normal": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                },
+                "wireframe": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                }
+            },
+            "resistance": 10.0,
+            "light": {
+                "emission": 15.0,
+                "opacity": 200
+            },
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:normal/furniture/cep_innkeeper_candelabra",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
