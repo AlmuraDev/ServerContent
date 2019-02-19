@@ -1,7 +1,7 @@
 {
   "type": "furnace",
   "input": {
-    "item": "almura:horizontal/ore/marbleraw",
+    "item": "almura:normal/ore/marbleraw",
     "data": 0,
     "count": 1
   },
