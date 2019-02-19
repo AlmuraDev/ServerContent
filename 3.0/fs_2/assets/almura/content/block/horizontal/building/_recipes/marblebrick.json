@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "almura:normal/building/marbleblock",
+      "item": "almura:horizontal/building/marbleblock",
       "data": 0,
       "count": 1
     }

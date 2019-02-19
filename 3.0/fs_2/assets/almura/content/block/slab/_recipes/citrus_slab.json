@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "almura:normal/building/citrus_plank",
+      "item": "almura:horizontal/building/citrus_plank",
       "data": 0,
       "count": 1
     }

@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "almura:normal/building/dark_ephedra_plank",
+      "item": "almura:horizontal/building/dark_ephedra_plank",
       "data": 0,
       "count": 1
     }
