@@ -11,7 +11,13 @@
         "minecraft:diamond_pickaxe"
     ],
     "state": {
-        "normal": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
             "hardness": 2.5,
             "resistance": 10.0,
             "opaque": true,
@@ -32,6 +38,9 @@
                     }
                 ]
             }
+        },
+        "facing=west": {
+            "parent": "facing=north"
         }
     }
 }

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:normal/ore/saltore",
+      "item": "almura:horizontal/ore/saltore",
       "data": 0,
       "count": 1
     }
