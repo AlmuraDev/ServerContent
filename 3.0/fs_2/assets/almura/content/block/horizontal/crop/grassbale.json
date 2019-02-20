@@ -12,7 +12,7 @@
         "facing=north": {
             "hardness": 1.0,
             "opaque": true,
-            "resistance": 10.0
+            "resistance": 10.0,
             "block_face_shape": "solid",
             "action": {
                 "destroy": [
@@ -29,13 +29,6 @@
         },
         "facing=west": {
             "parent": "facing=north"
-        }
-    }
-    "state": {
-        "normal": {
-            "hardness": 1.0,
-            "opaque": true,
-            "resistance": 10.0
         }
     }
 }
