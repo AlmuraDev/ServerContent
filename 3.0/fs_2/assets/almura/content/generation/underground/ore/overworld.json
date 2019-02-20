@@ -2,12 +2,12 @@
     "weight": 10,    
     "entries": [
         {            
-            "block": "almura:normal/ore/marbleore",            
+            "block": "almura:horizontal/ore/marbleore",            
             "size": 10,            
             "count": 5
         },
         {
-            "block": "almura:normal/ore/saltore",
+            "block": "almura:horizontal/ore/saltore",
             "size": 10,
             "count": 5
         }
