@@ -6,7 +6,7 @@
     "effective_tools": [
         "minecraft:stone_shovel",
         "minecraft:iron_shovel",
-        "minecraft:gold_shovel",
+        "minecraft:golden_shovel",
         "minecraft:diamond_shovel"
     ],
     "state": {
