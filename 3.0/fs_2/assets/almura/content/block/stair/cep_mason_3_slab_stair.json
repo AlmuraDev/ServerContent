@@ -4,7 +4,7 @@
     "sound": "minecraft:stone",
     "render_layer": "cutout_mipped",
     "item_group": "almura:building",
-    "block": "almura:Normal/building/cep_mason_3_slab",
+    "block": "almura:horizontal/building/cep_mason_3_slab",
     "effective_tools": [
         "minecraft:stone_pickaxe",
         "minecraft:iron_pickaxe",

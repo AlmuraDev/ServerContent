@@ -1,8 +1,8 @@
 {
-    "parent": "block/stone_outer_stairs",
+    "parent": "block/outer_stairs",
     "textures": {
-        "bottom": "alumra:normal/building/cep_mason_1_column_outer_stair",
-        "top": "alumra:normal/building/cep_mason_1_column_outer_stair",
-        "side": "alumra:normal/building/cep_mason_1_column_outer_stair"
+        "bottom": "alumra:horizontal/building/cep_mason_1_column",
+        "top": "alumra:horizontal/building/cep_mason_1_column",
+        "side": "alumra:horizontal/building/cep_mason_1_column"
     }
 }
