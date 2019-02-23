@@ -19,7 +19,7 @@
                     {
                         "drop": [
                             {
-                                "item": "almura:Normal/building/cep_Mason_7_slab_stair.json",
+                                "item": "almura:stair/cep_Mason_7_slab_stair",
                                 "amount": 1
                             }
                         ]

@@ -19,7 +19,7 @@
                     {
                         "drop": [
                             {
-                                "item": "almura:Normal/building/cep_Mason_7_bricks",
+                                "item": "almura:stair/cep_Mason_7_bricks_stair",
                                 "amount": 1
                             }
                         ]
