@@ -9,8 +9,7 @@
         "facing=south": {
             "parent": "facing=north"
         },
-        "facing=north": {
-            "normal": {
+        "facing=north": {            
             "resistance": 10.0,
             "opaque": true,
             "block_face_shape": "solid",
@@ -26,7 +25,6 @@
                     }
                 ]
             }
-        }
         },
         "facing=west": {
             "parent": "facing=north"
