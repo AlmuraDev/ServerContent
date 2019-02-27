@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:normal/crop/alfalfa_item",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:string",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:horizontal/crop/alfalfabale",
+    "data": 0,
+    "count": 1
+  }
+}

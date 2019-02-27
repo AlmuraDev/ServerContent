@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:normal/building/green_apple_plank",
+        "model": "almura:horizontal/building/green_apple_plank",
         "transform": "forge:default-block"
     },
     "variants": {

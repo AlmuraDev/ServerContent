@@ -1,0 +1,34 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "item_group": "almura:building",
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "hardness": 2.0,
+            "resistance": 10.0,
+            "opaque": false,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/building/cep_mason_6_ornate",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

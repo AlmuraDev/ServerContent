@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stonebrick",
+      "data": 2,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:slab/stonebrick_cracked_slab",
+    "data": 0,
+    "count": 6
+  }
+}

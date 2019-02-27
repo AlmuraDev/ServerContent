@@ -2,7 +2,7 @@
     // Creative Tab
     "item_group": "almura:seed",
     // Crop this seed is associated with.
-    "crop": "almura:crop/butterbean",
+    "crop": "almura:crop/cabbage",
     // Soil block this seed requires.
     "soil": "minecraft:farmland",
     // Seed can be found by breaking:

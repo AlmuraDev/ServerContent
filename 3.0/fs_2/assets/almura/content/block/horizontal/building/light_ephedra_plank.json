@@ -1,0 +1,41 @@
+{
+    "material": "minecraft:wood",
+    "map_color": "minecraft:wood",
+    "sound": "minecraft:wood",
+    "item_group": "almura:building",
+    "effective_tools": [
+        "minecraft:stone_axe",
+        "minecraft:iron_axe",
+        "minecraft:golden_axe",
+        "minecraft:diamond_axe"
+    ],
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "hardness": 2.0,
+            "resistance": 5.0,
+            "opaque": true,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/building/light_ephedra_plank",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}

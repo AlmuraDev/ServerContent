@@ -1,0 +1,41 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "sound": "minecraft:stone",
+    "item_group": "almura:building",
+    "effective_tools": [
+        "minecraft:stone_axe",
+        "minecraft:iron_axe",
+        "minecraft:golden_axe",
+        "minecraft:diamond_axe"
+    ],
+    "state": {
+        "facing=east": {
+            "parent": "facing=north"
+        },
+        "facing=south": {
+            "parent": "facing=north"
+        },
+        "facing=north": {
+            "hardness": 2.0,
+            "resistance": 10.0,
+            "opaque": true,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:horizontal/building/marbleblock",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "facing=west": {
+            "parent": "facing=north"
+        }
+    }
+}
