@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stonebrick",
+      "data": 1,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:slab/stonebrick_mossy_slab",
+    "data": 0,
+    "count": 6
+  }
+}
