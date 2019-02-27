@@ -1,7 +1,7 @@
 {
   "type": "furnace",
   "input": {
-    "item": "almura:horizontal/building/marbleblock",
+    "item": "almura:normal/building/marbleblock",
     "data": 0,
     "count": 1
   },

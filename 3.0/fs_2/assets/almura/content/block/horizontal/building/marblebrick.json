@@ -19,7 +19,6 @@
         "facing=north": {
             "hardness": 0.75,
             "resistance": 10.0,
-            "opaque": true,
             "block_face_shape": "solid",
             "action": {
                 "destroy": [

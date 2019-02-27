@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:horizontal/building/peach_plank",
+        "model": "almura:normal/building/peach_plank",
         "transform": "forge:default-block"
     },
     "variants": {
