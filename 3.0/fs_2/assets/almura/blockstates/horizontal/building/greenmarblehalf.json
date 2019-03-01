@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "almura:cyanmarbleslab.obj",
+        "model": "almura:greenmarblehlf.obj",
         "transform": "forge:default-block"
     },
     "variants": {
