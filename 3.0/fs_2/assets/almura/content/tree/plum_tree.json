@@ -7,7 +7,7 @@
                 "terraincontrol"
             ],
             // The minimum height of the tree trunk
-            "min": 35,
+            "min": 5,
             // The variance applied to the minimum height (min+/-)
             "variance": {
                 "min": 0,
