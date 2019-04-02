@@ -4,12 +4,7 @@
     {
       "item": "almura:normal/ingredient/basil",
       "data": 0,
-      "count": 1
-    },
-    {
-      "item": "almura:normal/ingredient/glass_cruet",
-      "data": 0,
-      "count": 1
+      "count": 1    
     },
     {
       "item": "almura:normal/ingredient/tarragon",
@@ -17,7 +12,7 @@
       "count": 1
     },
     {
-      "item": "minecraft:water_bucket",
+      "item": "almura:normal/ingredient/glass_water_cruet",
       "data": 0,
       "count": 1
     }

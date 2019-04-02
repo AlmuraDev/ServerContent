@@ -2,24 +2,19 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:milk_bucket",
+      "item": "almura:normal/ingredient/glass_milk_cruet",
       "data": 0,
       "count": 1
     },
     {
-      "item": "minecraft:water_bucket",
+      "item": "almura:normal/ingredient/glass_water_cruet",
       "data": 0,
       "count": 1
     },
     {
       "item": "almura:normal/ingredient/butter",
       "data": 0,
-      "count": 1
-    },
-    {
-      "item": "almura:normal/ingredient/glass_cruet",
-      "data": 0,
-      "count": 1
+      "count": 1    
     },
     {
       "item": "almura:normal/ingredient/laurel",

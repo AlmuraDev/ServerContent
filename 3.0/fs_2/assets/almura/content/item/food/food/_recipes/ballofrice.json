@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:water_bucket",
+      "item": "almura:normal/ingredient/glass_water_cruet",
       "data": 0,
       "count": 1
     },
