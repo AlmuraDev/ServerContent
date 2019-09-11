@@ -21,7 +21,7 @@
                     "max": [ 0.75, 0.8, 0.25 ]
                 }
             },
-            "hardness": 1.0,
+            "hardness": 3.0,
             "resistance": 10.0,
             "light": {
                 "emission": 15.0,
