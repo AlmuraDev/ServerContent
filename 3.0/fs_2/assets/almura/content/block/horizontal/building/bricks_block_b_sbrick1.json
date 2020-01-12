@@ -1,6 +1,7 @@
 {
     "material": "minecraft:rock",
     "map_color": "minecraft:stone",
+    "render_layer": "solid",
     "item_group": "almura:building",
     "effective_tools": [
         "minecraft:stone_pickaxe",
@@ -18,6 +19,10 @@
         "facing=north": {
             "hardness": 2.0,
             "resistance": 10.0,
+            "light": {
+                "emission": 0.0,
+                "opacity": 0
+            },
             "opaque": false,
             "block_face_shape": "solid",
             "action": {

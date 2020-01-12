@@ -19,7 +19,11 @@
         "facing=north": {
             "hardness": 1.5,
             "resistance": 10.0,
-            "opaque": true,
+            "opaque": false,
+            "light": {
+                "emission": 0.0,
+                "opacity": 0
+            },
             "block_face_shape": "solid",
             "action": {
                 "destroy": [
