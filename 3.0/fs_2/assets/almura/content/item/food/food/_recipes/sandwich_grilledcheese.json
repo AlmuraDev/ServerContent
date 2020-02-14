@@ -1,15 +1,14 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "almura:food/food/sandwich_cheese",
-      "data": 0,
-      "count": 1
-    }
-  ],
-  "result": {
+  "type": "furnace",
+  "input": {
+    "item": "almura:food/food/sandwich_cheese",
+    "data": 0,
+    "count": 1
+  },
+  "output": {
     "item": "almura:food/food/sandwich_grilledcheese",
     "data": 0,
     "count": 1
-  }
+  },
+  "experience": 1.0
 }
