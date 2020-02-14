@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:porkchop",
+      "item": "minecraft:cooked_porkchop",
       "data": 0,
       "count": 1
     },
