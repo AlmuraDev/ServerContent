@@ -241,6 +241,17 @@
             "weight": 2,
             "block": [
                 {
+                    "id": "almura:crop/cardamon",
+                    "state": {
+                        "age": 5
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
                     "id": "almura:crop/celery",
                     "state": {
                         "age": 4
@@ -420,6 +431,17 @@
                     "id": "almura:crop/garlic",
                     "state": {
                         "age": 4
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
+                    "id": "almura:crop/ginger_root",
+                    "state": {
+                        "age": 5
                     }
                 }
             ]
