@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "almura:item/seed/thyme"
+        "layer0": "almura:item/seed/tarragon"
     }
 }
