@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [    
+    {
+      "item": "almura:normal/ingredient/coffee_cup",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_water_cruet",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/ground_coffee",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/coffee",
+    "data": 0,
+    "count": 1
+  }
+}

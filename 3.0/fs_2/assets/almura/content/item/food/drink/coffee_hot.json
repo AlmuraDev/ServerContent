@@ -1,0 +1,10 @@
+{
+    "item_group": "almura:drink",
+    "always_edible": true,
+    "apply": {
+        "food_level_change":0,
+        "health_change": 1,
+        "saturation_change": 6
+    },
+    "duration_ticks": 25    
+}

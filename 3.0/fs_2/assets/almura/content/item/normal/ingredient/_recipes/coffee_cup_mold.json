@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:clay_ball",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:normal/ingredient/coffee_cup_mold",
+    "data": 0,
+    "count": 1
+  }
+}
