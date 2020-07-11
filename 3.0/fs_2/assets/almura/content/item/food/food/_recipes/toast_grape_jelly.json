@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/jelly_grape",
+      "data": 0,
+      "count": 1
+    },    
+    {
+      "item": "almura:food/food/toast",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/toast_grape_jelly",
+    "data": 0,
+    "count": 1
+  }
+}

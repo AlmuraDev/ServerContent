@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/jelly_orange",
+      "data": 0,
+      "count": 1
+    },    
+    {
+      "item": "almura:food/food/toast",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/toast_orange_jelly",
+    "data": 0,
+    "count": 1
+  }
+}
