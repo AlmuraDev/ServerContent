@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "almura:item/ingredient/grape"
+        "layer0": "almura:item/ingredient/jelly_grape"
     }
 }
