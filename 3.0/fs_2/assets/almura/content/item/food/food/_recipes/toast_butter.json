@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:normal/ingredient/sliceofbutter",
+      "item": "almura:normal/ingredient/butter_slice",
       "data": 0,
       "count": 1
     },    
