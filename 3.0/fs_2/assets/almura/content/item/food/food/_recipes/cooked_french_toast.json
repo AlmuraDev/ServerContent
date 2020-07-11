@@ -1,0 +1,14 @@
+{
+  "type": "furnace",
+  "input": {
+    "item": "almura:normal/ingredient/french_toast",
+    "data": 0,
+    "count": 1
+  },
+  "output": {
+    "item": "almura:food/food/cooked_french_toast",
+    "data": 0,
+    "count": 1
+  },
+  "experience": 0.5
+}

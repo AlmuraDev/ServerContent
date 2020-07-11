@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/glass_milk_cruet",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/loafofbread",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/french_toast",
+    "data": 0,
+    "count": 6
+  }
+}
