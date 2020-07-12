@@ -8,9 +8,9 @@
         "inventory": [{}],
         // Axis of the log
         "axis": {
-            "x": {},
+            "x": { "model": "almura:log/morbus_tree_log", "x": 90, "y": 90 },
             "y": {},
-            "z": {},
+            "z": { "model": "almura:log/morbus_tree_log", "x": 90 },
             "none": {}
         }
     }
