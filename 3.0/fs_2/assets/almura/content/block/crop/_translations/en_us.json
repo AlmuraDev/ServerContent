@@ -11,11 +11,13 @@
   "broccoli.name": "Broccoli Crop",
   "butterbean.name": "Butterbean Crop",
   "cabbage.name": "Cabbage Crop",
+  "cantaloupe.name": "Cantaloupe Crop",
   "cardamon.name": "Cardamon Crop",
   "celery.name": "Celery Crop",
   "chilipepper.name": "Chilipepper Crop",
   "chive.name": "Chive Crop",
   "cilantro.name": "Cilantro Crop",
+  "cinnamon.name": "Cinnamon Crop",
   "clove.name": "Clove Crop",
   "coffee_bean.name": "Coffee Bean Crop",
   "concord_grape.name": "Concord Grape Crop",
@@ -50,6 +52,7 @@
   "radish.name": "Radish Crop",
   "raspberry.name": "Raspberry Crop",
   "rice.name": "Rice Crop",
+  "rye.name": "Rye Crop",
   "rosemary.name": "Rosemary Crop",
   "sesame.name": "Sesame Crop",
   "sorghum.name": "Sorghum Crop",
@@ -64,6 +67,6 @@
   "tobacco.name": "Tobacco Crop",
   "tomato.name": "Tomato Crop",
   "turnip.name": "Turnip Crop",
-  "white_grape.name": "White Grape Crop",
-  "rye.name": "Rye Crop"  
+  "vanilla_bean.name": "Vanilla Bean Crop",
+  "white_grape.name": "White Grape Crop"  
 }

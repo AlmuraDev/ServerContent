@@ -241,6 +241,17 @@
             "weight": 2,
             "block": [
                 {
+                    "id": "almura:crop/cantaloupe",
+                    "state": {
+                        "age": 5
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
                     "id": "almura:crop/cardamon",
                     "state": {
                         "age": 5
@@ -275,6 +286,17 @@
             "block": [
                 {
                     "id": "almura:crop/chive",
+                    "state": {
+                        "age": 5
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
+                    "id": "almura:crop/cinnamon",
                     "state": {
                         "age": 5
                     }
@@ -837,6 +859,17 @@
                     "id": "almura:crop/white_grape",
                     "state": {
                         "age": 3
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
+                    "id": "almura:crop/vanilla_bean",
+                    "state": {
+                        "age": 5
                     }
                 }
             ]
