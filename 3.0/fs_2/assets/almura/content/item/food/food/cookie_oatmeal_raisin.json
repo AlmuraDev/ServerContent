@@ -3,11 +3,11 @@
     "always_edible": true,
     "apply": {
         "food_level_change": {
-            "min": 0,
-            "max": 0
+            "min": 2,
+            "max": 4
         },
         "health_change": 0,
-        "saturation_change": 0
+        "saturation_change": 2
     },
     "duration_ticks": 25    
 }

@@ -658,6 +658,17 @@
             "weight": 2,
             "block": [
                 {
+                    "id": "almura:crop/popcorn",
+                    "state": {
+                        "age": 4
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
                     "id": "almura:crop/radish",
                     "state": {
                         "age": 4
@@ -771,6 +782,17 @@
                     "id": "almura:crop/sugarbeet",
                     "state": {
                         "age": 5
+                    }
+                }
+            ]
+        },
+        {
+            "weight": 2,
+            "block": [
+                {
+                    "id": "almura:crop/sweetcorn",
+                    "state": {
+                        "age": 4
                     }
                 }
             ]
