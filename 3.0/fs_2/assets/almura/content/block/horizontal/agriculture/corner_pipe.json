@@ -1,5 +1,5 @@
 {
-    "material": "minecraft:ground",
+    "material": "almura:ag",
     "map_color": "minecraft:dirt",
     "item_group": "almura:agriculture",
     "state": {
