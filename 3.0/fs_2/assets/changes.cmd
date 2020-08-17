@@ -1,0 +1,9 @@
+@echo off
+echo Do you wish to continue with local project content repo update (changes only)?  Close if no....
+echo.
+pause
+cls
+echo Updating local project content repo...
+xcopy "h:\almura 3.0\contentloader\3.0\fs_2\assets\almura" "c:\projects\almura\run\assets\fs_4\assets\almura\" /D /S /Y
+echo Update complete.  Exiting...
+pause

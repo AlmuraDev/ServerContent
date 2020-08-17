@@ -1,6 +1,7 @@
 {
-    "parent": "almura:block/crop/common/crop_2h",
+    "parent": "almura:block/crop/common/crop_2h_x2",
     "textures": {
-        "crop": "almura:block/crop/popcorn_plant_3"
+        "crop": "almura:block/crop/popcorn_plant_3a",
+        "crop1": "almura:block/crop/popcorn_plant_3b"
     }
 }

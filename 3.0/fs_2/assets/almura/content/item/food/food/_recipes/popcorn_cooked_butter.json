@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/popcorn_cooked",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/butter_slice",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/popcorn_cooked_butter",
+    "data": 0,
+    "count": 1
+  }
+}

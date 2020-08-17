@@ -1,6 +1,6 @@
 {
     "parent": "almura:block/crop/common/crop_1h",
     "textures": {
-        "crop": "almura:block/crop/sweetcorn_plant_1"
+        "crop": "almura:block/crop/corn_plant_1"
     }
 }

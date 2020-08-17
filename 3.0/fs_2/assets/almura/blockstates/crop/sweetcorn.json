@@ -12,13 +12,13 @@
                 "model": "almura:crop/common/sprout_1.obj"
             },
             "2": {
-                "model": "almura:crop/corn/sweetcorn_2"
+                "model": "almura:crop/sweetcorn/sweetcorn_2"
             },
             "3": {
-                "model": "almura:crop/corn/sweetcorn_3"
+                "model": "almura:crop/sweetcorn/sweetcorn_3"
             },
             "4": {
-                "model": "almura:crop/corn/sweetcorn_4"
+                "model": "almura:crop/sweetcorn/sweetcorn_4"
             }
         }
     }

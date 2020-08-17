@@ -12,13 +12,16 @@
                 "model": "almura:crop/common/sprout_1.obj"
             },
             "2": {
-                "model": "almura:crop/corn/popcorn_2"
+                "model": "almura:crop/popcorn/popcorn_2"
             },
             "3": {
-                "model": "almura:crop/corn/popcorn_3"
+                "model": "almura:crop/popcorn/popcorn_3"
             },
             "4": {
-                "model": "almura:crop/corn/popcorn_4"
+                "model": "almura:crop/popcorn/popcorn_4"
+            },
+            "5": {
+                "model": "almura:crop/popcorn/popcorn_5"
             }
         }
     }

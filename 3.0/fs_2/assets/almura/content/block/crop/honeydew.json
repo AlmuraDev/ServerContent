@@ -87,10 +87,10 @@
                         "drop": [
                             {
                                 "item": "almura:food/food/honeydew",
-                                "amount": 1,
+                                "amount": 2,
                                 "bonus": {
                                     "amount": 1,
-                                    "chance": 10
+                                    "chance": 1
                                 }
                             }
                         ]

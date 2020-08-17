@@ -2,14 +2,14 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:normal/ingredient/popcorn",
+      "item": "almura:normal/ingredient/popcorn_cob",
       "data": 0,
       "count": 1
     }
   ],
   "result": {
-    "item": "almura:seed/popcorn_seed",
+    "item": "almura:normal/ingredient/popcorn",
     "data": 0,
-    "count": 1
+    "count": 16
   }
 }

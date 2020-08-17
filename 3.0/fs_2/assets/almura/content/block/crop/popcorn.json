@@ -80,13 +80,16 @@
             "parent": "age=1"
         },
         "age=4": {
+            "parent": "age=1"
+        },
+        "age=5": {
             "parent": "age=1",
             "action": {
                 "destroy": [                   
                     {
                         "drop": [
                             {
-                                "item": "almura:normal/ingredient/popcorn",
+                                "item": "almura:normal/ingredient/popcorn_cob",
                                 "amount": 2,
                                 "bonus": {
                                     "amount": 1,

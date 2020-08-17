@@ -18,6 +18,9 @@
                 "model": "almura:crop/corn/corn_3"
             },
             "4": {
+                "model": "almura:crop/corn/corn_4"
+            },
+            "5": {
                 "model": "almura:crop/corn/corn_4.obj"
             }
         }
