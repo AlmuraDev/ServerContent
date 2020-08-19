@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone",
-      "data": 0,
+      "item": "minecraft:dye",
+      "data": 15,
       "count": 1
     },
     {
-      "item": "minecraft:bone",
-      "data": 0,
+      "item": "minecraft:dye",
+      "data": 15,
       "count": 1
     }
   ],
