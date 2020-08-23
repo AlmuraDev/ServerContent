@@ -34,8 +34,8 @@ vt 0.508210 0.995372 0.000000
 vt 0.508210 0.003498 0.000000
 # 16 texture coords
 
-o feild_corn
-g feild_corn
+o field_corn
+g field_corn
 usemtl corn_4
 f 1/1/1 2/2/1 3/3/1 4/4/1 
 f 5/5/2 6/6/2 7/7/2 8/8/2 
