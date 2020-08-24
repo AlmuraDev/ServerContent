@@ -2,12 +2,12 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:food/food/sliceofbread",
+      "item": "almura:food/food/fried_potatos",
       "data": 0,
       "count": 1
     },
     {
-      "item": "almura:food/food/sausage",
+      "item": "almura:food/food/bacon",
       "data": 0,
       "count": 1
     },
@@ -18,7 +18,7 @@
     }
   ],
   "result": {
-    "item": "almura:food/food/sandwich_cheese_hotdog",
+    "item": "almura:food/food/potatos_cheesy_bacon",
     "data": 0,
     "count": 1
   }

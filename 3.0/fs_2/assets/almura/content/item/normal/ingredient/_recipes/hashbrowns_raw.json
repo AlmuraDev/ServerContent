@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    " A ",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:potato",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "almura:normal/tool/grater",
+      "data": 32767,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:normal/ingredient/hashbrowns_raw",
+    "data": 0,
+    "count": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "BA ",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "minecraft:iron_ingot",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:normal/tool/knife",
+    "data": 0,
+    "count": 4
+  }
+}

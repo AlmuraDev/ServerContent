@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/cheese_nacho",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/southern_cornchips",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/southern_cornchips_cheese_nacho",
+    "data": 0,
+    "count": 1
+  }
+}

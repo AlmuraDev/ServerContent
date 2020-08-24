@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [    
+    {
+      "item": "almura:food/food/cheese_shredded",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/hashbrowns",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/hashbrowns_cheese",
+    "data": 0,
+    "count": 1
+  }
+}
