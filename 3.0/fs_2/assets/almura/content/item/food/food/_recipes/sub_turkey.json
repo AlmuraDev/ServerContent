@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/sub_bread",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "mocreatures:turkeycooked",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sub_turkey",
+    "data": 0,
+    "count": 1
+  }
+}

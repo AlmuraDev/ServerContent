@@ -1,0 +1,55 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/sub_bread",
+      "data": 0,
+      "count": 1
+    },
+{
+      "item": "almura:food/food/cheese",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/onion",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/lettuce",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/olive",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/cucumber",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/bellpepper",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/bacon",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/roastbeef",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sub_roast_beef_works",
+    "data": 0,
+    "count": 1
+  }
+}
