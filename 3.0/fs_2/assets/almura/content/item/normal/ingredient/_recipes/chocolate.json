@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [    
+    {
+      "item": "minecraft:dye",
+      "data": 3,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/vanilla",
+      "data": 0,
+      "count": 1
+    },    
+    {
+      "item": "almura:normal/ingredient/vegetableoil",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/chocolate",
+    "data": 0,
+    "count": 6
+  }
+}

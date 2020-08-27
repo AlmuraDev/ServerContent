@@ -1,0 +1,55 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/icecream_cone",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:ice",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/butter_slice",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_milk_cruet",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/vanilla_extract",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/strawberry",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/tool/grinder",
+      "data": 32767,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/icecream_cone_vanilla",
+    "data": 0,
+    "count": 12
+  }
+}
