@@ -15,10 +15,15 @@
       "item": "minecraft:cooked_fish",
       "data": 0,
       "count": 1
+    },
+    {
+      "item": "almura:food/food/cheese",
+      "data": 0,
+      "count": 1
     }
   ],
   "result": {
-    "item": "almura:food/food/sandwich_fish",
+    "item": "almura:food/food/sandwich_fish_cheese",
     "data": 0,
     "count": 1
   }

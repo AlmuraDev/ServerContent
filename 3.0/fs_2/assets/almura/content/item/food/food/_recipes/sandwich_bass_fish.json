@@ -12,13 +12,13 @@
       "count": 1
     },
     {
-      "item": "minecraft:cooked_fish",
+      "item": "almura:food/food/bass_cooked",
       "data": 0,
       "count": 1
     }
   ],
   "result": {
-    "item": "almura:food/food/sandwich_fish",
+    "item": "almura:food/food/sandwich_bass_fish",
     "data": 0,
     "count": 1
   }
