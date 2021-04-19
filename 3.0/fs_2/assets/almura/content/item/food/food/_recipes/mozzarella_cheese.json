@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/glass_milk_cruet",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/vinegar",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/lemon",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_water_cruet",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/mozzarella_cheese",
+    "data": 0,
+    "count": 12
+  }
+}
