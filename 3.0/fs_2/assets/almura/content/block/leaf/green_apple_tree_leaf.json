@@ -9,7 +9,24 @@
             "flammability": 30,  // 30 == default
             "fire_spread_speed": 60,  // 60 = default
             "resistance": 10.0,
-                "action": {
+            "spread": {
+				"chance": [
+                            {
+                                "biome": [
+                                    "minecraft",
+                                    "terraincontrol"
+                                ],
+                                "min": 0,
+                                "max": 10
+                            },
+                            {
+                                "min": 0,
+                                "max": 10
+                            }
+                ],
+                "block": "almura:leaf/green_apple_tree_fruit_leaf"                
+            },      
+			"action": {
                 "destroy": [
                     {
                         "drop": [
