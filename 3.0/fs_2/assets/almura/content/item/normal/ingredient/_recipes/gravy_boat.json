@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:stick",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/gravy_boat",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/frosting_chocolate",
+      "data": 0,
+      "count": 1
+    },
+	{
+      "item": "almura:food/food/doughnut",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/doughnut_w_vanilla_frosting",
+    "data": 0,
+    "count": 1
+  }
+}

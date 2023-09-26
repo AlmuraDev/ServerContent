@@ -1,0 +1,31 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "model": "almura:crop/common/sprout_0.obj"
+            },
+            "1": {
+                "model": "almura:crop/common/sprout_1.obj"
+            },
+            "2": {
+                "model": "almura:crop/banana/banana_1.obj"
+            },
+            "3": {
+                "model": "almura:crop/banana/banana_2.obj"
+            },
+			"4": {
+                "model": "almura:crop/banana/banana_3.obj"
+            },
+			"5": {
+                "model": "almura:crop/banana/banana_4.obj"
+            },
+            "6": {
+                "model": "almura:crop/banana/banana_5.obj"
+            }
+        }
+    }
+}

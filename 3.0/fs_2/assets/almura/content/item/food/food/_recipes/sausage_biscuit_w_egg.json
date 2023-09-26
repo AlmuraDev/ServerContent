@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/food/biscuit",
+      "data": 0,
+      "count": 1
+    },	
+	{
+      "item": "almura:food/food/breakfast_scrambledeggs",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/sausage",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/food/sausage_biscuit_w_cheese",
+    "data": 0,
+    "count": 1
+  }
+}

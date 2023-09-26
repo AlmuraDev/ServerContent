@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/cinnamon",
+      "data": 0,
+      "count": 1
+    },
+	{
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/flour",
+      "data": 0,
+      "count": 1
+    },
+	{
+      "item": "almura:normal/ingredient/glass_milk_cruet",
+      "data": 0,
+      "count": 1
+    },
+	{
+      "item": "minecraft:sugar",
+      "data": 0,
+      "count": 1
+    }   
+  ],
+  "result": {
+    "item": "almura:food/food/doughnut",
+    "data": 0,
+    "count": 6
+  }
+}

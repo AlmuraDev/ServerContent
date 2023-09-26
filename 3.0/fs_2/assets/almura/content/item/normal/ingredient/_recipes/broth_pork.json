@@ -1,0 +1,40 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/glass_water_cruet",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/salt",
+      "data": 0,
+      "count": 1    
+    },
+    {
+      "item": "almura:normal/ingredient/laurel",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/parsley",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:normal/ingredient/thyme",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/broth_pork",
+    "data": 0,
+    "count": 1
+  }
+}

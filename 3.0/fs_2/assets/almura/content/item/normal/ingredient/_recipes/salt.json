@@ -7,7 +7,7 @@
       "count": 1
     },
     {
-      "item": "almura:normal/ore/saltchunk",
+      "item": "almura:normal/ingredient/salt_crushed",
       "data": 0,
       "count": 1
     },
@@ -20,6 +20,6 @@
   "result": {
     "item": "almura:normal/ingredient/salt",
     "data": 0,
-    "count": 16
+    "count": 1
   }
 }
