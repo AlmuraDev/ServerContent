@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/dough",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:normal/ingredient/biscuit_dough",
+    "data": 0,
+    "count": 6
+  }
+}

@@ -25,6 +25,11 @@
       "item": "almura:normal/ingredient/spicemix_ramen",
       "data": 0,
       "count": 1
+    },
+	{
+      "item": "minecraft:bowl",
+      "data": 0,
+      "count": 1
     }
   ],
   "result": {

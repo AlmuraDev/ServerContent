@@ -30,6 +30,11 @@
       "item": "minecraft:beef",
       "data": 0,
       "count": 1
+    },
+	{
+      "item": "minecraft:bowl",
+      "data": 0,
+      "count": 1
     }
   ],
   "result": {
