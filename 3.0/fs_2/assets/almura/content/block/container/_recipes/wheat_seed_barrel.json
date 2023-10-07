@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat_seeds",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "almura:container/empty_barrel",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:container/wheat_seed_barrel",
+    "data": 0,
+    "count": 1
+  }
+}

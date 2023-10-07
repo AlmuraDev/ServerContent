@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "almura:seed/oregano_seed",
+      "data": 0,
+      "count": 1
+    },
+    "B": {
+      "item": "almura:container/empty_barrel",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:container/oregano_seed_barrel",
+    "data": 0,
+    "count": 1
+  }
+}

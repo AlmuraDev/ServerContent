@@ -1,0 +1,24 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "render_layer": "cutout_mipped",
+    "item_group": "almura:barrel",
+	"limit":64,
+	"slots":54,
+    "state": {
+        "normal": {
+            "aabb": {
+                "shape": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                },
+                "wireframe": {
+                    "min": [ 0.0, 0.0, 0.0 ],
+                    "max": [ 1.0, 1.0, 1.0 ]
+                }
+            },
+            "hardness": 0.5,
+            "resistance": 10.0
+        }
+    }
+}

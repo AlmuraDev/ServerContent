@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:container/barley_seed_barrel.obj",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [ { } ],
+        "normal": [ { } ],
+		"facing": {
+            "south": {
+                "y": 180.0
+            },
+            "west": {
+                "y": 270.0
+            },
+            "north": {},
+            "east": {
+                "y": 90.0
+            }
+        }
+    }
+}
