@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:normal/ingredient/pintobean",
+      "item": "almura:food/food/butterbean",
       "data": 0,
       "count": 1
     },
@@ -27,7 +27,7 @@
       "count": 1
     },
     {
-      "item": "minecraft:beef",
+      "item": "almura:food/food/cooked_ground_beef",
       "data": 0,
       "count": 1
     },

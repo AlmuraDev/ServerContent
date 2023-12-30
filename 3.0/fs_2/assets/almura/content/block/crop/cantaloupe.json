@@ -3,7 +3,7 @@
     "material": "minecraft:plants",
     "sound": "minecraft:plant",
     "render_layer": "translucent",
-    "seed": "almura:seed/cinnamon_seed",
+    "seed": "almura:seed/cantaloupe_seed",
     "state": {
         "age=0": {
             "aabb": {
