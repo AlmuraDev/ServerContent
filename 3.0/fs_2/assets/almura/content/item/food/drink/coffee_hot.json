@@ -6,5 +6,20 @@
         "health_change": 1,
         "saturation_change": 6
     },
-    "duration_ticks": 25    
+    "duration_ticks": 25,
+	"potion_effects": [       
+        {
+            "potion": [
+                "minecraft:health_boost"
+            ],            
+            "chance": {
+                "min": 100,
+                "max": 100
+            },
+            "duration": 6000,
+            "amplifier": 1,
+            "ambient": false,
+            "show_particles": false
+        }
+    ]    
 }

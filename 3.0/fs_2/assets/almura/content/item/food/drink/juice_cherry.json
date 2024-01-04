@@ -9,5 +9,20 @@
         "health_change": 1,
         "saturation_change": 5
     },
-    "duration_ticks": 25    
+    "duration_ticks": 25,
+	"potion_effects": [       
+        {
+            "potion": [
+                "minecraft:resistance"
+            ],            
+            "chance": {
+                "min": 100,
+                "max": 100
+            },
+            "duration": 3600,
+            "amplifier": 3,
+            "ambient": false,
+            "show_particles": false
+        }
+    ]    
 }
