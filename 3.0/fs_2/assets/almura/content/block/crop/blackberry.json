@@ -16,8 +16,8 @@
             "growth": {
                 "chance": [                    
                     {
-                        "min": 8,
-                        "max": 12
+                        "min": 3,
+                        "max": 6
                     }
                 ],
                 "light": [                    

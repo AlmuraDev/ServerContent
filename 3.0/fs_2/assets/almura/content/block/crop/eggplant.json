@@ -16,8 +16,8 @@
             "growth": {
                 "chance": [                    
                     {
-                        "min": 12,
-                        "max": 18
+                        "min": 6,
+                        "max": 12
                     }
                 ],
                 "light": [                    
@@ -28,7 +28,7 @@
                 ],
                 "temperature_required": [                   
                     {
-                        "min": 1.0,
+                        "min": 0.6,
                         "max": 1.75
                     }
                 ]

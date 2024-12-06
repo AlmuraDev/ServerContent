@@ -16,7 +16,7 @@
             "growth": {
                 "chance": [                    
                     {
-                        "min": 7,
+                        "min": 3,
                         "max": 10
                     }
                 ],
