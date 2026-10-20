@@ -1,4 +1,5 @@
 {
+    "container": "minecraft:glass_bottle",
     "item_group": "almura:drink",
     "always_edible": true,
     "apply": {

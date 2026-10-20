@@ -1,5 +1,10 @@
 {
   "pipe.name": "Irrigation Pipe",
   "corner_pipe.name": "Irrigation Corner Pipe",
-  "t_pipe.name": "Irrigation T Pipe"
+  "t_pipe.name": "Irrigation T Pipe",
+  "ceiling_pipe.name": "Ceiling Irrigation Pipe",
+  "ceiling_corner_pipe.name": "Ceiling Irrigation Corner Pipe",
+  "ceiling_t_pipe.name": "Ceiling Irrigation T Pipe",
+  "end_cap_pipe.name": "Irrigation End Cap",
+  "ceiling_end_cap_pipe.name": "Ceiling Irrigation End Cap"
 }

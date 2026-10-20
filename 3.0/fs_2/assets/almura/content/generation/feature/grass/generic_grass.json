@@ -9,8 +9,8 @@
                 "minecraft",
                 "terraincontrol"
             ],
-            "min": 5,
-            "max": 50
+            "min": 1.25,
+            "max": 12.5
         }
     ]
 }

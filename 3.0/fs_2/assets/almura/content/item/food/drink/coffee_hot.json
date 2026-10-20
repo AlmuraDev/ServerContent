@@ -1,4 +1,5 @@
 {
+    "container": "almura:normal/ingredient/coffee_cup",
     "item_group": "almura:drink",
     "always_edible": true,
     "apply": {

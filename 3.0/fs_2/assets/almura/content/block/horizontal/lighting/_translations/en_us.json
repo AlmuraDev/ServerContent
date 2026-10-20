@@ -36,5 +36,18 @@
   "iron_sideway_half_bottom_postless_post.name": "Iron Half Horizontal Bottom Post -postless-",
   "small_path_light_top.name": "Small Path Light Top",
   "hanging_lamp.name": "Hanging Lamp",
-  "mine_shaft_hanging_lamp.name": "Hanging Mineshaft Lamp"
+  "mine_shaft_hanging_lamp.name": "Hanging Mineshaft Lamp",
+  "almuracustom1_light_flicker.name": "Ceiling Light (Flickering)",
+  "almuracustom1_walllight_flicker.name": "Wall Light (Flickering)",
+  "almuracustom2_polelight_flicker.name": "Polelight (Flickering)",
+  "cep_rpg_blacksmith_smith_ironlamp_flicker.name": "Iron Lamp (Flickering)",
+  "hanging_lamp_flicker.name": "Hanging Lamp (Flickering)",
+  "lamp_blackwalllamp_flicker.name": "Black Wall Lamp (Flickering)",
+  "lamp_goldwalllamp_flicker.name": "Gold Wall Lamp (Flickering)",
+  "lamp_silverwalllamp_flicker.name": "Silver Wall Lamp (Flickering)",
+  "mine_shaft_hanging_lamp_flicker.name": "Hanging Mineshaft Lamp (Flickering)",
+  "path_light_flicker.name": "Path Light (Flickering)",
+  "plant_light_flicker.name": "Plant Light (Flickering)",
+  "small_path_light_flicker.name": "Small Path Light (Flickering)",
+  "small_path_light_top_flicker.name": "Small Path Light Top (Flickering)"
 }

@@ -1,4 +1,5 @@
 {
+    "container": "minecraft:bowl",
     "item_group": "almura:food",
     "always_edible": true,
     "apply": {
