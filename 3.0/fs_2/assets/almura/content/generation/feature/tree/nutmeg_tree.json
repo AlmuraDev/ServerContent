@@ -1,0 +1,25 @@
+{
+    // Tree used for generation
+    "tree": "almura:nutmeg_tree",
+    // Chance of generation, 0-100 scale.
+    "chance": [
+        // Biome specific chance of generating
+        {
+            "biome": [
+                "minecraft:jungle",
+                "minecraft:jungle_hills",
+                "minecraft:jungle_edge",
+                "minecraft:mutated_jungle",
+                "minecraft:mutated_jungle_edge",
+                "terraincontrol"
+            ],
+            "min": 0,
+            "max": 5
+        },
+        // Global chance of generating
+        {
+            "min": 0,
+            "max": 0
+        }
+    ]
+}

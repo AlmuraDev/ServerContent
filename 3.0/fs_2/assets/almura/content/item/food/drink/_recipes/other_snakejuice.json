@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/other_moonshine",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/other_snakejuice",
+    "data": 0,
+    "count": 1
+  }
+}

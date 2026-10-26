@@ -6,17 +6,25 @@
     "variants": {
         "age": {
             "0": {
-                "model": "almura:crop/common/flat_0.obj"
-            },
-            "1": {
                 "model": "almura:crop/rice/rice_1"
             },
-            "2": {
+            "1": {
                 "model": "almura:crop/rice/rice_2"
             },
-            "3": {
+            "2": {
                 "model": "almura:crop/rice/rice_3"
+            },
+            "3": {
+                "model": "almura:crop/rice/rice_4"
             }
+        },
+        "wet": {
+            "true": {
+                "submodel": {
+                    "water": { "model": "almura:crop/common/water_surface" }
+                }
+            },
+            "false": {}
         }
     }
 }

@@ -25,6 +25,9 @@
             },
             "6": {
                 "model": "almura:crop/banana/banana_5.obj"
+            },
+            "7": {
+                "model": "almura:crop/banana/banana_6.obj"
             }
         }
     }

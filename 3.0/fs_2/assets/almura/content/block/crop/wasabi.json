@@ -1,0 +1,98 @@
+{
+    // Stream bed wasabi: planted on gravel, sand or dirt into one block of still water with air above, its leaves held up out of it
+    "aquatic": "surface",
+    "map_color": "minecraft:foliage",
+    "material": "minecraft:plants",
+    "sound": "minecraft:plant",
+    "render_layer": "translucent",
+    "seed": "almura:seed/wasabi_seed",
+    "state": {
+        "age=0": {
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.25, 1.0]
+                }
+            },
+            "can_rollback": true,
+            "growth": {
+                // Slow: real wasabi takes over a year to make its root
+                "chance": [
+                    {
+                        "min": 2,
+                        "max": 5
+                    }
+                ],
+                // Happy in shade
+                "light": [
+                    {
+                        "min": 4,
+                        "max": 15
+                    }
+                ],
+                // Cool climates: mountain streams
+                "temperature_required": [
+                    {
+                        "min": 0.1,
+                        "max": 0.8
+                    }
+                ]
+            },
+            "hardness": 0.0,
+            "fertilizer": [
+                {
+                    "item": {
+                        "minecraft:dye": {
+                            "meta": 15
+                        }
+                    },
+                    "chance": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            ],
+            "resistance": 0.0
+        },
+        "age=1": {
+            "parent": "age=0",
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.5, 1.0]
+                }
+            }
+        },
+        "age=2": {
+            "parent": "age=1",
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.9, 1.0]
+                }
+            }
+        },
+        "age=3": {
+            "parent": "age=2"
+        },
+        // In flower: the root is ready
+        "age=4": {
+            "parent": "age=2",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:normal/ingredient/wasabi",
+                                "amount": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

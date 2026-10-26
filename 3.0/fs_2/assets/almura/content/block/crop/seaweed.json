@@ -1,0 +1,101 @@
+{
+    // Grows underwater: planted on the seabed (sand, gravel, dirt or clay) into still water, needs water above it to stay and grow, and
+    // turns back into water when it's gone
+    "aquatic": true,
+    // Perennial: cutting the ripe seaweed with a harvesting sack sets it back to its mid-height stage (age 2) to grow again
+    "sack_harvest": { "reset_age": 2 },
+    "map_color": "minecraft:foliage",
+    "material": "minecraft:plants",
+    "sound": "minecraft:plant",
+    "render_layer": "translucent",
+    "seed": "almura:seed/seaweed_seed",
+    "state": {
+        "age=0": {
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.25, 1.0]
+                }
+            },
+            // Underwater it can never see the sky, so the night time rollback guard never applies: it just pauses when conditions are poor
+            "can_rollback": false,
+            "growth": {
+                "chance": [
+                    {
+                        "min": 4,
+                        "max": 8
+                    }
+                ],
+                // Light fades with depth: this grows a few blocks down
+                "light": [
+                    {
+                        "min": 4,
+                        "max": 15
+                    }
+                ],
+                // Frozen seas to warm ones
+                "temperature_required": [
+                    {
+                        "min": 0.0,
+                        "max": 1.5
+                    }
+                ]
+            },
+            "hardness": 0.0,
+            "fertilizer": [
+                {
+                    "item": {
+                        "minecraft:dye": {
+                            "meta": 15
+                        }
+                    },
+                    "chance": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            ],
+            "resistance": 0.0
+        },
+        "age=1": {
+            "parent": "age=0",
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.5, 1.0]
+                }
+            }
+        },
+        "age=2": {
+            "parent": "age=1",
+            "aabb": {
+                "shape": {
+                    "min": [0.0, 0.0, 0.0],
+                    "max": [1.0, 0.9, 1.0]
+                }
+            }
+        },
+        "age=3": {
+            "parent": "age=2"
+        },
+        // Full grown, two blocks tall with gas floats: ready to cut
+        "age=4": {
+            "parent": "age=2",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:food/food/seaweed",
+                                "amount": {
+                                    "min": 2,
+                                    "max": 3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

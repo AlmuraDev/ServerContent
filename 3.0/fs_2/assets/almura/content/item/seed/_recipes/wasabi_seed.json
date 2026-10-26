@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/wasabi",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:seed/wasabi_seed",
+    "data": 0,
+    "count": 4
+  }
+}

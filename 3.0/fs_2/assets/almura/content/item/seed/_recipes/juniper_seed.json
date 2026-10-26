@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:normal/ingredient/materials_juniperberry",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:seed/juniper_seed",
+    "data": 0,
+    "count": 4
+  }
+}

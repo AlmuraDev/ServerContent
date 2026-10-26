@@ -1,0 +1,37 @@
+{
+    // Tree used for generation
+    "tree": "almura:palm_tree",
+    // Palms grow on beach sand as well as on grass and dirt
+    "requires": [
+        "minecraft:sand",
+        "minecraft:grass",
+        "minecraft:dirt"
+    ],
+    // Chance of generation, 0-100 scale.
+    "chance": [
+        // Beaches, which have no trees of their own
+        {
+            "biome": [
+                "minecraft:beaches"
+            ],
+            "min": 0,
+            "max": 10
+        },
+        // Jungles
+        {
+            "biome": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:mutated_jungle",
+                "minecraft:mutated_jungle_edge"
+            ],
+            "min": 0,
+            "max": 5
+        },
+        // Global chance of generating
+        {
+            "min": 0,
+            "max": 0
+        }
+    ]
+}

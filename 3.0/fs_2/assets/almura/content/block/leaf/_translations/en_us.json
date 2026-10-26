@@ -25,5 +25,19 @@
   "plum_tree_leaf.name": "Plum Tree Leaf",
   "plum_tree_fruit_leaf.name": "Plum Tree Fruit Leaf",
   "walnut_tree_leaf.name": "Walnut Tree Leaf",
-  "walnut_tree_fruit_leaf.name": "Walnut Tree Fruit Leaf"
+  "walnut_tree_fruit_leaf.name": "Walnut Tree Fruit Leaf",
+  "almond_tree_leaf.name": "Almond Tree Leaf",
+  "almond_tree_fruit_leaf.name": "Almond Tree Fruit Leaf",
+  "avocado_tree_leaf.name": "Avocado Tree Leaf",
+  "avocado_tree_fruit_leaf.name": "Avocado Tree Fruit Leaf",
+  "pecan_tree_leaf.name": "Pecan Tree Leaf",
+  "chestnut_tree_leaf.name": "Chestnut Tree Leaf",
+  "palm_tree_leaf.name": "Palm Tree Leaf",
+  "pecan_tree_fruit_leaf.name": "Pecan Tree Fruit Leaf",
+  "chestnut_tree_fruit_leaf.name": "Chestnut Tree Fruit Leaf",
+  "palm_tree_fruit_leaf.name": "Palm Tree Fruit Leaf",
+  "pistachio_tree_leaf.name": "Pistachio Tree Leaf",
+  "pistachio_tree_fruit_leaf.name": "Pistachio Tree Fruit Leaf",
+  "nutmeg_tree_leaf.name": "Nutmeg Tree Leaf",
+  "nutmeg_tree_fruit_leaf.name": "Nutmeg Tree Fruit Leaf"
 }

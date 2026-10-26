@@ -1,0 +1,24 @@
+{
+    // Tree used for generation
+    "tree": "almura:chestnut_tree",
+    // Chance of generation, 0-100 scale.
+    "chance": [
+        // Biome specific chance of generating
+        {
+            "biome": [
+                "minecraft:forest",
+                "minecraft:forest_hills",
+                "minecraft:birch_forest",
+                "minecraft:roofed_forest",
+                "terraincontrol"
+            ],
+            "min": 0,
+            "max": 5
+        },
+        // Global chance of generating
+        {
+            "min": 0,
+            "max": 0
+        }
+    ]
+}

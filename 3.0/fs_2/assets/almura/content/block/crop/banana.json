@@ -1,4 +1,6 @@
 {
+    // Perennial: picking the ripe bunch with a harvesting sack sets the plant back to flowering (age 5) instead of destroying it
+    "sack_harvest": { "reset_age": 5 },
     "map_color": "minecraft:foliage",
     "material": "minecraft:plants",
     "sound": "minecraft:plant",
@@ -85,7 +87,32 @@
 		"age=5": {
             "parent": "age=1"
         },
+        // Full grown with a green bunch: the bunch takes about three times as long to ripen as the other stages take to grow
         "age=6": {
+            "parent": "age=1",
+            "growth": {
+                "chance": [
+                    {
+                        "min": 1,
+                        "max": 3
+                    }
+                ],
+                "light": [
+                    {
+                        "min": 10,
+                        "max": 15
+                    }
+                ],
+                "temperature_required": [
+                    {
+                        "min": 0.6,
+                        "max": 1.5
+                    }
+                ]
+            }
+        },
+        // Ripe: picking it with a harvesting sack sets it back to age 5 (flowering) to fruit again, breaking it destroys the plant
+        "age=7": {
             "parent": "age=1",
             "action": {
                 "destroy": [
@@ -93,10 +120,10 @@
                         "drop": [
                             {
                                 "item": "almura:food/food/banana",
-                                "amount": 4,
-                                "bonus": {
-                                    "amount": 3,
-                                    "chance": 25
+                                // A whole bunch: 24 to 32 bananas
+                                "amount": {
+                                    "min": 24,
+                                    "max": 32
                                 }
                             }
                         ]

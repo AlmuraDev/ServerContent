@@ -13,5 +13,12 @@
   "morbus_tree_log.name": "Morbus Tree Log",
   "peach_tree_log.name": "Peach Tree Log",
   "plum_tree_log.name": "Plum Tree Log",
-  "walnut_tree_log.name": "Walnut Tree Log"
+  "walnut_tree_log.name": "Walnut Tree Log",
+  "almond_tree_log.name": "Almond Tree Log",
+  "avocado_tree_log.name": "Avocado Tree Log",
+  "pecan_tree_log.name": "Pecan Tree Log",
+  "chestnut_tree_log.name": "Chestnut Tree Log",
+  "palm_tree_log.name": "Palm Tree Log",
+  "pistachio_tree_log.name": "Pistachio Tree Log",
+  "nutmeg_tree_log.name": "Nutmeg Tree Log"
 }

@@ -1,0 +1,33 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "age": {
+            "0": {
+                "model": "almura:crop/wasabi/wasabi_1"
+            },
+            "1": {
+                "model": "almura:crop/wasabi/wasabi_2"
+            },
+            "2": {
+                "model": "almura:crop/wasabi/wasabi_3"
+            },
+            "3": {
+                "model": "almura:crop/wasabi/wasabi_4"
+            },
+            "4": {
+                "model": "almura:crop/wasabi/wasabi_5"
+            }
+        },
+        "wet": {
+            "true": {
+                "submodel": {
+                    "water": { "model": "almura:crop/common/water_surface" }
+                }
+            },
+            "false": {}
+        }
+    }
+}

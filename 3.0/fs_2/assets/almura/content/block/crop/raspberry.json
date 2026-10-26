@@ -1,4 +1,5 @@
 {
+    "sack_harvest": { "reset_age": 2 },
     "map_color": "minecraft:foliage",
     "material": "minecraft:plants",
     "sound": "minecraft:plant",

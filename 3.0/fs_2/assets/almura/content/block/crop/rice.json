@@ -1,4 +1,7 @@
 {
+    // A paddy crop: planted on dirt, farmland, clay or sand into one block of still water with air above, growing up out of it. Rice planted
+    // on farmland before it was aquatic keeps growing there as before (the hydration below is for that rice; rice in water is always watered)
+    "aquatic": "surface",
     "map_color": "minecraft:foliage",
     "material": "minecraft:plants",
     "sound": "minecraft:plant",
@@ -29,7 +32,7 @@
                 "temperature_required": [                   
                     {
                         "min": 0.5,
-                        "max": 1.1
+                        "max": 1.3
                     }
                 ]
             },

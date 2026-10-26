@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:food/drink/spirit_whiskey",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "almura:food/food/chilipepper",
+      "data": 0,
+      "count": 1
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:food/drink/other_firewater",
+    "data": 0,
+    "count": 1
+  }
+}

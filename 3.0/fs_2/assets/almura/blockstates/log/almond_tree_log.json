@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "almura:log/almond_tree_log",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory": [{}],
+        // Axis of the log
+        "axis": {
+            "x": { "model": "almura:log/almond_tree_log", "x": 90, "y": 90 },
+            "y": {},
+            "z": { "model": "almura:log/almond_tree_log", "x": 90 },
+            "none": {}
+        }
+    }
+}
