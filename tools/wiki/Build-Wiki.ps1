@@ -46,6 +46,7 @@ if (-not (Test-Path -LiteralPath (Join-Path $vAssets 'minecraft\lang\en_us.lang'
       $jarSha1 = '0f275bc1547d01fa5f56ba34bdc87d981ee12daf'
       if (-not (Test-Path -LiteralPath $MinecraftJar)) {
         Write-Host "Downloading the Minecraft 1.12.2 client jar from Mojang"
+        [void][IO.Directory]::CreateDirectory((Split-Path -Parent $MinecraftJar))   # vanilla\ only holds git-ignored files, so a fresh checkout lacks it
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         (New-Object Net.WebClient).DownloadFile("https://piston-data.mojang.com/v1/objects/$jarSha1/client.jar", $MinecraftJar)
       }
