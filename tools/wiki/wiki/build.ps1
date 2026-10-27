@@ -178,7 +178,7 @@ $sectionMap = @{
   'block/horizontal/agriculture'='Agriculture'; 'block/horizontal/building'='Building'; 'block/horizontal/crop'='Crop Blocks'
   'block/horizontal/decoration'='Decoration'; 'block/horizontal/flag'='Flags'; 'block/horizontal/flooring'='Flooring'
   'block/horizontal/furniture'='Furniture'; 'block/horizontal/letter'='Letters'; 'block/horizontal/lighting'='Lighting'
-  'block/horizontal/ore'='Ores'; 'block/horizontal/sign'='Signs'
+  'block/horizontal/ore'='Ores'; 'block/horizontal/sign'='Signs'; 'block/horizontal/roofing'='Roofing'; 'block/horizontal/currency'='Currency'
   'item/food/drink'='Drinks'; 'item/food/food'='Food'; 'item/seed'='Seeds'; 'item/slab'='Slabs'
   'item/tool_hoe'='Hoes'; 'item/tool_sickle'='Sickles'
   'item/normal/component'='Components'; 'item/normal/crop'='Crops'; 'item/normal/currency'='Currency'; 'item/normal/decoration'='Decoration'
@@ -451,6 +451,21 @@ foreach ($idr in @('food/drink','food/food','normal','seed','slab','tool_hoe','t
       'normal' { if (Has $def 'durability') { $stats['tool'] = [ordered]@{ durability = $def['durability'] } } }
     }
   }
+}
+
+# ---- items the Almura mod registers in code (no content json); their models and translations are in the pack or the mod's assets
+$codeItems = @(
+  @{ rel = 'normal/ingredient/glass_cruet';       group = 'almura:ingredient' }
+  @{ rel = 'normal/ingredient/glass_water_cruet'; group = 'almura:ingredient' }
+  @{ rel = 'normal/ingredient/glass_milk_cruet';  group = 'almura:ingredient'; name = 'Milk Filled Cruet' }   # names from the mod's en_us.lang
+  @{ rel = 'normal/tool/farmers_almanac';         group = 'almura:tool'; name = "Farmer's Almanac" }
+  @{ rel = 'normal/tool/harvesting_sack';         group = 'almura:agriculture' }
+)
+foreach ($ci in $codeItems) {
+  $parts = $ci.rel -split '/'
+  $section = $sectionMap['item/' + $parts[0] + '/' + $parts[1]]; if (-not $section) { $section = Humanize $parts[1] }
+  $e = Add-Entry "$NS`:$($ci.rel)" 'item' $section $parts[-1] "$itemBase\$($parts[0])\$($parts[1])" @{ item_group = $ci.group }
+  if ($ci.name -and $stat.nameFallback -and $e['name'] -eq (Humanize $parts[-1])) { $e['name'] = $ci.name; $stat.nameFallback--; $stat.nameTr++ }
 }
 
 # seeds -> crop soil
