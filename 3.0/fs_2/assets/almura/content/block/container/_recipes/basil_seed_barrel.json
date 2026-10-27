@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "almura:seed/blackberry_seed",
+      "item": "almura:seed/basil_seed",
       "data": 0,
       "count": 1
     },
@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "almura:container/blackberry_seed_barrel",
+    "item": "almura:container/basil_seed_barrel",
     "data": 0,
     "count": 1
   }

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "almura:horizontal/agriculture/pipe",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "almura:horizontal/agriculture/corner_pipe",
+    "data": 0,
+    "count": 1
+  }
+}

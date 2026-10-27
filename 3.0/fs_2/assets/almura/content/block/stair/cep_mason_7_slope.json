@@ -1,0 +1,24 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "item_group": "almura:building",
+    "block": "almura:horizontal/building/cep_mason_7_bricks",
+    "state": {
+        "normal": {
+            "hardness": 2.0,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/cep_mason_7_slope",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

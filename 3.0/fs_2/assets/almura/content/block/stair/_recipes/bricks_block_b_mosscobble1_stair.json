@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:horizontal/building/bricks_block_b_mosscobble1",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:stair/bricks_block_b_mosscobble1_stair",
+    "data": 0,
+    "count": 4
+  }
+}

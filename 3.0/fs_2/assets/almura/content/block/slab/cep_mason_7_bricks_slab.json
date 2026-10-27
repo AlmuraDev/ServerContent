@@ -1,0 +1,25 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "is_double": false,
+    "single": "almura:slab/cep_mason_7_bricks_slab",
+    "state": {
+        "normal": {
+            "hardness": 2.0,
+            "resistance": 10.0,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/cep_mason_7_bricks_slab",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

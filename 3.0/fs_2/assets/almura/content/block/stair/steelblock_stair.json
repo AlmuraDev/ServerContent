@@ -1,0 +1,31 @@
+{
+    "material": "minecraft:iron",
+    "map_color": "minecraft:iron",
+    "item_group": "almura:building",
+    "block": "almura:horizontal/building/steelblock",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "normal": {
+            "hardness": 2.0,
+            "resistance": 10.0,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/steelblock_stair",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "is_double": false,
+    "single": "almura:slab/marblebrick_slab",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "normal": {
+            "hardness": 0.75,
+            "resistance": 10.0,
+            "block_face_shape": "solid",
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/marblebrick_slab",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

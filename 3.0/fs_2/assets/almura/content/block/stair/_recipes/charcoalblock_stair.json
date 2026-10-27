@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:horizontal/building/charcoalblock",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:stair/charcoalblock_stair",
+    "data": 0,
+    "count": 4
+  }
+}

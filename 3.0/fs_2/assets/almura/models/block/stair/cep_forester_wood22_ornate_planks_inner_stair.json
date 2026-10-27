@@ -1,0 +1,229 @@
+{
+  "textures": {
+    "side": "almura:block/cep_forester",
+    "top": "almura:block/cep_forester",
+    "bottom": "almura:block/cep_forester",
+    "particle": "almura:block/particle/cep_forester_wood22_ornate_planks"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.0,
+            1.0,
+            2.5,
+            1.5
+          ],
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            1.0,
+            2.5,
+            1.5
+          ],
+          "texture": "#top"
+        },
+        "north": {
+          "uv": [
+            2.0,
+            1.25,
+            2.5,
+            1.5
+          ],
+          "texture": "#side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            1.25,
+            2.5,
+            1.5
+          ],
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            1.25,
+            2.5,
+            1.5
+          ],
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.25,
+            2.5,
+            1.5
+          ],
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.25,
+            1.0,
+            2.5,
+            1.5
+          ],
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            1.0,
+            2.5,
+            1.5
+          ],
+          "texture": "#top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            2.0,
+            1.0,
+            2.25,
+            1.25
+          ],
+          "texture": "#side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            1.0,
+            2.5,
+            1.25
+          ],
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            1.0,
+            2.5,
+            1.25
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.0,
+            2.5,
+            1.25
+          ],
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        8,
+        8
+      ],
+      "to": [
+        8,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            2.0,
+            1.0,
+            2.25,
+            1.25
+          ],
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            1.25,
+            2.25,
+            1.5
+          ],
+          "texture": "#top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            2.25,
+            1.0,
+            2.5,
+            1.25
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            1.0,
+            2.25,
+            1.25
+          ],
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            1.0,
+            2.5,
+            1.25
+          ],
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            1.0,
+            2.25,
+            1.25
+          ],
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

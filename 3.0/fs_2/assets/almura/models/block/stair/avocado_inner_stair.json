@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "almura:block/building/avocado_plank",
+        "top": "almura:block/building/avocado_plank",
+        "side": "almura:block/building/avocado_plank"
+    }
+}

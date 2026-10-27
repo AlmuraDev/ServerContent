@@ -1,0 +1,30 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:stone",
+    "item_group": "almura:building",
+    "block": "almura:horizontal/building/asphalt",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "normal": {
+            "hardness": 1.5,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/asphaltramp",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

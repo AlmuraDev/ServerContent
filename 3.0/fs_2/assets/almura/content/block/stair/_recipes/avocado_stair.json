@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:horizontal/building/avocado_plank",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:stair/avocado_stair",
+    "data": 0,
+    "count": 4
+  }
+}

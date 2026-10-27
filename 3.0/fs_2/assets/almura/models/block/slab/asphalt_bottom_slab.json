@@ -1,0 +1,84 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "side": "almura:block/almuracustom1_almuracustom3",
+    "top": "almura:block/almuracustom1_almuracustom3",
+    "bottom": "almura:block/almuracustom1_almuracustom3",
+    "particle": "almura:block/particle/asphalt"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            14.0,
+            2.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            14.0,
+            2.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#top"
+        },
+        "north": {
+          "uv": [
+            14.0,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            14.0,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14.0,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            14.0,
+            3.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

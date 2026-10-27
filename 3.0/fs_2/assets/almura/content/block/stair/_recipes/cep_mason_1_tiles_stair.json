@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "almura:horizontal/building/cep_mason_1_tiles",
+      "data": 0,
+      "count": 1
+    }
+  },
+  "result": {
+    "item": "almura:stair/cep_mason_1_tiles_stair",
+    "data": 0,
+    "count": 4
+  }
+}

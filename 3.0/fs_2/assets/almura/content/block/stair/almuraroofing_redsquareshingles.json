@@ -1,0 +1,30 @@
+{
+    "material": "minecraft:rock",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:roofing",
+    "block": "almura:horizontal/roofing/almuraroofing_redsquareblockshingles",
+    "effective_tools": [
+        "minecraft:stone_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:diamond_pickaxe"
+    ],
+    "state": {
+        "normal": {
+            "hardness": 1.5,
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:stair/almuraroofing_redsquareshingles",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

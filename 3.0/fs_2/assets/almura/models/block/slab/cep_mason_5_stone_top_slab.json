@@ -1,0 +1,83 @@
+{
+  "textures": {
+    "side": "almura:block/cep_mason_mason",
+    "top": "almura:block/cep_mason_mason",
+    "bottom": "almura:block/cep_mason_mason",
+    "particle": "almura:block/particle/cep_mason_5_stone"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            10.0
+          ],
+          "texture": "#bottom"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            10.0
+          ],
+          "texture": "#top",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#side",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.0
+          ],
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}
