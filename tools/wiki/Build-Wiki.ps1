@@ -6,7 +6,8 @@
   ready-to-host site into tools\wiki\dist (almura-wiki.html, wiki-data.json, icons.png,
   renders.png, renders-index.json). Needs Windows PowerShell 5.1 only; no Python or Node.
   The first run extracts vanilla 1.12.2 art from the client jar into tools\wiki\vanilla\jar
-  (git-ignored); the jar is found in the ForgeGradle cache or via -MinecraftJar.
+  (git-ignored); the jar is found in the ForgeGradle cache or via -MinecraftJar, and is
+  otherwise downloaded from Mojang and checked against its sha1.
 .EXAMPLE
   .\tools\wiki\Build-Wiki.ps1
   .\tools\wiki\Build-Wiki.ps1 -Serve        # also opens http://localhost:8080/ to preview
@@ -38,6 +39,18 @@ if (-not (Test-Path -LiteralPath (Join-Path $vAssets 'minecraft\lang\en_us.lang'
     if (-not (Test-Path -LiteralPath $MinecraftJar)) {
       $hit = Get-ChildItem (Join-Path $env:APPDATA '.minecraft\versions\1.12.2') -Filter '1.12.2.jar' -ErrorAction SilentlyContinue | Select-Object -First 1
       if ($hit) { $MinecraftJar = $hit.FullName }
+    }
+    if (-not (Test-Path -LiteralPath $MinecraftJar)) {
+      # Nothing local (e.g. a CI runner): download the 1.12.2 client from Mojang and check it against the launcher manifest's sha1
+      $MinecraftJar = Join-Path $here 'vanilla\client-1.12.2.jar'
+      $jarSha1 = '0f275bc1547d01fa5f56ba34bdc87d981ee12daf'
+      if (-not (Test-Path -LiteralPath $MinecraftJar)) {
+        Write-Host "Downloading the Minecraft 1.12.2 client jar from Mojang"
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        (New-Object Net.WebClient).DownloadFile("https://piston-data.mojang.com/v1/objects/$jarSha1/client.jar", $MinecraftJar)
+      }
+      $got = (Get-FileHash -LiteralPath $MinecraftJar -Algorithm SHA1).Hash.ToLower()
+      if ($got -ne $jarSha1) { Remove-Item -LiteralPath $MinecraftJar; throw "Downloaded client jar has sha1 $got, expected $jarSha1." }
     }
   }
   if (-not (Test-Path -LiteralPath $MinecraftJar)) { throw "Minecraft 1.12.2 client jar not found. Pass -MinecraftJar <path>." }
@@ -86,7 +99,8 @@ if ($Serve) {
     $f = Join-Path $OutDir ($p -replace '/', '\')
     if ((Test-Path -LiteralPath $f -PathType Leaf) -and ($f.StartsWith($OutDir))) {
       $b = [IO.File]::ReadAllBytes($f); $c.Response.ContentType = $types[[IO.Path]::GetExtension($f)]
-      $c.Response.OutputStream.Write($b, 0, $b.Length)
+      $c.Response.ContentLength64 = $b.Length
+      if ($c.Request.HttpMethod -ne 'HEAD') { $c.Response.OutputStream.Write($b, 0, $b.Length) }   # writing a HEAD body throws
     } else { $c.Response.StatusCode = 404 }
     $c.Response.Close()
   } } finally { $l.Stop() }

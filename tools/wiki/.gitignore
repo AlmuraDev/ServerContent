@@ -7,3 +7,4 @@ wiki/*.txt
 render/renders*
 render/*.txt
 render/vanilla-render-index.json
+vanilla/*.jar
