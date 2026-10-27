@@ -1,0 +1,66 @@
+# Rebuilds the player wiki (tools/wiki) from the content pack and publishes it on GitHub Pages.
+# Pushes to master publish the site; pushes to wiki-generator only build it, to try generator changes.
+name: Wiki
+
+on:
+  push:
+    branches: [master, wiki-generator]
+    paths:
+      - '3.0/fs_2/assets/**'
+      - 'tools/wiki/**'
+      - '.github/workflows/wiki.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: wiki-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The Almura mod's own assets (models and names of the items it registers in code)
+      - uses: actions/checkout@v4
+        with:
+          repository: AlmuraDev/Almura
+          ref: Almura-3.5
+          path: Almura
+          sparse-checkout: src/main/resources/assets
+
+      - name: Build the wiki
+        shell: powershell
+        run: .\tools\wiki\Build-Wiki.ps1 -ModAssets "$env:GITHUB_WORKSPACE\Almura\src\main\resources\assets"
+
+      - name: Keep the pack problem reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-reports
+          path: |
+            tools/wiki/wiki/failures.txt
+            tools/wiki/wiki/icon-missing.txt
+            tools/wiki/wiki/recipe-unmatched.txt
+            tools/wiki/render/render-failures.txt
+          if-no-files-found: ignore
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: tools/wiki/dist
+
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

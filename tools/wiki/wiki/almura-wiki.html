@@ -1,0 +1,688 @@
+<title>Almura 3.0 Wiki</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: classic wiki. Sticky top bar with search, category sidebar on the left, article with a right-hand infobox. */
+:root{
+  --bg:#edf0ea; --surface:#fbfcf9; --sunk:#e2e7de; --fg:#1c231d; --muted:#596459; --line:#cfd7cb;
+  --accent:#3b7526; --accent-soft:#dcebd2; --link:#2d6a1d;
+  --slot:#8b8b8b; --slot-hi:#ffffff; --slot-lo:#373737; --slot-bg:#c6c6c6;
+  --tip-bg:#170a1c; --tip-line:#2c0f63; --tip-fg:#f2f2f2;
+  --warn:#9a5b00; --bad:#a1322a;
+  --f-display:"Pixelify Sans", "Courier New", monospace;
+  --f-body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121612; --surface:#1a201a; --sunk:#232b23; --fg:#e2e8e0; --muted:#9aa698; --line:#2f392f;
+  --accent:#86c85f; --accent-soft:#25351f; --link:#97d470;
+  --slot:#5b5b5b; --slot-hi:#8a8a8a; --slot-lo:#1d1d1d; --slot-bg:#3b3b3b;
+  --warn:#e0a24a; --bad:#e67b70; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#121612; --surface:#1a201a; --sunk:#232b23; --fg:#e2e8e0; --muted:#9aa698; --line:#2f392f;
+  --accent:#86c85f; --accent-soft:#25351f; --link:#97d470;
+  --slot:#5b5b5b; --slot-hi:#8a8a8a; --slot-lo:#1d1d1d; --slot-bg:#3b3b3b;
+  --warn:#e0a24a; --bad:#e67b70; color-scheme:dark;}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--f-body);margin:0}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{text-wrap:balance;margin:0}
+code,.mono{font-family:var(--f-mono);font-size:.86em}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.top-in{max-width:1240px;margin:0 auto;padding-block:10px;padding-inline:16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--fg);font-family:var(--f-display);font-size:22px;font-weight:600;letter-spacing:.01em}
+.brand:hover{text-decoration:none}
+.brand small{font-family:var(--f-body);font-size:12px;font-weight:500;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.search{position:relative;flex:1 1 280px;min-width:0;max-width:520px;margin-left:auto}
+.search input{width:100%;font:inherit;padding:8px 12px 8px 34px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg)}
+.search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:none;stroke:var(--muted);stroke-width:2}
+.results{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--surface);border:1px solid var(--line);border-radius:6px;box-shadow:0 10px 30px rgb(0 0 0 / .18);max-height:60vh;overflow:auto}
+.results a{display:flex;gap:10px;align-items:center;padding:6px 10px;color:var(--fg)}
+.results a:hover,.results a.on{background:var(--accent-soft);text-decoration:none}
+.results .sec{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.menu-btn{display:none;font:inherit;background:none;border:1px solid var(--line);color:var(--fg);border-radius:6px;padding:6px 10px;cursor:pointer}
+
+.shell{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:20px 60px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px}
+nav.side{position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px);align-self:start;max-height:calc(100vh - 90px);overflow:auto;font-size:14px}
+nav.side h4{font-family:var(--f-display);font-weight:500;font-size:14px;letter-spacing:.04em;color:var(--muted);margin:18px 0 4px;text-transform:uppercase}
+nav.side h4:first-child{margin-top:0}
+nav.side a{display:flex;justify-content:space-between;gap:8px;padding:3px 8px;border-radius:4px;color:var(--fg)}
+nav.side a span{color:var(--muted);font-variant-numeric:tabular-nums;font-size:12px}
+nav.side a.on{background:var(--accent-soft);color:var(--link);font-weight:600}
+nav.side a:hover{text-decoration:none;background:var(--sunk)}
+
+main{min-width:0}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:6px}
+.crumbs a{color:var(--muted)}
+.page-h{font-family:var(--f-display);font-weight:600;font-size:34px;line-height:1.15;margin-bottom:4px}
+.lede{color:var(--muted);max-width:68ch;margin:6px 0 18px}
+h2.sh{font-family:var(--f-display);font-weight:500;font-size:22px;border-bottom:1px solid var(--line);padding-bottom:4px;margin:28px 0 12px}
+p{max-width:70ch;margin:0 0 10px}
+
+.ico{display:inline-block;flex:none;image-rendering:pixelated;background-repeat:no-repeat}
+.ico.smooth{image-rendering:auto}
+.ico.none{background:var(--sunk);border-radius:3px;position:relative}
+.ico.none::after{content:"?";position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-family:var(--f-display);font-size:60%}
+
+/* home */
+.stats{display:flex;flex-wrap:wrap;gap:10px 28px;margin:4px 0 8px}
+.stats div{font-size:13px;color:var(--muted)}
+.stats b{display:block;font-family:var(--f-display);font-size:26px;font-weight:600;color:var(--fg);font-variant-numeric:tabular-nums}
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.cat{display:flex;flex-direction:column;gap:8px;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:6px;color:var(--fg)}
+.cat:hover{border-color:var(--accent);text-decoration:none}
+.cat .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.cat strong{font-weight:600}
+.cat .n{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.cat .strip{display:flex;gap:4px}
+
+/* section listing */
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.tools input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);flex:1 1 220px;max-width:340px}
+.tools .count{color:var(--muted);font-size:13px}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 14px}
+.li{display:flex;align-items:center;gap:10px;padding:5px 6px;border-radius:4px;color:var(--fg);min-width:0}
+.li:hover{background:var(--surface);text-decoration:none}
+.li .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.li .sub{display:block;font-size:12px;color:var(--muted)}
+
+/* article */
+.article{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:28px;align-items:start}
+.infobox{grid-column:2;grid-row:1 / span 20;background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;font-size:14px}
+.infobox .ib-h{background:var(--accent-soft);padding:8px 12px;font-family:var(--f-display);font-weight:600;font-size:17px;text-align:center}
+.infobox .ib-img{display:grid;place-items:center;padding:18px;background:var(--sunk)}
+.infobox table{width:100%;border-collapse:collapse}
+.infobox th,.infobox td{text-align:left;vertical-align:top;padding:6px 12px;border-top:1px solid var(--line)}
+.infobox th{width:42%;font-weight:600;color:var(--muted);font-size:13px}
+.infobox td{font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.infobox .grp td{background:var(--sunk);font-family:var(--f-display);font-weight:500;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.body{grid-column:1;min-width:0}
+
+.tip{display:inline-block;background:var(--tip-bg);color:var(--tip-fg);border:2px solid var(--tip-line);outline:2px solid var(--tip-bg);border-radius:3px;padding:6px 10px;font-family:var(--f-display);font-size:15px;line-height:1.4;white-space:pre-line;margin:4px 2px 14px}
+.tip .nm{color:#fff}
+.tip .ln{color:#a8a8a8}
+
+/* crafting */
+.recipes{display:flex;flex-wrap:wrap;gap:16px}
+.tools select{font:inherit;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg)}
+.rlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px 16px}
+.rjump{margin:-2px 0 6px}
+.rgrp{scroll-margin-top:calc(env(safe-area-inset-top,0px) + 80px);margin-bottom:22px}
+.rh{font-size:16px;font-weight:600;margin:4px 0 12px;display:flex;gap:10px;align-items:baseline}
+.rh a{color:var(--fg)}
+.rcard{display:flex;flex-direction:column;gap:4px;min-width:0}
+.rcard .craft{align-self:flex-start;max-width:100%}
+.rname{display:flex;align-items:center;gap:8px;font-weight:600;color:var(--fg)}
+.rname span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.more{margin-top:16px;font:inherit;font-size:14px;background:var(--surface);border:1px solid var(--line);color:var(--fg);padding:6px 12px;border-radius:6px;cursor:pointer}
+.craft{display:flex;align-items:center;gap:14px;background:var(--slot-bg);padding:12px;border-radius:4px;border:2px solid;border-color:var(--slot-hi) var(--slot-lo) var(--slot-lo) var(--slot-hi)}
+.craft .kind{font-family:var(--f-display);font-size:12px;color:#3f3f3f;writing-mode:vertical-rl;transform:rotate(180deg);letter-spacing:.06em;text-transform:uppercase}
+:root[data-theme="dark"] .craft .kind{color:#cfcfcf}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .craft .kind{color:#cfcfcf}}
+.grid3{display:grid;grid-template-columns:repeat(3,40px);gap:2px}
+.gridn{display:flex;flex-wrap:wrap;gap:2px;max-width:126px}
+.slot{width:40px;height:40px;background:var(--slot);border:2px solid;border-color:var(--slot-lo) var(--slot-hi) var(--slot-hi) var(--slot-lo);display:grid;place-items:center;position:relative;color:#fff}
+.slot:hover,.slot:focus-visible{text-decoration:none;z-index:30;box-shadow:inset 0 0 0 40px rgb(255 255 255 / .14)}
+.slot[data-tip]:hover::after,.slot[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;left:calc(100% + 6px);top:-6px;z-index:10;white-space:nowrap;background:var(--tip-bg);color:var(--tip-fg);border:2px solid var(--tip-line);border-radius:3px;padding:3px 8px;font-family:var(--f-display);font-size:14px;pointer-events:none;box-shadow:0 4px 12px rgb(0 0 0 / .35)}
+.slot .ab{font-family:var(--f-display);font-size:11px;line-height:1;text-align:center;color:#f4f4f4;text-shadow:1px 1px 0 #222;padding:1px;overflow:hidden;max-height:34px}
+.slot .ct{position:absolute;right:1px;bottom:-1px;font-family:var(--f-display);font-size:14px;color:#fff;text-shadow:2px 2px 0 #3f3f3f}
+.arrow{width:28px;height:20px;fill:#6b6b6b}
+.out .slot{width:52px;height:52px}
+.craft-note{font-size:12px;color:#3f3f3f;margin-top:4px;text-align:center}
+
+/* stages */
+.stages{display:flex;gap:2px;overflow-x:auto;padding-bottom:6px}
+.stage{flex:0 0 auto;width:118px;background:var(--surface);border:1px solid var(--line);padding:10px 8px;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
+.stage:first-child{border-radius:6px 0 0 6px}.stage:last-child{border-radius:0 6px 6px 0}
+.stage .lbl{font-family:var(--f-display);font-size:13px;color:var(--muted)}
+.stage .mature{font-size:11px;font-weight:600;color:var(--link);text-transform:uppercase;letter-spacing:.06em}
+.tbl-wrap{overflow-x:auto;margin-top:10px}
+table.data{border-collapse:collapse;font-size:14px;min-width:100%}
+table.data th,table.data td{padding:6px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;font-variant-numeric:tabular-nums}
+table.data th{font-weight:600;color:var(--muted);font-size:13px;background:var(--sunk)}
+
+/* temperature band */
+.temp{margin:6px 0 14px;max-width:560px}
+.temp .bar{position:relative;height:26px;border-radius:4px;overflow:hidden;display:flex}
+.temp .band{flex:1;display:grid;place-items:center;font-size:11px;font-weight:600;color:#10200f;border-right:1px solid rgb(255 255 255 / .5)}
+.temp .fit{position:absolute;top:0;bottom:0;border:2px solid var(--fg);border-radius:3px;box-shadow:0 0 0 2px var(--surface)}
+.temp .axis{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:3px}
+
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 8px 3px 4px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--fg);font-size:14px}
+.chip:hover{border-color:var(--accent);text-decoration:none}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--accent-soft);color:var(--link)}
+.pill.off{background:var(--sunk);color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+.empty{color:var(--muted);font-style:italic}
+.loading{padding:60px 0;color:var(--muted);font-family:var(--f-display);font-size:18px}
+
+@media (max-width:980px){
+  .article{grid-template-columns:minmax(0,1fr)}
+  .infobox{grid-column:1;grid-row:auto;max-width:420px}
+  .body{grid-column:1}
+}
+@media (max-width:760px){
+  .shell{grid-template-columns:minmax(0,1fr)}
+  nav.side{position:static;max-height:none;display:none;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px}
+  nav.side.open{display:block}
+  .menu-btn{display:inline-block}
+  .page-h{font-size:28px}
+  .search{flex-basis:100%;max-width:none;order:3}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="top"><div class="top-in">
+  <a class="brand" href="#home">Almura Wiki <small>v3.0 content</small></a>
+  <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false">Categories</button>
+  <div class="search">
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input id="q" type="search" placeholder="Search blocks, items, crops, drinks…" autocomplete="off" aria-label="Search the wiki">
+    <div class="results" id="results" hidden></div>
+  </div>
+</div></header>
+
+<div class="shell">
+  <nav class="side" id="side" aria-label="Categories"></nav>
+  <main id="main"><div class="loading">Loading the archive…</div></main>
+</div>
+
+<script>
+(function(){
+const CELL=32, COLS=64;
+let D=null, byId=new Map(), sections=[], bySection=new Map();
+
+const NAV=[
+  ["Farming",["Crops","Seeds","Crop Blocks","Agriculture"]],
+  ["Food and drink",["Food","Drinks","Ingredients"]],
+  ["Trees and plants",["Logs","Leaves","Saplings","Flowers"]],
+  ["Building",["Building","Flooring","Slabs","Stairs","Ores"]],
+  ["Furnishing",["Decoration","Furniture","Lighting","Containers","Signs","Flags","Letters"]],
+  ["Items",["Components","Currency","Tools","Hoes","Sickles"]]
+];
+const BLURB={
+  Crops:"Plants you grow on farmland. Each one passes through several growth stages and needs the right light and biome temperature.",
+  Seeds:"Plant these to start a crop. Most also drop from tall grass.",
+  Food:"Prepared dishes and snacks. Most are crafted from crops and ingredients.",
+  Drinks:"Beers, juices, spirits and mixed drinks. Many raise Stamina at a small cost to Food or Health.",
+  Ingredients:"Raw materials for cooking and brewing, mostly harvested from crops.",
+  Containers:"Storage barrels. Each crop and seed has its own barrel for bulk storage.",
+  Decoration:"Decorative blocks for builds.",
+  Building:"Bricks, planks, stone and other structural blocks.",
+  Logs:"Wood from Almura trees.", Leaves:"Leaves from Almura trees, including fruiting leaves.", Saplings:"Plant these to grow Almura trees.",
+  Flowers:"Flowers that grow in the world or can be placed.", Letters:"Letter blocks for spelling out signs and names.",
+  Ores:"Ores that generate underground and the blocks made from them."
+};
+const TEMP_BANDS=[["Snowy",-0.5,0.05,"#b9d8f0"],["Cold",0.05,0.35,"#a8d4c4"],["Medium / Lush",0.35,0.95,"#a9d58c"],["High Plains",0.95,1.6,"#e3d27a"],["Desert",1.6,2.5,"#eba86a"]];
+const TEMP_MIN=-0.5, TEMP_MAX=2.5;
+
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const tok=id=>id.replace(/^almura:/,"").replace(/\//g,"~").replace(/:/g,".");
+const href=id=>"#e-"+tok(id);
+const human=s=>{s=String(s).replace(/^.*[:\/]/,"").replace(/_/g," ");return s.charAt(0).toUpperCase()+s.slice(1)};
+const baseId=id=>String(id).replace(/:(\d+|\*)$/,"");
+function nameOf(id){
+  if(!id) return "";
+  const e=byId.get(id)||byId.get(baseId(id));
+  if(e) return e.name;
+  const v=D.vanilla&&(D.vanilla[id]||D.vanilla[baseId(id)]);
+  if(v&&v.name) return v.name;
+  return (D.names&&(D.names[id]||D.names[baseId(id)]))||human(baseId(id));
+}
+function entryOf(id){return byId.get(id)||byId.get(baseId(id))||null}
+
+function ico(i,scale=1,title){
+  const s=CELL*scale;
+  if(i==null||i<0) return `<span class="ico none" style="width:${s}px;height:${s}px"${title?` title="${esc(title)}"`:""}></span>`;
+  const x=(i%COLS)*s, y=Math.floor(i/COLS)*s;
+  return `<span class="ico" style="width:${s}px;height:${s}px;background-image:url(icons.png);background-size:${COLS*s}px auto;background-position:-${x}px -${y}px"${title?` title="${esc(title)}"`:""}></span>`;
+}
+/* 3D renders of blocks: 96px cells, 32 per row. Falls back to the flat icon. */
+const RCELL=96, RCOLS=32;
+let RI={blocks:{},stages:{}};
+function rimg(i,px,title){
+  const s=px/RCELL, x=(i%RCOLS)*RCELL*s, y=Math.floor(i/RCOLS)*RCELL*s;
+  return `<span class="ico${px>RCELL?"":" smooth"}" style="width:${px}px;height:${px}px;background-image:url(renders.png);background-size:${RCOLS*RCELL*s}px auto;background-position:-${x}px -${y}px"${title?` title="${esc(title)}"`:""}></span>`;
+}
+function pic(e,px,title){
+  // crops lead with their mature stage instead of the bare sprout
+  const st=(RI.stages[e.id]||[]).filter(i=>i!=null&&i>=0);
+  const r=st.length?st[st.length-1]:RI.blocks[e.id];
+  return r!=null&&r>=0?rimg(r,px,title):ico(e.icon,px/CELL,title);
+}
+function link(id,withIcon=true){
+  const e=entryOf(id);
+  if(!e) return `<span>${esc(nameOf(id))}</span>`;
+  return `<a class="chip" href="${href(e.id)}">${withIcon?pic(e,24):""}${esc(e.name)}</a>`;
+}
+function inlineLink(id){const e=entryOf(id);return e?`<a href="${href(e.id)}">${esc(e.name)}</a>`:esc(nameOf(id))}
+
+/* ---------- ranges and wording ---------- */
+function range(v){
+  if(v==null) return null;
+  if(typeof v==="number") return [v,v];
+  const s=String(v).trim();
+  let p=s.includes(" to ")?s.split(" to "):s.split(/(?<=\d)\s*-\s*(?=-?\d)/);
+  const a=parseFloat(p[0]), b=parseFloat(p[1]??p[0]);
+  return isNaN(a)?null:[a,isNaN(b)?a:b];
+}
+function fmtRange(v){const r=range(v);if(!r)return esc(v);return r[0]===r[1]?`${r[0]}`:`${r[0]} to ${r[1]}`}
+function signed(n){n=Number(n);return n>0?"+"+n:String(n)}
+function ticks(t){const s=Number(t)/20;return `${t} ticks (${s%1?s.toFixed(2):s} s)`}
+function list(arr){arr=arr.filter(Boolean);if(arr.length<2)return arr.join("");return arr.slice(0,-1).join(", ")+" and "+arr[arr.length-1]}
+
+function bandsFor(v){
+  const r=range(v); if(!r) return [];
+  return TEMP_BANDS.filter(b=>r[1]>=b[1]&&r[0]<=b[2]).map(b=>b[0]);
+}
+function tempBar(v){
+  const r=range(v); if(!r) return "";
+  const pct=x=>((Math.max(TEMP_MIN,Math.min(TEMP_MAX,x))-TEMP_MIN)/(TEMP_MAX-TEMP_MIN))*100;
+  const bands=TEMP_BANDS.map(b=>`<div class="band" style="flex:${b[2]-b[1]};background:${b[3]}">${esc(b[0].split(" ")[0])}</div>`).join("");
+  const l=pct(r[0]), w=Math.max(1.2,pct(r[1])-l);
+  return `<div class="temp"><div class="bar">${bands}<div class="fit" style="left:${l}%;width:${w}%" title="Grows at ${fmtRange(v)}"></div></div>
+  <div class="axis"><span>-0.5</span><span>0.05</span><span>0.35</span><span>0.95</span><span>1.6</span><span>2.0+</span></div></div>`;
+}
+
+/* ---------- infobox ---------- */
+const LABELS={hunger:"Food",health:"Health",saturation:"Stamina",eatTicks:"Time to consume",alwaysEdible:"Edible when full",
+  stages:"Growth stages",light:"Light level",temperature:"Temperature",growthChance:"Growth chance",farmlandMoisture:"Soil moisture",
+  seed:"Seed",soil:"Soil",crop:"Grows into",grassDropChance:"Drops from grass",grassDropAmount:"Amount from grass",
+  hardness:"Hardness",resistance:"Blast resistance",material:"Material",tool:"Harvest tool",lightLevel:"Light emitted",
+  durability:"Durability",efficiency:"Mining speed",harvestLevel:"Harvest level",enchantability:"Enchantability",attackDamage:"Attack damage"};
+const GROUP_TITLE={food:"Consumption",crop:"Growing",seed:"Planting",block:"Block",tool:"Tool"};
+function val(k,v){
+  if(v==null) return "";
+  if(typeof v==="boolean") return v?"Yes":"No";
+  if(k==="eatTicks") return ticks(v);
+  if(["seed","crop"].includes(k)) return inlineLink(v);
+  if(k==="soil") return (Array.isArray(v)?v:[v]).map(inlineLink).join(", ");
+  if(k==="grassDropChance") return fmtRange(v)+"%";
+  if(["health","saturation"].includes(k)) return signed(v);
+  if(["hunger","light","temperature","farmlandMoisture","growthChance","grassDropAmount"].includes(k)) return fmtRange(v)+(k==="growthChance"?"%":"");
+  if(k==="material") return esc(human(v));
+  if(Array.isArray(v)) return v.map(x=>typeof x==="object"?esc(JSON.stringify(x)):esc(x)).join(", ");
+  if(typeof v==="object") return esc(JSON.stringify(v));
+  return esc(v);
+}
+function infobox(e){
+  const rows=[];
+  rows.push(["Type",e.kind==="block"?"Block":"Item"]);
+  rows.push(["Category",`<a href="#s-${slug(e.section)}">${esc(e.section)}</a>`]);
+  if(e.group) rows.push(["Creative tab",esc(e.group)]);
+  let html=`<aside class="infobox"><div class="ib-h">${esc(e.name)}</div><div class="ib-img">${pic(e,(RI.blocks[e.id]!=null||RI.stages[e.id])?192:96,e.name)}</div><table>`;
+  html+=rows.map(r=>`<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join("");
+  const st=e.stats||{};
+  for(const g of Object.keys(st)){
+    const o=st[g]; if(!o||typeof o!=="object"||g==="sapling") continue;
+    const keys=Object.keys(o).filter(k=>!["effects","drops"].includes(k)&&o[k]!=null&&o[k]!=="");
+    if(!keys.length) continue;
+    html+=`<tr class="grp"><td colspan="2">${esc(GROUP_TITLE[g]||human(g))}</td></tr>`;
+    html+=keys.map(k=>`<tr><th>${esc(LABELS[k]||human(k))}</th><td>${val(k,o[k])}</td></tr>`).join("");
+  }
+  html+=`<tr class="grp"><td colspan="2">Technical</td></tr><tr><th>ID</th><td><code>${esc(e.id)}</code></td></tr></table></aside>`;
+  return html;
+}
+
+/* ---------- recipes ---------- */
+function slot(id,count){
+  if(!id) return `<span class="slot"></span>`;
+  const e=entryOf(id), nm=nameOf(id);
+  const v=!e&&D.vanilla&&(D.vanilla[id]||D.vanilla[baseId(id)]||D.vanilla[baseId(id)+":0"]);
+  const inner=e&&(e.icon>=0||RI.blocks[e.id]!=null)?pic(e,32)
+    :v&&v.render>=0?rimg(v.render,32)
+    :v&&v.icon>=0?ico(v.icon)
+    :`<span class="ico none" style="width:32px;height:32px"></span>`;
+  const ct=count>1?`<span class="ct">${count}</span>`:"";
+  return e?`<a class="slot" href="${href(e.id)}" data-tip="${esc(nm)}" aria-label="${esc(nm)}">${inner}${ct}</a>`:`<span class="slot" data-tip="${esc(nm)}" aria-label="${esc(nm)}">${inner}${ct}</span>`;
+}
+const ARROW=`<svg class="arrow" viewBox="0 0 28 20" aria-hidden="true"><path d="M0 7h16V1l12 9-12 9v-6H0z"/></svg>`;
+function recipe(r,e){
+  const kinds={shaped:"Crafting",shapeless:"Shapeless",furnace:"Smelting"};
+  let input;
+  if(r.type==="shaped"&&r.grid){
+    const g=[0,1,2].map(y=>[0,1,2].map(x=>(r.grid[y]||[])[x]||null));
+    input=`<div class="grid3">${g.flat().map(i=>slot(i)).join("")}</div>`;
+  } else if(r.type==="furnace"){
+    input=`<div class="gridn">${slot((r.ingredients||[])[0])}</div>`;
+  } else {
+    input=`<div class="gridn" style="max-width:${(r.ingredients||[]).length>4?126:84}px">${(r.ingredients||[]).map(i=>slot(i)).join("")}</div>`;
+  }
+  const xp=r.type==="furnace"&&r.xp?`<div class="craft-note">${r.xp} XP</div>`:"";
+  return `<div class="craft"><span class="kind">${kinds[r.type]||esc(r.type)}</span>${input}${ARROW}<div class="out">${slot(e.id,r.count||1)}${xp}</div></div>`;
+}
+
+/* ---------- article prose ---------- */
+function prose(e){
+  const st=e.stats||{}, p=[];
+  if(st.food){
+    const f=st.food, bits=[];
+    const hr=range(f.hunger);
+    if(hr){const neg=hr[1]<0, a=[Math.abs(hr[0]),Math.abs(hr[1])].sort((x,y)=>x-y);
+      bits.push(`${neg?"costs":"restores"} ${a[0]===a[1]?a[0]:a[0]+" to "+a[1]} Food`)}
+    if(f.saturation) bits.push(`${Number(f.saturation)>0?"adds":"removes"} ${Math.abs(f.saturation)} Stamina`);
+    if(f.health) bits.push(`${Number(f.health)>0?"heals":"costs"} ${Math.abs(f.health)} Health`);
+    const what=e.section==="Drinks"?"Drinking it":"Eating it";
+    if(bits.length) p.push(`${what} ${list(bits)}.`);
+    if(f.alwaysEdible) p.push(`You can ${e.section==="Drinks"?"drink":"eat"} it even when your Food bar is full.`);
+  }
+  if(st.crop){
+    const c=st.crop, n=c.stages||(e.stages||[]).length;
+    const bands=bandsFor(c.temperature);
+    let s=`${esc(e.name.replace(/ Crop$/,""))} grows in ${n} stages`;
+    if(c.soil) s+=` on ${list((Array.isArray(c.soil)?c.soil:[c.soil]).map(inlineLink))}`;
+    p.push(s+".");
+    if(c.light) p.push(`It needs a light level of ${fmtRange(c.light)}.`);
+    if(c.temperature) p.push(`It grows where the biome temperature is ${fmtRange(c.temperature)}${bands.length?`, which covers ${list(bands.map(b=>b+" biomes"))}`:""}.`);
+    if(c.seed) p.push(`Plant ${inlineLink(c.seed)} to start it.`);
+  }
+  if(st.seed){
+    const s=st.seed;
+    if(s.crop) p.push(`Plant it on ${s.soil?inlineLink(s.soil):"farmland"} to grow ${inlineLink(s.crop)}.`);
+    if(s.grassDropChance&&String(s.grassDropChance)!=="0") p.push(`Breaking tall grass has a ${fmtRange(s.grassDropChance)}% chance to drop it.`);
+  }
+  if(st.block&&st.block.tool) p.push(`Mine it with a ${esc(st.block.tool)}.`);
+  return p.length?`<p>${p.join(" ")}</p>`:"";
+}
+
+function tooltip(e){
+  if(!e.tooltip) return "";
+  const lines=e.tooltip.split("\n").map(l=>l.trim()).filter(Boolean);
+  return `<div class="tip"><span class="nm">${esc(e.name)}</span>\n${lines.map(l=>`<span class="ln">${esc(l)}</span>`).join("\n")}</div>`;
+}
+
+function stagesSection(e){
+  const st=e.stages; if(!st||!st.length) return "";
+  const last=st.length-1;
+  const rs=RI.stages[e.id]||[];
+  const cards=st.map((s,i)=>`<div class="stage">${rs[i]!=null&&rs[i]>=0?rimg(rs[i],96,`Stage ${s.age}`):ico(s.icon,2,`Stage ${s.age}`)}<span class="lbl">Stage ${s.age}</span>${i===last?`<span class="mature">Mature</span>`:""}</div>`).join("");
+  const cols=[["age","Stage"],["growthChance","Growth chance"],["light","Light"],["temperature","Temperature"],["farmlandMoisture","Moisture"],["hardness","Hardness"],["canRollback","Can die back"],["drops","Drops"]]
+    .filter(([k])=>st.some(s=>s[k]!=null&&s[k]!==""&&!(Array.isArray(s[k])&&!s[k].length)));
+  const same=k=>k!=="age"&&k!=="drops"&&new Set(st.map(s=>JSON.stringify(s[k]))).size===1;
+  const shared=cols.filter(([k])=>same(k));
+  const varying=cols.filter(([k])=>!same(k));
+  const cell=(k,v)=>{
+    if(v==null||v==="") return "";
+    if(k==="drops") return (Array.isArray(v)?v:[v]).map(d=>{
+      const extra=d.bonusChancePct?` (+${d.bonusAmount||1} at ${d.bonusChancePct}%)`:"";
+      return `${fmtRange(d.amount??1)}× ${inlineLink(d.item)}${extra}`}).join("<br>");
+    if(k==="canRollback") return v?"Yes":"No";
+    if(k==="growthChance") return fmtRange(v)+"%";
+    if(["light","temperature","farmlandMoisture"].includes(k)) return fmtRange(v);
+    return esc(v);
+  };
+  const sharedNote=shared.length?`<p class="note">Every stage: ${shared.map(([k,l])=>`${l.toLowerCase()} ${cell(k,st[0][k])}`).join(" · ")}.</p>`:"";
+  const tbl=varying.length>1?`<div class="tbl-wrap"><table class="data"><thead><tr>${varying.map(c=>`<th>${c[1]}</th>`).join("")}</tr></thead><tbody>${
+    st.map(s=>`<tr>${varying.map(([k])=>`<td>${cell(k,s[k])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:"";
+  return `<h2 class="sh">Growth stages</h2><div class="stages">${cards}</div>${sharedNote}${tbl}`;
+}
+
+function dropsSection(e){
+  const d=e.stats&&e.stats.crop&&e.stats.crop.drops; if(!d||!d.length) return "";
+  return `<h2 class="sh">Harvest</h2><p>When mature, it drops ${list(d.map(x=>{
+    const extra=x.bonusChancePct?`, with a ${x.bonusChancePct}% chance of ${x.bonusAmount||1} more`:"";
+    return `${fmtRange(x.amount??1)} ${inlineLink(x.item)}${extra}`}))}.</p>`;
+}
+
+function effectsSection(e){
+  const ef=e.stats&&e.stats.food&&e.stats.food.effects; if(!ef||!ef.length) return "";
+  return `<h2 class="sh">Effects</h2><div class="tbl-wrap"><table class="data"><thead><tr><th>Effect</th><th>Level</th><th>Duration</th><th>Chance</th></tr></thead><tbody>${
+    ef.map(x=>`<tr><td>${esc(human(x.effect||""))}</td><td>${x.amplifier!=null?Number(x.amplifier)+1:"1"}</td><td>${x.durationTicks!=null?ticks(x.durationTicks):""}</td><td>${x.chancePct!=null?fmtRange(x.chancePct)+"%":"Always"}</td></tr>`).join("")}</tbody></table></div>`;
+}
+
+function treeSection(e){
+  const ids=e.trees||(e.tree?[e.tree]:[]);
+  const ts=ids.map(id=>(D.worldgen.trees||[]).find(x=>x.id===id)).filter(Boolean);
+  if(!ts.length) return "";
+  return `<h2 class="sh">${ts.length>1?"Trees":"Tree"}</h2>`+ts.map(t=>(ts.length>1?`<h3 style="margin:14px 0 4px;font-size:16px">${esc(t.name)}</h3>`:"")+treeInfo(t)).join("");
+}
+function treeInfo(t){
+  const parts=[];
+  const gen=(t.generation||[]).filter(g=>range(g.chancePct)&&range(g.chancePct)[1]>0);
+  if(gen.length) parts.push(`It generates naturally in ${list(gen.map(g=>`${list((g.biomes||[]).map(b=>b==="all"?"any biome":human(b)))} (${fmtRange(g.chancePct)}% chance)`))}.`);
+  else parts.push(`It does not generate naturally. Grow it from a sapling.`);
+  const th=(t.trunkHeight||[]).map(String);
+  if(th.length) parts.push(`Trunk height: ${esc(th[th.length-1].replace(/^.*:\s*/,""))} blocks.`);
+  const chips=[t.sapling,t.log,t.leaves,t.fruit&&t.fruit.block].filter(Boolean).map(id=>link(id)).join("");
+  const fruit=t.fruit?`<p class="note">Fruit leaves appear at a ${esc(String(t.fruit.chancePct).split(";")[0])}% chance.</p>`:"";
+  return `<p>${parts.join(" ")}</p>${fruit}<div class="chips">${chips}</div>`;
+}
+
+function related(e){
+  const ids=new Set();
+  const st=e.stats||{};
+  [st.crop&&st.crop.seed, st.seed&&st.seed.crop].forEach(x=>x&&ids.add(x));
+  (st.crop&&st.crop.drops||[]).forEach(d=>ids.add(d.item));
+  // barrels named after this entry
+  const stem=e.id.replace(/^.*\//,"");
+  (bySection.get("Containers")||[]).forEach(c=>{if(c.id.endsWith("/"+stem+"_barrel"))ids.add(c.id)});
+  ids.delete(e.id);
+  const arr=[...ids].filter(entryOf);
+  return arr.length?`<h2 class="sh">Related</h2><div class="chips">${arr.map(id=>link(id)).join("")}</div>`:"";
+}
+
+/* ---------- pages ---------- */
+function renderEntry(e){
+  const sec=e.section;
+  const recipes=(e.recipes||[]);
+  const used=(e.usedIn||[]).map(entryOf).filter(Boolean);
+  let html=`<div class="crumbs"><a href="#home">Home</a> › <a href="#s-${slug(sec)}">${esc(sec)}</a></div>
+  <h1 class="page-h">${esc(e.name)}</h1>
+  <div class="article">${infobox(e)}<div class="body">`;
+  html+=tooltip(e);
+  html+=prose(e)||`<p>${esc(e.name)} is ${e.kind==="block"?"a block":"an item"} in the ${esc(sec)} category.</p>`;
+  if(e.stats&&e.stats.crop&&e.stats.crop.temperature){html+=`<p class="note">Biome temperature range</p>`+tempBar(e.stats.crop.temperature)}
+  html+=stagesSection(e)+dropsSection(e)+effectsSection(e)+treeSection(e);
+  html+=`<h2 class="sh">Crafting</h2>`+(recipes.length?`<div class="recipes">${recipes.map(r=>recipe(r,e)).join("")}</div>`:`<p class="empty">No crafting recipe. ${e.section==="Crops"?"Grown from seed.":"Found or obtained another way."}</p>`);
+  if(used.length){
+    html+=`<h2 class="sh">Used to make</h2><div class="chips">${used.slice(0,80).map(u=>link(u.id)).join("")}</div>`;
+    if(used.length>80) html+=`<p class="note">And ${used.length-80} more.</p>`;
+  }
+  html+=related(e);
+  html+=`</div></div>`;
+  return html;
+}
+
+function renderSection(name){
+  const items=(bySection.get(name)||[]).slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const blurb=BLURB[name]||`${items.length} entries.`;
+  let html=`<div class="crumbs"><a href="#home">Home</a></div><h1 class="page-h">${esc(name)}</h1><p class="lede">${esc(blurb)}</p>
+  <div class="tools"><input id="flt" type="search" placeholder="Filter ${esc(name.toLowerCase())}…" aria-label="Filter this list"><span class="count" id="cnt">${items.length} entries</span></div>
+  <div class="list" id="lst">${items.map(e=>{
+    let sub="";
+    const c=e.stats&&e.stats.crop, f=e.stats&&e.stats.food;
+    if(c) sub=`${c.stages||""} stages · temp ${fmtRange(c.temperature||"")}`;
+    else if(f&&f.hunger!=null) sub=`Food ${fmtRange(f.hunger)} · Stamina ${signed(f.saturation||0)}`;
+    return `<a class="li" href="${href(e.id)}" data-n="${esc(e.name.toLowerCase())}">${pic(e,32)}<span class="t">${esc(e.name)}${sub?`<span class="sub">${sub}</span>`:""}</span></a>`}).join("")}</div>`;
+  if(name==="Crops") html=html.replace('<div class="tools">',`${tempLegend()}<div class="tools">`);
+  return html;
+}
+function tempLegend(){
+  return `<p class="note">Biome temperature bands used by crops: ${TEMP_BANDS.map(b=>`${b[0]} ${b[1]} to ${b[2]===2.5?"2.0+":b[2]}`).join(" · ")}.</p>`;
+}
+
+/* ---------- all recipes ---------- */
+let _allR=null;
+function allRecipes(){
+  if(_allR) return _allR;
+  _allR=[];
+  for(const e of D.entries) for(const r of (e.recipes||[])){
+    const ins=r.type==="shaped"&&r.grid?r.grid.flat().filter(Boolean):(r.ingredients||[]);
+    const names=[...new Set(ins.map(nameOf))];
+    _allR.push({e,r,names,hay:(e.name+" "+names.join(" ")).toLowerCase()});
+  }
+  _allR.sort((a,b)=>a.e.name.localeCompare(b.e.name));
+  return _allR;
+}
+function renderRecipes(){
+  const secs=[...new Set(allRecipes().map(x=>x.e.section))].sort();
+  return `<div class="crumbs"><a href="#home">Home</a></div><h1 class="page-h">All recipes</h1>
+  <p class="lede">Every crafting and smelting recipe in the pack. Search by what you want to make, or by an ingredient you have, to see what it goes into.</p>
+  <div class="tools">
+    <input id="rq" type="search" placeholder="Search outputs or ingredients, like hops or cherry plank" aria-label="Search recipes">
+    <select id="rt" aria-label="Recipe type"><option value="">All types</option><option value="shaped">Crafting</option><option value="shapeless">Shapeless</option><option value="furnace">Smelting</option></select>
+    <select id="rs" aria-label="Category"><option value="">All categories</option>${secs.map(s=>`<option>${esc(s)}</option>`).join("")}</select>
+    <label class="note" style="display:inline-flex;gap:6px;align-items:center"><input type="checkbox" id="ri"> Ingredient only</label>
+    <span class="count" id="rc"></span>
+  </div>
+  <div class="chips rjump" id="rj"></div><div id="rl"></div>`;
+}
+function setupRecipes(){
+  const q=document.getElementById("rq"), t=document.getElementById("rt"), s=document.getElementById("rs"), io=document.getElementById("ri");
+  const list=document.getElementById("rl"), cnt=document.getElementById("rc"), jump=document.getElementById("rj");
+  const FIRST=12; let bySec=new Map();
+  const card=x=>`<div class="rcard"><a class="rname" href="${href(x.e.id)}">${pic(x.e,24)}<span>${esc(x.e.name)}</span></a>${recipe(x.r,x.e)}</div>`;
+  const run=()=>{
+    const words=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const hits=allRecipes().filter(x=>(!t.value||x.r.type===t.value)&&(!s.value||x.e.section===s.value)&&
+      words.every(w=>(io.checked?x.names.join(" ").toLowerCase():x.hay).includes(w)));
+    cnt.textContent=`${hits.length} ${hits.length===1?"recipe":"recipes"}`;
+    bySec=new Map(); hits.forEach(x=>{if(!bySec.has(x.e.section))bySec.set(x.e.section,[]);bySec.get(x.e.section).push(x)});
+    let html="", chips=[];
+    for(const [grp,secs] of navGroups()){
+      const present=secs.filter(sec=>bySec.has(sec)); if(!present.length) continue;
+      html+=`<h2 class="sh">${esc(grp)}</h2>`;
+      for(const sec of present){
+        const xs=bySec.get(sec);
+        chips.push(`<a class="chip" href="#recipes" data-jump="rg-${slug(sec)}">${esc(sec)} <span class="note">${xs.length}</span></a>`);
+        html+=`<section class="rgrp" id="rg-${slug(sec)}"><h3 class="rh"><a href="#s-${slug(sec)}">${esc(sec)}</a> <span class="note">${xs.length} ${xs.length===1?"recipe":"recipes"}</span></h3>
+          <div class="rlist">${xs.slice(0,FIRST).map(card).join("")}</div>${xs.length>FIRST?`<button class="more" type="button" data-sec="${esc(sec)}">Show all ${xs.length}</button>`:""}</section>`;
+      }
+    }
+    jump.innerHTML=chips.length>1?chips.join(""):"";
+    list.innerHTML=html||`<p class="empty">No recipes match. Try fewer words, or untick Ingredient only.</p>`;
+  };
+  list.addEventListener("click",e=>{
+    const b=e.target.closest(".more[data-sec]"); if(!b) return;
+    const xs=bySec.get(b.dataset.sec)||[];
+    b.previousElementSibling.insertAdjacentHTML("beforeend",xs.slice(FIRST).map(card).join("")); b.remove();
+  });
+  jump.addEventListener("click",e=>{
+    const c=e.target.closest("[data-jump]"); if(!c) return; e.preventDefault();
+    const el=document.getElementById(c.dataset.jump); if(el) el.scrollIntoView({block:"start"});
+  });
+  [q,t,s,io].forEach(el=>el.addEventListener("input",run));
+  run();
+}
+
+function renderWorld(){
+  const W=D.worldgen||{}, ores=W.ores||[], trees=W.trees||[];
+  let html=`<div class="crumbs"><a href="#home">Home</a></div><h1 class="page-h">World generation</h1>
+  <p class="lede">What Almura adds to newly generated terrain: ores underground and trees on the surface.</p>
+  <h2 class="sh">Ores</h2><div class="tbl-wrap"><table class="data"><thead><tr><th>Ore</th><th>Dimension</th><th>Vein size</th><th>Veins per chunk</th></tr></thead><tbody>${
+    ores.map(o=>`<tr><td>${link(o.id)}</td><td>${esc(o.dimension||"")}</td><td>${esc(o.veinSize??"")}</td><td>${esc(o.veinsPerChunk??"")}</td></tr>`).join("")}</tbody></table></div>
+  <h2 class="sh">Trees</h2>`;
+  html+=trees.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(t=>{
+    const natural=(t.generation||[]).some(g=>range(g.chancePct)&&range(g.chancePct)[1]>0);
+    return `<h3 style="margin:18px 0 6px;font-size:17px">${esc(t.name)} <span class="pill ${natural?"":"off"}">${natural?"Wild":"Sapling only"}</span></h3>${treeInfo(t)}`}).join("");
+  return html;
+}
+
+function renderHome(){
+  const total=D.entries.length, blocks=D.entries.filter(e=>e.kind==="block").length;
+  const recipes=D.entries.reduce((n,e)=>n+(e.recipes||[]).length,0);
+  const crops=(bySection.get("Crops")||[]).length;
+  let html=`<h1 class="page-h">Almura 3.0</h1>
+  <p class="lede">A reference for every block and item the Almura server adds on top of Minecraft 1.12. Pick a category, or search for anything by name. Each page lists its stats, recipes, and where it's used.</p>
+  <div class="stats"><div><b>${total.toLocaleString()}</b>entries</div><div><b>${blocks.toLocaleString()}</b>blocks</div><div><b>${(total-blocks).toLocaleString()}</b>items</div><div><b>${crops}</b>crops</div><div><b>${recipes.toLocaleString()}</b>recipes</div></div>`;
+  for(const [grp,secs] of navGroups()){
+    html+=`<h2 class="sh">${esc(grp)}</h2><div class="cat-grid">${secs.map(s=>{
+      const its=bySection.get(s)||[];
+      const sample=its.filter(e=>e.icon>=0||RI.blocks[e.id]!=null).slice(0,6);
+      return `<a class="cat" href="#s-${slug(s)}"><span class="row"><strong>${esc(s)}</strong><span class="n">${its.length}</span></span><span class="strip">${sample.map(e=>pic(e,32)).join("")}</span></a>`}).join("")}</div>`;
+  }
+  html+=`<h2 class="sh">Reference</h2><div class="cat-grid"><a class="cat" href="#recipes"><span class="row"><strong>All recipes</strong><span class="n">${allRecipes().length}</span></span><span class="note">Every crafting and smelting recipe, searchable by ingredient</span></a><a class="cat" href="#world"><span class="row"><strong>World generation</strong><span class="n">${(D.worldgen.trees||[]).length} trees</span></span><span class="note">Ores, trees, and where they spawn</span></a></div>`;
+  return html;
+}
+
+function navGroups(){
+  const used=new Set(), out=[];
+  for(const [g,secs] of NAV){const s=secs.filter(x=>bySection.has(x));s.forEach(x=>used.add(x));if(s.length)out.push([g,s])}
+  const rest=sections.filter(s=>!used.has(s));
+  if(rest.length) out.push(["Other",rest]);
+  return out;
+}
+function renderNav(active){
+  const side=document.getElementById("side");
+  side.innerHTML=`<a href="#home" class="${active==="home"?"on":""}">Home</a>`+navGroups().map(([g,secs])=>`<h4>${esc(g)}</h4>`+secs.map(s=>`<a href="#s-${slug(s)}" class="${active===s?"on":""}">${esc(s)}<span>${bySection.get(s).length}</span></a>`).join("")).join("")
+    +`<h4>Reference</h4><a href="#recipes" class="${active==="recipes"?"on":""}">All recipes<span>${allRecipes().length}</span></a><a href="#world" class="${active==="world"?"on":""}">World generation</a>`;
+}
+
+const tokMap=new Map();
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  const main=document.getElementById("main");
+  let active="home", html;
+  if(h.startsWith("e-")&&tokMap.has(h.slice(2))){const e=tokMap.get(h.slice(2));active=e.section;html=renderEntry(e)}
+  else if(h.startsWith("s-")){const s=sections.find(x=>slug(x)===h.slice(2));if(s){active=s;html=renderSection(s)}}
+  else if(h==="world"){active="world";html=renderWorld()}
+  else if(h==="recipes"){active="recipes";html=renderRecipes()}
+  if(!html) html=renderHome();
+  main.innerHTML=html;
+  if(active==="recipes") setupRecipes();
+  renderNav(active);
+  document.getElementById("side").classList.remove("open");
+  window.scrollTo(0,0);
+  const f=document.getElementById("flt");
+  if(f) f.addEventListener("input",()=>{
+    const q=f.value.trim().toLowerCase(); let n=0;
+    document.querySelectorAll("#lst .li").forEach(a=>{const ok=!q||a.dataset.n.includes(q);a.hidden=!ok;if(ok)n++});
+    document.getElementById("cnt").textContent=`${n} entries`;
+  });
+}
+
+/* ---------- search ---------- */
+function setupSearch(){
+  const q=document.getElementById("q"), box=document.getElementById("results");
+  let sel=0, hits=[];
+  const draw=()=>{
+    box.innerHTML=hits.length?hits.map((e,i)=>`<a href="${href(e.id)}" class="${i===sel?"on":""}">${pic(e,24)}<span>${esc(e.name)}</span><span class="sec">${esc(e.section)}</span></a>`).join(""):`<div style="padding:10px" class="note">Nothing matches that name.</div>`;
+    box.hidden=false;
+  };
+  q.addEventListener("input",()=>{
+    const s=q.value.trim().toLowerCase();
+    if(!s){box.hidden=true;return}
+    const words=s.split(/\s+/);
+    hits=D.entries.filter(e=>{const n=e.name.toLowerCase()+" "+e.id;return words.every(w=>n.includes(w))})
+      .sort((a,b)=>(a.name.toLowerCase().startsWith(s)?0:1)-(b.name.toLowerCase().startsWith(s)?0:1)||a.name.length-b.name.length).slice(0,30);
+    sel=0; draw();
+  });
+  q.addEventListener("keydown",ev=>{
+    if(box.hidden) return;
+    if(ev.key==="ArrowDown"){sel=Math.min(hits.length-1,sel+1);draw();ev.preventDefault()}
+    else if(ev.key==="ArrowUp"){sel=Math.max(0,sel-1);draw();ev.preventDefault()}
+    else if(ev.key==="Enter"&&hits[sel]){location.hash=href(hits[sel].id);box.hidden=true;q.blur()}
+    else if(ev.key==="Escape"){box.hidden=true}
+  });
+  box.addEventListener("click",()=>{box.hidden=true;q.value=""});
+  document.addEventListener("click",ev=>{if(!ev.target.closest(".search"))box.hidden=true});
+  document.addEventListener("keydown",ev=>{if(ev.key==="/"&&document.activeElement.tagName!=="INPUT"){ev.preventDefault();q.focus()}});
+}
+
+document.getElementById("menuBtn").addEventListener("click",ev=>{
+  const s=document.getElementById("side");s.classList.toggle("open");ev.currentTarget.setAttribute("aria-expanded",s.classList.contains("open"));
+});
+
+const renders=fetch("renders-index.json").then(r=>r.ok?r.json():null).catch(()=>null);
+fetch("wiki-data.json").then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(async data=>{
+  const ri=await renders; if(ri) RI={blocks:ri.blocks||{},stages:ri.stages||{}};
+  D=data; D.worldgen=D.worldgen||{};
+  for(const e of D.entries){
+    byId.set(e.id,e); tokMap.set(tok(e.id),e);
+    if(!bySection.has(e.section)){bySection.set(e.section,[]);sections.push(e.section)}
+    bySection.get(e.section).push(e);
+  }
+  setupSearch();
+  window.addEventListener("hashchange",route);
+  route();
+}).catch(err=>{
+  document.getElementById("main").innerHTML=`<p class="loading">The wiki data didn't load (${esc(err.message)}). Reload the page to try again.</p>`;
+});
+})();
+</script>

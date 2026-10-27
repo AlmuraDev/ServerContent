@@ -1,0 +1,10 @@
+dist/
+vanilla/jar/
+vanilla/*.txt
+vanilla/vanilla-render.json
+wiki/*-uv.*
+wiki/*.txt
+render/renders*
+render/*.txt
+render/vanilla-render-index.json
+vanilla/*.jar
