@@ -242,6 +242,10 @@ public class DynmapGen {
             problems.add(rel + ": stair without a model");
             return;
         }
+        if (variant.get("model").getAsString().endsWith(".obj")) {
+            objStair(id, rel, bs);
+            return;
+        }
         Map<String, String> tex = resolveTextures(variant.get("model").getAsString(), variant.has("textures") ? variant.getAsJsonObject("textures") : null);
         String side = whole(textureId(tex.getOrDefault("side", tex.getOrDefault("all", tex.get("particle")))));
         String top = whole(textureId(tex.getOrDefault("top", tex.getOrDefault("all", tex.get("particle")))));
@@ -254,6 +258,38 @@ public class DynmapGen {
         textureLines.add("block:id=" + id + ",data=*,patch0=0:" + side + ",patch1=0:" + (top == null ? side : top) + ",patch2=0:" + (bottom == null ? side : bottom)
                 + ",transparency=SEMITRANSPARENT");
         stats.merge("stair (Dynmap stair renderer)", 1, Integer::sum);
+    }
+
+    /**
+     * Slope stairs (roofing, mason slopes, asphalt ramp) draw an OBJ, which the stair renderer can't, so each facing and half gets the
+     * straight model's patches. Vanilla stair metadata: east 0, west 1, south 2, north 3, +4 when upside down. Corner shapes aren't in
+     * the metadata, so corners show as straight slopes on the map.
+     */
+    static void objStair(String id, String rel, JsonObject bs) throws Exception {
+        String[] facings = {"east", "west", "south", "north"};
+        String[] halves = {"bottom", "top"};
+        JsonObject variants = bs.getAsJsonObject("variants");
+        for (int h = 0; h < 2; h++) {
+            for (int f = 0; f < 4; f++) {
+                String key = "facing=" + facings[f] + ",half=" + halves[h] + ",shape=straight";
+                JsonObject variant = new JsonObject();
+                if (bs.has("defaults")) merge(variant, bs.getAsJsonObject("defaults"));
+                JsonElement pick = variants.get(key);
+                if (pick != null && pick.isJsonArray()) pick = pick.getAsJsonArray().size() > 0 ? pick.getAsJsonArray().get(0) : null;
+                if (pick == null || !pick.isJsonObject()) {
+                    problems.add(rel + " " + key + ": no variant in blockstate");
+                    continue;
+                }
+                merge(variant, pick.getAsJsonObject());
+                List<Quad> quads = modelQuads(variant.get("model").getAsString(), null);
+                int rx = variant.has("x") ? (int) Math.round(variant.get("x").getAsDouble()) : 0;
+                int ry = variant.has("y") ? (int) Math.round(variant.get("y").getAsDouble()) : 0;
+                for (Quad q : quads) {
+                    for (double[] p : q.p) rotateBlock(p, rx, ry);
+                }
+                emit(id, "data=" + (f + h * 4), quads, "stair", rel);
+            }
+        }
     }
 
     // ------------------------------------------------------------------ emitting
