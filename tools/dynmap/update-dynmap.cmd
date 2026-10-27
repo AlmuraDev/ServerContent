@@ -1,15 +1,15 @@
 @echo off
 rem Regenerates Dynmap's Almura render data from the content loader assets and installs it into a server's dynmap folder.
-rem Usage: update-dynmap.cmd [dynmap folder]      (default: the dev server, x:\spongesrv\dynmap)
+rem Usage: update-dynmap.cmd [dynmap folder]      (default: the dev server, C:\spongesrv\dynmap)
 rem Run it after adding or changing blocks, block models or block textures, then /dynmap fullrender each world (or radiusrender to check).
 
 setlocal
 set JAVA=C:\Program Files\Java\jdk1.8.0_361\bin
 set CONTENT=h:\almura 3.0\contentloader\3.0\fs_2\assets\almura
 rem Vanilla parent models and textures come from the 1.12.2 client jar (BlueMap keeps a copy on the dev server)
-set CLIENTJAR=x:\spongesrv\bluemap\minecraft-client-1.12.2.jar
+set CLIENTJAR=C:\spongesrv\bluemap\minecraft-client-1.12.2.jar
 set DYNMAP=%~1
-if "%DYNMAP%"=="" set DYNMAP=x:\spongesrv\dynmap
+if "%DYNMAP%"=="" set DYNMAP=C:\spongesrv\dynmap
 set HERE=%~dp0
 
 if not exist "%DYNMAP%\renderdata" (

@@ -8,7 +8,7 @@ textures) into the render data Dynmap 3.2.1 understands, and `update-dynmap.cmd`
 After adding or changing any block, block model or block texture in the content loader:
 
 ```
-update-dynmap.cmd                       (dev server: x:\spongesrv\dynmap)
+update-dynmap.cmd                       (dev server: C:\spongesrv\dynmap)
 update-dynmap.cmd <path to a dynmap folder>
 ```
 
