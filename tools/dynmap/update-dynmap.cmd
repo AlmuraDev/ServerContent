@@ -8,6 +8,8 @@ set JAVA=C:\Program Files\Java\jdk1.8.0_361\bin
 set CONTENT=h:\almura 3.0\contentloader\3.0\fs_2\assets\almura
 rem Vanilla parent models and textures come from the 1.12.2 client jar (BlueMap keeps a copy on the dev server)
 set CLIENTJAR=C:\spongesrv\bluemap\minecraft-client-1.12.2.jar
+rem The modpack's resource pack: vanilla blocks render with its textures (left out, with a note, if it isn't there)
+set RESOURCEPACK=%APPDATA%\.technic\modpacks\almura-3\resourcepacks\Almura x128.zip
 set DYNMAP=%~1
 if "%DYNMAP%"=="" set DYNMAP=C:\spongesrv\dynmap
 set HERE=%~dp0
@@ -24,7 +26,13 @@ if not exist "%HERE%build" mkdir "%HERE%build"
 echo Generating from %CONTENT%...
 if exist "%HERE%out" rmdir /s /q "%HERE%out"
 mkdir "%HERE%out"
-"%JAVA%\java" -cp "%HERE%gson-2.8.0.jar;%HERE%build" DynmapGen "%CONTENT%" "%CLIENTJAR%" "%HERE%out" || exit /b 1
+set PACKARG=
+if exist "%RESOURCEPACK%" (
+    set PACKARG="%RESOURCEPACK%"
+) else (
+    echo %RESOURCEPACK% not found, vanilla blocks will use the standard textures.
+)
+"%JAVA%\java" -cp "%HERE%gson-2.8.0.jar;%HERE%build" DynmapGen "%CONTENT%" "%CLIENTJAR%" "%HERE%out" %PACKARG% || exit /b 1
 
 echo Installing into %DYNMAP%...
 copy /y "%HERE%out\almura-models.txt" "%DYNMAP%\renderdata\" >nul || exit /b 1

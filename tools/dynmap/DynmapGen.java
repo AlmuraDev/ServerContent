@@ -21,12 +21,17 @@ import java.util.zip.*;
  * Dynmap 3.2.1 patches always show a whole image (corners must stay within -1..2 and texture ranges within 0..1), so every texture region a
  * face uses is written out as its own image into a texture pack (out/pack), which Dynmap's texturepack setting then points at.
  *
- * Usage: DynmapGen <almura assets dir> <minecraft client jar> <out dir>
+ * Usage: DynmapGen <almura assets dir> <minecraft client jar> <out dir> [resource pack zip]
+ *
+ * With a resource pack (the modpack's Almura x128), its block, colormap, entity, environment and misc textures go into the pack too, so
+ * vanilla blocks render with it, and vanilla textures used by Almura models are read from it before the client jar.
  */
 public class DynmapGen {
 
     static Path assets;
     static ZipFile client;
+    static ZipFile resourcePack; // null without one
+    static final String[] RESOURCE_PACK_TEXTURES = {"blocks/", "colormap/", "entity/", "environment/", "misc/"};
     static final Map<String, JsonObject> modelCache = new HashMap<>();
 
     // Output state
@@ -50,6 +55,10 @@ public class DynmapGen {
         client = new ZipFile(a[1]);
         Path out = Paths.get(a[2]);
         pack = out.resolve("pack");
+        if (a.length > 3) {
+            resourcePack = new ZipFile(a[3]);
+            copyResourcePackTextures();
+        }
         Path blocks = assets.resolve("content/block");
         List<Path> files;
         try (Stream<Path> s = Files.walk(blocks)) {
@@ -432,12 +441,37 @@ public class DynmapGen {
         if (ns.equals("almura")) {
             img = javax.imageio.ImageIO.read(assets.resolve("textures/" + path + ".png").toFile());
         } else {
-            try (InputStream in = client.getInputStream(client.getEntry("assets/" + ns + "/textures/" + path + ".png"))) {
+            String filename = "assets/" + ns + "/textures/" + path + ".png";
+            ZipFile source = textureSource(filename);
+            try (InputStream in = source.getInputStream(source.getEntry(filename))) {
                 img = javax.imageio.ImageIO.read(in);
             }
         }
         images.put(file, img);
         return img;
+    }
+
+    /** The resource pack if it has this vanilla texture, else the client jar. */
+    static ZipFile textureSource(String filename) {
+        return resourcePack != null && resourcePack.getEntry(filename) != null ? resourcePack : client;
+    }
+
+    /** Copies the resource pack's vanilla textures Dynmap draws with (blocks, grass/foliage colours, chests and signs, ...) into the pack. */
+    static void copyResourcePackTextures() throws IOException {
+        int copied = 0;
+        for (ZipEntry e : Collections.list(resourcePack.entries())) {
+            String name = e.getName();
+            if (e.isDirectory() || !name.startsWith("assets/minecraft/textures/")) continue;
+            String rel = name.substring("assets/minecraft/textures/".length());
+            if (Arrays.stream(RESOURCE_PACK_TEXTURES).noneMatch(rel::startsWith)) continue;
+            Path target = pack.resolve(name);
+            Files.createDirectories(target.getParent());
+            try (InputStream in = resourcePack.getInputStream(e)) {
+                Files.copy(in, target, StandardCopyOption.REPLACE_EXISTING);
+            }
+            copied++;
+        }
+        stats.merge("resource pack textures", copied, Integer::sum);
     }
 
     /** The whole texture (first frame of an animation strip). */
@@ -736,8 +770,10 @@ public class DynmapGen {
         if (file == null) return null;
         String ns = file.contains(":") ? file.substring(0, file.indexOf(':')) : "minecraft";
         String path = file.contains(":") ? file.substring(file.indexOf(':') + 1) : file;
+        // Some models write "almura:/block/..."; Minecraft tolerates the stray slash, Dynmap's resource lookup doesn't
+        path = path.replaceAll("/+", "/").replaceFirst("^/", "");
         String filename = "assets/" + ns + "/textures/" + path + ".png";
-        boolean exists = ns.equals("almura") ? Files.exists(assets.resolve("textures/" + path + ".png")) : client.getEntry(filename) != null;
+        boolean exists = ns.equals("almura") ? Files.exists(assets.resolve("textures/" + path + ".png")) : textureSource(filename).getEntry(filename) != null;
         if (!exists) {
             problems.add("missing texture " + file);
             return null;
