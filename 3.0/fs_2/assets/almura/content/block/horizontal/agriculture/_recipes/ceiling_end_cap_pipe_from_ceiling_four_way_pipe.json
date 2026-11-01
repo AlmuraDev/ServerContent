@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "almura:horizontal/agriculture/ceiling_t_pipe",
+      "item": "almura:horizontal/agriculture/ceiling_four_way_pipe",
       "data": 0,
       "count": 1
     }

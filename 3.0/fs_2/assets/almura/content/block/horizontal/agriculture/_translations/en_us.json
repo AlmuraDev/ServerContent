@@ -6,5 +6,7 @@
   "ceiling_corner_pipe.name": "Ceiling Irrigation Corner Pipe",
   "ceiling_t_pipe.name": "Ceiling Irrigation T Pipe",
   "end_cap_pipe.name": "Irrigation End Cap",
-  "ceiling_end_cap_pipe.name": "Ceiling Irrigation End Cap"
+  "ceiling_end_cap_pipe.name": "Ceiling Irrigation End Cap",
+  "four_way_pipe.name": "Irrigation 4-Way Pipe",
+  "ceiling_four_way_pipe.name": "Ceiling Irrigation 4-Way Pipe"
 }

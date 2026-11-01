@@ -20,6 +20,7 @@
                     "max": [ 1.0, 1.0, 1.0 ]
                 }
             },
+            "rotate_placement": "toward",
             "hardness": 1.0,
             "resistance": 10.0,
             "drip": true,
