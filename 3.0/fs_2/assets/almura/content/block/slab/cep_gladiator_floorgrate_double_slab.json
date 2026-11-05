@@ -1,0 +1,25 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "item_group": "almura:decoration",
+    "is_double": true,
+    "single": "almura:slab/cep_gladiator_floorgrate_slab",
+    "state": {
+        "normal": {
+            "resistance": 10.0,
+            "opaque": false,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/cep_gladiator_floorgrate_slab",
+                                "amount": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

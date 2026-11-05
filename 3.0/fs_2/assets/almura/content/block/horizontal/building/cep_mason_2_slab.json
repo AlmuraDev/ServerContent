@@ -1,7 +1,6 @@
 {
     "material": "minecraft:rock",
     "map_color": "minecraft:stone",
-    "item_group": "almura:building",
     "state": {
         "facing=east": {
             "parent": "facing=north"

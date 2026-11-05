@@ -7,13 +7,13 @@
   ],
   "key": {
     "A": {
-      "item": "almura:horizontal/building/cep_mason_2_bricks",
+      "item": "almura:horizontal/building/cep_mason_3_bricks",
       "data": 0,
       "count": 1
     }
   },
   "result": {
-    "item": "almura:horizontal/building/cep_mason_2_slab",
+    "item": "almura:slab/cep_mason_3_bricks_slab",
     "data": 0,
     "count": 6
   }

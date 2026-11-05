@@ -1,0 +1,23 @@
+{
+    "material": "minecraft:ground",
+    "map_color": "minecraft:dirt",
+    "is_double": false,
+    "single": "almura:slab/cep_battlecraftww2_sandbags_slab",
+    "state": {
+        "normal": {
+            "resistance": 10.0,
+            "action": {
+                "destroy": [
+                    {
+                        "drop": [
+                            {
+                                "item": "almura:slab/cep_battlecraftww2_sandbags_slab",
+                                "amount": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
