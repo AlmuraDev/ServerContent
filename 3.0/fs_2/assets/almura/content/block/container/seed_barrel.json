@@ -1,7 +1,7 @@
 {
     "material": "minecraft:ground",
     "map_color": "minecraft:dirt",
-    "render_layer": "cutout_mipped",
+    "render_layer": "cutout",
     "item_group": "almura:barrel",
 	"limit":64,
 	"slots":54,
